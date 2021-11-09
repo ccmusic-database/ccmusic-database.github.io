@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国传统乐器音响数据库 | CCMusic</title>
+    <meta name="description" content="CCMusic-用于学术研究的音乐数据分享平台-中国传统乐器音响数据库">
+    <meta name="keywords"
+        content="音乐,数据库,音乐数据,音乐数据库,音频,标注,学术研究,中国音乐,传统音乐,流行音乐,中国传统乐器,中国民族乐器,中国乐器,乐器,音乐信息检索,MIR,歌声,钢琴,歌唱,真假声,音乐流派,音色,音域,歌曲结构,美声,民族唱法">
+    <!-- 引入favicon图表 -->
+    <link rel="shortcut icon" href="../favicon/logo.ico">
+    <!-- 引入初始化样式文件 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 引入独立文件 -->
+    <link rel="stylesheet" href="../css/ctis.css">
+</head>
+
+<body>
+    <!-- 左侧导航栏 -->
+    <dm-header class="dm-header">
+        <header>
+            <div class="menu-container">
+                <div class="menu-wrapper">
+                    <div class="menu-header">
+                        <a href="../index.html" class="logo">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="menu-nav">
+                        <ul class="menu-pages">
+                            <li><a href="../overview.html" class="fixnav">概览</a></li>
+                            <li><a href="ctis.html" class="fixnav">数据库</a>
+                                <ul>
+                                    <li><a href="ctis.html" class="subnav">中国传统乐器音响数据库</a></li>
+                                    <li><a href="ccm.html" class="subnav">用于MIR研究的多功能音乐数据库</a></li>
+                                    <li><a href="cpop.html" class="subnav">流行歌曲midi-wav双向数据库</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../download.html" class="fixnav">下载</a>
+                                <ul>
+                                    <li><a href="../download.html" class="subnav">Github</a></li>
+                                    <li><a href="../download.html" class="subnav">Zenodo</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../reference.html" class="fixnav">相关文献</a>
+                                <ul>
+                                    <li><a href="../reference.html" class="subnav">中国传统乐器音响数据库</a></li>
+                                    <li><a href="../reference.html" class="subnav">用于MIR研究的多功能音乐数据库</a></li>
+                                    <li><a href="../reference.html" class="subnav">流行歌曲midi-wav双向数据库</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../contact.html" class="fixnav">联系方式</a></li>
+                        </ul>
+                    </div>
+                    <button class="switch">
+                        <a href="../en/database/ctis.html">EN</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </dm-header>
+    <!-- 左侧导航栏 -->
+    <!-- 内容部分 -->
+    <div class="body clearfix">
+        <div class="body-adjust1">
+            <div class="body-adjust2">
+                <div class="body-container">
+                    <div class="body-overview">
+                        <h1>
+                            <span>中国传统乐器音响数据库（CTIS）</span>
+                            <span>Chinese Traditional Instrument Sound Database</span>
+                        </h1>
+                        <div class="description">
+                            <p>中国传统乐器音响数据库（CTIS，Chinese Traditional Instrument Sound
+                                Database）是收录有关中国传统乐器音响信息的数据库，包括传统乐器、改良乐器、少数民族乐器在内的 287
+                                件中国民族乐器。本数据库利用计算机声音分析技术实现自动标注体系的建立，基于内容的海量音响数据检索，以及其他有助于自动完善数据库功能、方便数据库管理的方法，并专注于音响本身的质量、声学特征、特性标注、检索以及相应音响学上的学术应用，为广大音乐研究者提供海量的数据支持。
+                            </p>
+                        </div>
+                        <div class="property">
+                            <div class="property-left">
+                                <p>本数据库在录音环境、演奏员、样本内容及规范的标注等方面都制订了标准化要求。</p>
+                                <p>所有乐器的声学采录与测量都在全消声室中进行。麦克风置于全消声室中间方形平台上的直径为 3m 的 3/4 球形支架上，在其上均匀布放 30
+                                    只B&K 4190-L-001
+                                    型自由场传声器单元，其中底层布放 6 只，第二层布放 8 只，第三层布放 6 只，第四层布放 5 只，第五层布放 4 只，顶部布放 1 只。在乐器正前方布放 1
+                                    只进行频谱采录和监听，在乐器正下方的地格栅下和地网上布放 1 只，总共采用 32 只自由场传声器单元进行全消声室中的乐器采录。</p>
+                                <p>本数据库对演奏员的选择，主要以专业演奏家和专业教师为主。同时演奏员在现场样本录制时需保持身体与情绪状态均为正常状态。</p>
+                                <p>本数据库可供研究者进行多方面的研究工作。如：音域和偏离度分析、音响声压级及动态范围分析、音色分析、特殊技法分析等。</p>
+                            </div>
+                            <div class="property-right1">
+                                <div class="property-right2"></div>
+                            </div>
+                        </div>
+                        <div class="table1">
+                            <p>本数据库的乐器数量、种类和内容非常完备。乐器音响采集包括气鸣乐器、体鸣乐器、膜鸣乐器、弦鸣乐器，涉及传统乐器、改良乐器、少数民族乐器287种。部分乐器列表如下：</p>
+                            <table>
+                                <thead>
+                                    <th>序号</th>
+                                    <th>名称</th>
+                                    <th>总容量</th>
+                                    <th>总时长（min）</th>
+                                    <th>文件数量</th>
+                                    <th>内容</th>
+                                    <th>文件格式</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>L0239</td>
+                                        <td>高音板胡</td>
+                                        <td>50.0 MB (52,514,566 字节)</td>
+                                        <td>09:52</td>
+                                        <td>40</td>
+                                        <td>音阶、技法、乐曲片段</td>
+                                        <td>.wav（RIFF）</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L0240</td>
+                                        <td>中音板胡</td>
+                                        <td>133 MB (140,064,824 字节)</td>
+                                        <td>12:08</td>
+                                        <td>41</td>
+                                        <td>音阶、技法、乐曲片段</td>
+                                        <td>.wav（RIFF）</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L0291</td>
+                                        <td>扁八角高胡</td>
+                                        <td>13.6 MB (14,329,802 字节)</td>
+                                        <td>02:28</td>
+                                        <td>7</td>
+                                        <td>音阶、技法、乐曲片段</td>
+                                        <td>.wav（RIFF）</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L0292</td>
+                                        <td>六角高胡</td>
+                                        <td>22.1 MB (23,186,748 字节)</td>
+                                        <td>04:00</td>
+                                        <td>14</td>
+                                        <td>音阶、技法、乐曲片段</td>
+                                        <td>.wav（RIFF）</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L0297</td>
+                                        <td>中胡</td>
+                                        <td>52.2 MB (54,826,414 字节)</td>
+                                        <td>09:29</td>
+                                        <td>36</td>
+                                        <td>音阶、技法、乐曲片段</td>
+                                        <td>.wav（RIFF）</td>
+                                    </tr>
+                                    <tr>
+                                        <td>T0078</td>
+                                        <td>四股弦</td>
+                                        <td>102 MB (107,117,896 字节)</td>
+                                        <td>09:17</td>
+                                        <td>36</td>
+                                        <td>音阶、技法、乐曲片段</td>
+                                        <td>.wav（RIFF）</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table2">
+                            <p>本数据库选择所有常规演奏技法的典型性音响，并选择音乐作品中较为短小的代表性片段。本数据库对于乐器的弹弦位置、演奏音高、演奏技法等做了全面的标注。以其中的传统笙为例，列表如下：
+                            </p>
+                            <table>
+                                <thead>
+                                    <th>序号</th>
+                                    <th>文件名称/demo试听</th>
+                                    <th>演奏内容</th>
+                                    <th>文件大小</th>
+                                    <th>文件时长</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 传统和音 第一遍.wav" target="_blank">【传统笙】演奏技法 传统和音
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的传统和音演奏技法</td>
+                                        <td>2.18 MB (2,293,186 字节)</td>
+                                        <td>25s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 单吐 第一遍.wav" target="_blank">【传统笙】演奏技法 单吐
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的单吐演奏技法</td>
+                                        <td>737 KB (755,632 字节)</td>
+                                        <td>8s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 腹颤音.wav" target="_blank">【传统笙】演奏技法
+                                                腹颤音.wav&nbsp;</a></td>
+                                        <td>传统笙的腹颤音演奏技法</td>
+                                        <td>1.41 MB (1,479,642 字节)</td>
+                                        <td>16s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 喉颤音 第一遍.wav" target="_blank">【传统笙】演奏技法 喉颤音
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的喉颤音演奏技法</td>
+                                        <td>1.01 MB (1,063,708 字节)</td>
+                                        <td>11s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 呼舌 第一遍.wav" target="_blank">【传统笙】演奏技法 呼舌
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的呼舌演奏技法</td>
+                                        <td>1.07 MB (1,132,326 字节)</td>
+                                        <td>12s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 花舌 第一遍.wav" target="_blank">【传统笙】演奏技法 花舌
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的花舌演奏技法</td>
+                                        <td>1.16 MB (1,217,638 字节)</td>
+                                        <td>13s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 三吐 第二遍.wav" target="_blank">【传统笙】演奏技法 三吐
+                                                第二遍.wav&nbsp;</a></td>
+                                        <td>传统笙的三吐演奏技法</td>
+                                        <td>601 KB (615,958 字节)</td>
+                                        <td>6s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 上滑音 第一遍.wav" target="_blank">【传统笙】演奏技法 上滑音
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的上滑音演奏技法</td>
+                                        <td>819 KB (839,346 字节)</td>
+                                        <td>9s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td><a href="../demo/ctis/【传统笙】演奏技法 双吐 第一遍.wav" target="_blank">【传统笙】演奏技法 双吐
+                                                第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙的双吐演奏技法</td>
+                                        <td>638 KB (653,900 字节)</td>
+                                        <td>7s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td><a href="../demo/ctis/【传统笙】音阶 速度慢 力度强 第一遍.wav" target="_blank">【传统笙】音阶 速度慢
+                                                力度强 第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙慢速、强力度演奏音阶</td>
+                                        <td>2.35 MB (2,471,632 字节)</td>
+                                        <td>27s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td><a href="../demo/ctis/【传统笙】音阶 速度慢 力度弱 第一遍.wav" target="_blank">【传统笙】音阶 速度慢
+                                                力度弱 第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙慢速、弱力度演奏音阶</td>
+                                        <td>2.33 MB (2,451,538 字节)</td>
+                                        <td>27s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td><a href="../demo/ctis/【传统笙】音阶 速度慢 力度中强 第二遍.wav" target="_blank">【传统笙】音阶 速度慢
+                                                力度中强 第二遍.wav&nbsp;</a></td>
+                                        <td>传统笙慢速、中强力度演奏音阶</td>
+                                        <td>2.30 MB (2,414,106 字节)</td>
+                                        <td>27s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td><a href="../demo/ctis/【传统笙】音阶 中速 力度强 第二遍.wav" target="_blank">【传统笙】音阶 中速 力度强
+                                                第二遍.wav&nbsp;</a></td>
+                                        <td>传统笙中速、强力度演奏音阶</td>
+                                        <td>1.59 MB (1,677,626 字节)</td>
+                                        <td>18s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td><a href="../demo/ctis/【传统笙】音阶 自然衰减 力度中强 第一遍.wav" target="_blank">【传统笙】音阶
+                                                自然衰减 力度中强 第一遍.wav&nbsp;</a></td>
+                                        <td>传统笙自然衰减、中强力度演奏音阶</td>
+                                        <td>3.42 MB (3,587,970 字节)</td>
+                                        <td>40s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td><a href="../demo/ctis/【传统笙】乐曲片段《冬猎》.wav"
+                                                target="_blank">【传统笙】乐曲片段《冬猎》.wav&nbsp;</a></td>
+                                        <td>传统笙示例乐曲片段《冬猎》</td>
+                                        <td>1.31 MB (1,376,124 字节)</td>
+                                        <td>15s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td><a href="../demo/ctis/【传统笙】乐曲片段《秦王破阵乐》.wav"
+                                                target="_blank">【传统笙】乐曲片段《秦王破阵乐》.wav&nbsp;</a></td>
+                                        <td>传统笙示例乐曲片段《秦王破阵乐》</td>
+                                        <td>1.73 MB (1,824,260 字节)</td>
+                                        <td>20s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td><a href="../demo/ctis/【传统笙】乐曲片段《算盘响》.wav"
+                                                target="_blank">【传统笙】乐曲片段《算盘响》.wav&nbsp;</a></td>
+                                        <td>传统笙示例乐曲片段《算盘响》</td>
+                                        <td>1.10 MB (1,162,376 字节)</td>
+                                        <td>13s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td><a href="../demo/ctis/【传统笙】乐曲片段《太行》.wav"
+                                                target="_blank">【传统笙】乐曲片段《太行》.wav&nbsp;</a></td>
+                                        <td>传统笙示例乐曲片段《太行》</td>
+                                        <td>1.83 MB (1,919,562 字节)</td>
+                                        <td>21s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td><a href="../demo/ctis/【传统笙】乐曲片段《微山湖船歌》.wav"
+                                                target="_blank">【传统笙】乐曲片段《微山湖船歌》.wav&nbsp;</a></td>
+                                        <td>传统笙示例乐曲片段《微山湖船歌》</td>
+                                        <td>2.12 MB (2,225,120 字节)</td>
+                                        <td>25s</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="download-reference">
+                            <h4>Demo下载：</h4>
+                            <span><a href="../demo/ctis/C0244.zip">&nbsp; 点击此处下载以上所有demo文件</a></span>
+                            <h4>相关文献：</h4>
+                            <span>本数据库在以下文章中进行了详细的描述：</span>
+                            <ul>
+                                <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=ZYYX202002013&uniplatform=NZKPT&v=7XgjFhWwxaqXz5fg8DIhkJzfNT6gX9huNMH0y5oRG15SXfwDzqWIOuuquyUDS%25mmd2FJ9"
+                                        target="_blank">&nbsp; 李子晋,
+                                        韩宝强. 中国传统乐器音响数据库构建研究[J]. 中国音乐学, 2020(02):92-102+2.</a>
+                                </li>
+                                <li><a href="https://link.springer.com/chapter/10.1007/978-981-13-8707-4_5"
+                                        target="_blank">&nbsp; Liang X, Li Z, Liu J, et al. Constructing a multimedia
+                                        Chinese musical instrument database[C]//Proceedings of the 6th Conference on
+                                        Sound and Music Technology (CSMT). Springer, Singapore, 2019: 53-60.</a>
+                                </li>
+                                <li><a href="https://dlfm.web.ox.ac.uk/sites/default/files/dlfm/documents/media/zijin-et-al-dcmi.pdf"
+                                        target="_blank">&nbsp; Li Z, Liang X, Liu J, et al. DCMI: A Database of Chinese
+                                        Musical Instruments[J].</a>
+                                </li>
+                            </ul>
+                            <span>使用本数据库所做的任务：</span>
+                            <ul>
+                                <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=FDXB202005001&uniplatform=NZKPT&v=85qLeLUyrDuHs11WNTdx3L1q8nj5qikNPxf4F0Q74k%25mmd2F2a81lcCOfknxTU9hgyxSz"
+                                        target="_blank">&nbsp; 李子晋, 蒋超亚, 陈晓鸥, 马英浩, 韩宝强. 基于卷积循环神经网络的中国民族复音音乐的乐器活动检测[J].
+                                        复旦学报(自然科学版), 2020,
+                                        59(05):511-516.</a>
+                                </li>
+                                <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=FDXB202005002&uniplatform=NZKPT&v=85qLeLUyrDtyOY2%25mmd2BwH4epXsFoFbV7skCzTcmHB8SbVDOUuU%25mmd2BnWXwtM4xdbABzYrE"
+                                        target="_blank">&nbsp;
+                                        李荣锋, 谢祎凡, 李子晋, 李学明. 基于卷积神经网络的中国乐器分类[J]. 复旦学报(自然科学版), 2020, 59(05): 517-522.
+                                    </a>
+                                </li>
+                                <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=FDXB202003013&uniplatform=NZKPT&v=85qLeLUyrDsTiPj77VpkPtdmfFvETLtw79eKBpEy7qgOAKYsmg7dBV9SzBGHRPCq"
+                                        target="_blank">&nbsp;
+                                        李子晋, 江益靓, 梁晓晶. 基于主观感知得分与客观音频特征的中国民族乐器音色相似性的研究[J]. 复旦学报(自然科学版), 2020,
+                                        59(03): 338-345.</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="download-all">
+                            <h3>下载</h3>
+                            <p>
+                                下载demo文件或获取数据库所有文件请点击 &nbsp;<a href="../download.html"></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="backtotop">
+                        <button>
+                            <span>TOP</span>
+                        </button>
+                    </div>
+                    <script src="../js/backtotop.js"></script>
+                </div>
+            </div>
+            <!-- 页脚 -->
+            <footer class="body-foot">
+                <div class="name">
+                    <a href="index.html">CCMusic</a>
+                </div>
+                <div class="foot-container">
+                    <div class="catagories">
+                        <div class="column">
+                            <a href="ctis.html"> 数据库 </a>
+                            <ul>
+                                <li><a href="ctis.html">中国传统乐器音响数据库</a></li>
+                                <li><a href="ccm.html">用于MIR研究的多功能音乐数据库</a></li>
+                                <li><a href="cpop.html">流行歌曲midi-wav双向数据库</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../download.html"> 下载 </a>
+                            <ul>
+                                <li><a href="https://github.com/ccmusic-database/ccmusic-database.git"
+                                        target="_blank">Github</a></li>
+                                <li><a href="https://doi.org/10.5281/zenodo.5654924" target="_blank">Zenodo</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../reference.html"> 相关文献 </a>
+                            <ul>
+                                <li><a href="../reference.html">中国传统乐器音响数据库</a></li>
+                                <li><a href="../reference.html">用于MIR研究的多功能音乐数据库</a></li>
+                                <li><a href="../reference.html">流行歌曲midi-wav双向数据库</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="social1"></a>
+                                    <img src="../images/WeChat.jpg">
+                                </li>
+                                <li>
+                                    <a href="#" class="social2"></a>
+                                    <img src="../images/zhihu.png">
+                                </li>
+                                <li>
+                                    <a href="mailto:ccmusic.database@hotmail.com" class="social4"></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/ccmusic-database/ccmusic-database.git" target="_blank"
+                                        class="social5"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-bottom">
+                    Designed by Liu Zhaorui
+                </div>
+            </footer>
+            <!-- 页脚 -->
+        </div>
+    </div>
+    <!-- 内容部分 -->
+</body>
+
+</html>
