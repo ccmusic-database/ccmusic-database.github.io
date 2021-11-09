@@ -29,7 +29,7 @@ header {
     height: 100%;
     width: inherit;
     padding: 30px 20px;
-    background-color: #d60000;
+    background-color: #72909e;
     box-shadow: 2px 0 6px 2px rgba(0, 0, 0, .3);
     z-index: 35;
     animation: right-move 1.5s ease;
@@ -123,7 +123,7 @@ header {
 
 .menu-pages li:nth-child(2) ul {
     display: none;
-    background-color: #d60000;
+    background-color: #72909e;
     position: absolute;
     left: 100%;
     top: 200px;
@@ -133,7 +133,7 @@ header {
 
 .menu-pages li:nth-child(3) ul {
     display: none;
-    background-color: #d60000;
+    background-color: #72909e;
     position: absolute;
     left: 100%;
     top: 267px;
@@ -143,7 +143,7 @@ header {
 
 .menu-pages li:nth-child(4) ul {
     display: none;
-    background-color: #d60000;
+    background-color: #72909e;
     position: absolute;
     left: 100%;
     top: 330px;
@@ -164,7 +164,7 @@ header {
 }
 
 .menu-pages li ul .subnav:hover {
-    background-color: #f60000;
+    background-color: #64a4ce;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -191,7 +191,7 @@ header {
 }
 
 .switch:hover a {
-    color: #d60000;
+    color: #72909e;
 }
 
 .body {
@@ -252,7 +252,7 @@ header {
 
 .body-container .body-overview h1 span {
     display: block;
-    color: #d60000;
+    color: #d14644;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -307,7 +307,7 @@ header {
 }
 
 .body-container .body-overview .container .contact-info p a:hover {
-    color: #d60000;
+    color: #d14644;
 }
 
 .body-container .body-overview .container .contact-info p a:before {
@@ -318,7 +318,7 @@ header {
 }
 
 .body-container .body-overview .container .contact-info p a:hover::before {
-    color: #d60000;
+    color: #d14644;
 }
 
 .backtotop {
@@ -335,7 +335,7 @@ header {
     border: 0;
     padding: 0;
     margin: 0;
-    color: #d60000;
+    color: #72909e;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
@@ -374,7 +374,7 @@ header {
 }
 
 .body-foot {
-    background-color: #720a0a;
+    background-color: #3c3f48;
     padding: 40px 60px 20px 60px;
 }
 
