@@ -1,0 +1,519 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ulcmfs');
+    src: url('../fonts/icomoon.eot?ulcmfs#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?ulcmfs') format('truetype'), url('../fonts/icomoon.woff?ulcmfs') format('woff'), url('../fonts/icomoon.svg?ulcmfs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.dm-header {
+    display: block;
+    position: relative;
+    width: 150px;
+}
+
+header {
+    display: block;
+    height: 984px;
+    width: 150px;
+}
+
+.menu-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: inherit;
+    padding: 30px 20px;
+    background-color: #d60000;
+    box-shadow: 2px 0 6px 2px rgba(0, 0, 0, .3);
+    z-index: 35;
+    animation: right-move 1.5s ease;
+    transition: 0.4s ease;
+}
+
+.menu-container:hover {
+    width: 160px;
+    padding: 30px 30px 30px 20px;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.menu-header {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-header .logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 20px 50px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-nav {
+    display: flex;
+}
+
+.menu-pages li .fixnav {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    margin-right: 42px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.menu-pages li .fixnav::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #ffffff;
+    transition: all 0.2s ease-out;
+}
+
+.menu-pages li .fixnav:hover::before {
+    width: 6px;
+}
+
+.menu-nav .menu-pages li:nth-of-type(-n+4) .fixnav::after {
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0;
+    left: 90px;
+    content: '\e951';
+    z-index: inherit;
+    width: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 64.8px;
+    transition: 0.3s ease;
+}
+
+.menu-nav .menu-pages li:nth-of-type(1) .fixnav::after {
+    content: '';
+}
+
+.menu-pages li .fixnav:hover::after {
+    transform: rotate(-90deg);
+}
+
+.menu-pages li:nth-child(2) ul {
+    display: none;
+    background-color: #d60000;
+    position: absolute;
+    left: 100%;
+    top: 200px;
+    margin-top: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.menu-pages li:nth-child(3) ul {
+    display: none;
+    background-color: #d60000;
+    position: absolute;
+    left: 100%;
+    top: 267px;
+    margin-top: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.menu-pages li:nth-child(4) ul {
+    display: none;
+    background-color: #d60000;
+    position: absolute;
+    left: 100%;
+    top: 330px;
+    margin-top: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.menu-pages li:hover ul {
+    display: block;
+}
+
+.menu-pages li ul .subnav {
+    display: block;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-pages li ul .subnav:hover {
+    background-color: #f60000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.switch {
+    position: absolute;
+    bottom: 50px;
+    left: 48px;
+    z-index: 99999;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.switch:hover {
+    background-color: #ffffff;
+}
+
+.switch a {
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.switch:hover a {
+    color: #d60000;
+}
+
+.body {
+    display: block;
+    background-color: #f0f5f5;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.body-adjust1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: calc(100% - 150px);
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.body-adjust2 {
+    display: block;
+    overflow: hidden;
+}
+
+.body-container {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.body-container .body-overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 60px;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.body-container .body-overview h1 {
+    margin: 50px 0 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes name-move {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.body-container .body-overview h1 span {
+    display: block;
+    color: #d60000;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    z-index: 2;
+    text-align: left;
+    animation: name-move 1.5s ease-out;
+}
+
+.body-container .body-overview .container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.body-container .body-overview .container:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+
+.body-container .body-overview .container h3 {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #000000;
+    text-indent: 1em;
+}
+
+.body-container .body-overview .container .reference {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.body-container .body-overview .container .reference p {
+    margin: 10px 60px;
+    text-indent: 2em;
+}
+
+.body-container .body-overview .container .reference p a {
+    color: #000000;
+    font-size: 18px;
+}
+
+.body-container .body-overview .container .reference p a:hover {
+    color: #d60000;
+}
+
+.body-container .body-overview .container .reference p a::before {
+    font-family: 'icomoon';
+    content: '\e9cb';
+    font-size: 20px;
+    color: #000000;
+}
+
+.body-container .body-overview .container .reference p a:hover::before {
+    color: #d60000;
+}
+
+.backtotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 15%;
+    z-index: 999;
+}
+
+.backtotop button {
+    display: flex;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #d60000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: 0 0;
+    overflow-y: visible;
+    animation: top-to-left 1s ease;
+}
+
+@keyframes top-to-left {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.backtotop button span {
+    position: relative;
+}
+
+.backtotop button span::before {
+    position: absolute;
+    top: -30px;
+    left: 12px;
+    font-family: 'icomoon';
+    content: '\ea3a';
+    font-size: 18px;
+    transform: scale(1.2, 1.5);
+    transition: top .5s ease;
+}
+
+.backtotop button:hover span::before {
+    top: -40px;
+}
+
+.body-foot {
+    background-color: #720a0a;
+    padding: 40px 60px 20px 60px;
+}
+
+.body-foot .name {
+    position: relative;
+    margin: 0 0 30px;
+    width: 100%;
+    height: 30px;
+}
+
+.body-foot .name a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.body-foot .foot-container {
+    flex: 1 1 0%;
+    position: relative;
+    border-bottom: 1px solid #5c657f;
+}
+
+.body-foot .foot-container .catagories {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.catagories .column:first-child {
+    margin-left: 0;
+}
+
+.catagories .column {
+    margin: 0 40px 30px 0;
+    width: 260px;
+}
+
+.catagories .column:nth-of-type(2) {
+    width: 120px;
+}
+
+.catagories .column:nth-of-type(4) {
+    width: 240px;
+}
+
+.catagories .column>a {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.catagories .column a:hover {
+    color: #d2d600;
+}
+
+.catagories .column ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.catagories .column ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.catagories .column ul li a {
+    display: inherit;
+}
+
+.catagories .social {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+}
+
+.catagories .column .social li {
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.catagories .social li img {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.catagories .social li:hover img {
+    width: 120px;
+    height: 120px;
+}
+
+.catagories .social li .social1::after {
+    font-family: 'icomoon';
+    content: '\e927';
+}
+
+.catagories .social li .social2::after {
+    font-family: 'icomoon';
+    content: '\e9a4';
+}
+
+.catagories .social li .social3::after {
+    font-family: 'icomoon';
+    content: '\e922';
+}
+
+.catagories .social li .social4::after {
+    font-family: 'icomoon';
+    content: '\ea84';
+}
+
+.catagories .social li .social5::after {
+    font-family: 'icomoon';
+    content: '\e903';
+}
+
+.body-foot .foot-bottom {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+    color: #9aa1a7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
