@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-functional Music Database for MIR Research | CCMusic</title>
+    <meta name="description"
+        content="CCMusic-Music Data Sharing Platform for Academic Research-Multi-functional Music Database for MIR Research">
+    <meta name="keywords"
+        content="music,database,music data,music database,audio,tagging,academic research,Chinese music,traditional music,pop music,Chinese traditional music,Chinese national musical instruments,Chinese musical instruments,musical instruments,music information retrieval,MIR,voice,piano,singing,music genre,timbre,Range,song structure,Bel Canto">
+    <!-- 引入favicon图表 -->
+    <link rel="shortcut icon" href="../favicon/logo.ico">
+    <!-- 引入初始化样式文件 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 引入独立文件 -->
+    <link rel="stylesheet" href="../css/ccm.css">
+</head>
+
+<body>
+    <!-- 左侧导航栏 -->
+    <dm-header class="dm-header">
+        <header>
+            <div class="menu-container">
+                <div class="menu-wrapper">
+                    <div class="menu-header">
+                        <a href="../index.html" class="logo">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="menu-nav">
+                        <ul class="menu-pages">
+                            <li><a href="../overview.html" class="fixnav">Overview</a></li>
+                            <li><a href="ctis.html" class="fixnav">Database</a>
+                                <ul>
+                                    <li><a href="ctis.html" class="subnav">Chinese Traditional Instrument Sound
+                                            Database</a></li>
+                                    <li><a href="ccm.html" class="subnav">Multi-functional Music Database for
+                                            MIR Research</a></li>
+                                    <li><a href="cpop.html" class="subnav">Midi-wav Bi-directional Database of
+                                            Pop Music</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../download.html" class="fixnav">Download</a>
+                                <ul>
+                                    <li><a href="../download.html" class="subnav">Github</a></li>
+                                    <li><a href="../download.html" class="subnav">Zenodo</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../reference.html" class="fixnav">Reference</a>
+                                <ul>
+                                    <li><a href="../reference.html" class="subnav">Chinese Traditional Instrument Sound
+                                            Database</a></li>
+                                    <li><a href="../reference.html" class="subnav">Multi-functional Music Database for
+                                            MIR Research</a></li>
+                                    <li><a href="../reference.html" class="subnav">Midi-wav Bi-directional Database of
+                                            Pop Music</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../contact.html" class="fixnav">Contact</a></li>
+                        </ul>
+                    </div>
+                    <button class="switch">
+                        <a href="../../database/ccm.html">中文</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </dm-header>
+    <!-- 左侧导航栏 -->
+    <!-- 内容部分 -->
+    <div class="body clearfix">
+        <div class="body-adjust1">
+            <div class="body-adjust2">
+                <div class="body-container">
+                    <div class="body-overview">
+                        <h1>
+                            <span>Multi-functional Music Database for MIR Research (CCMusic)</span>
+                        </h1>
+                        <div class="description">
+                            <p>CCMusic database collects pop music, folk music and the sound materials of national
+                                musical instruments, and makes comprehensive annotation to form a multi-purpose music
+                                database for MIR researchers. This database is specially recorded by the conservatory of
+                                music, the recordists have high music literacy, professional recording environment and
+                                technology, high recording quality, no commodity copyright problems, and the recorded
+                                audio is free and public, which is convenient for large-scale promotion. This database
+                                professionally limits the recording environment, recording equipment, recording
+                                personnel and processes, so as to avoid variety noises interference and obtain
+                                high-quality audio materials. In addition, it is of great significance to the research
+                                of music information retrieval to record the melody part and accompaniment part
+                                independently. In the future, we will collect more music materials for recording and
+                                detailed annotation.
+                            </p>
+                            <p>This database contains 9 sub-databases, which are listed as follows:</p>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#shou1"> &nbsp;Piano Sound Quality Database</a></li>
+                                    <li><a href="#shou2"> &nbsp;Acapella Evaluation Database</a></li>
+                                    <li><a href="#shou3"> &nbsp;Chest Voice and Falsetto Database</a></li>
+                                    <li><a href="#shou4"> &nbsp;National Musical Instruments Timbre Evaluation
+                                            Database</a>
+                                    </li>
+                                    <li><a href="#shou5"> &nbsp;Music Genre Database</a></li>
+                                    <li><a href="#shou6"> &nbsp;Timbre and Range Database</a></li>
+                                    <li><a href="#shou7"> &nbsp;Structure Annotation Database of Songs</a></li>
+                                    <li><a href="#shou8"> &nbsp;Erhu Playing Technique Database (ErhuPT)</a></li>
+                                    <li><a href="#shou9"> &nbsp;Bel Canto and National Singing Database</a></li>
+                                </ul>
+                            </div>
+                            <p>For more detailed description of this database, please see the following papers:</p>
+                            <ul>
+                                <li>
+                                    <a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=FDXB201903007&uniplatform=NZKPT&v=VAszHDtjPUbjyb1WQfxQJtP7zbstcEMs9eQ1BHF8l%25mmd2Fej8WTBW%25mmd2F62dw0zEgl116b1"
+                                        target="_blank">&nbsp;
+                                        李子晋, 于帅, 肖畅, 耿瑜曼, 钱文琪, 高永伟, 李伟. CCMusic: 用于MIR研究的中国音乐数据库建设[J]. 复旦学报(自然科学版),
+                                        2019, 58(03):351-357.</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="container-all">
+                            <!-- (1) -->
+                            <div class="container" id="shou1">
+                                <div class="adjust">
+                                    <h4>Piano Sound Quality Database</h4>
+                                    <p>This database contains 12 gamut audio files (.wav / .mp3 / .m4a format) and
+                                        1320 split single-tone audio files (.wav / .mp3 / .m4a format) of 7 types of
+                                        pianos (Kawai upright piano, Kawai grand piano, Yingchang upright piano,
+                                        Xinghai upright piano, Steinway grand piano in grand theatre, Steinway grand
+                                        piano and Zhujiang upright piano) in the piano-room of China Conservatory of
+                                        Music, a total of 1332 files. In addition, there is a questionnaire on
+                                        subjective evaluation of piano sound quality (.xls format), including the
+                                        score of 29 people participating in the subjective evaluation of piano sound
+                                        quality.
+                                    </p>
+                                    <div class="spread" id="spread1">
+                                        <p>Take Kawai grand piano as an example, the list is as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Performance <br> Content</th>
+                                                <th>File <br> Size</th>
+                                                <th>Duration <br>（min）</th>
+                                                <th>File <br> Format</th>
+                                                <th>Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>KAWAI Tri.wav</td>
+                                                    <td>KAWAI grand piano chromatic scale <br> from C1 - C2</td>
+                                                    <td>20.9 MB <br> (21,965,182 bytes)</td>
+                                                    <td>01:23</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Piano Sound Quality Database/KAWAI Tri.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>7100.wav</td>
+                                                    <td>KAWAI grand piano C1 single-tone</td>
+                                                    <td>994 KB <br> (1,017,928 bytes)</td>
+                                                    <td>00:05</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7100.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>7101.wav</td>
+                                                    <td>KAWAI grand piano #C1 single-tone</td>
+                                                    <td>1.15 MB <br> (1,211,800 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7101.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>7102.wav</td>
+                                                    <td>KAWAI grand piano D1 single-tone</td>
+                                                    <td>1.13 MB <br> (1,195,640 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7102.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>7103.wav</td>
+                                                    <td>KAWAI grand piano #D1 single-tone</td>
+                                                    <td>1.17 MB <br> (1,227,960 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7103.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>7104.wav</td>
+                                                    <td>KAWAI grand piano E1 single-tone</td>
+                                                    <td>1.06 MB <br> (1,114,864 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7104.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>7105.wav</td>
+                                                    <td>KAWAI grand piano F1 single-tone</td>
+                                                    <td>1.12 MB <br> (1,179,488 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7105.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>7106.wav</td>
+                                                    <td>KAWAI grand piano #F1 single-tone</td>
+                                                    <td>1.20 MB <br> (1,260,264 bytes)</td>
+                                                    <td>00:07</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database//7106.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>7107.wav</td>
+                                                    <td>KAWAI grand piano G1 single-tone</td>
+                                                    <td>1.00 MB <br> (1,050,244 bytes)</td>
+                                                    <td>00:05</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7107.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>7108.wav</td>
+                                                    <td>KAWAI grand piano #G1 single-tone</td>
+                                                    <td>1.09 MB <br> (1,147,180 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7108.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>7109.wav</td>
+                                                    <td>KAWAI grand piano A1 single-tone</td>
+                                                    <td>899 KB <br> (920,996 bytes)</td>
+                                                    <td>00:05</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7109.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>7110.wav</td>
+                                                    <td>KAWAI grand piano #A1 single-tone</td>
+                                                    <td>1.06 MB <br> (1,114,868 bytes)</td>
+                                                    <td>00:06</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7110.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td>7111.wav</td>
+                                                    <td>KAWAI grand piano B1 single-tone</td>
+                                                    <td>946 KB <br> (969,468 bytes)</td>
+                                                    <td>00:05</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7111.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14</td>
+                                                    <td>7200.wav</td>
+                                                    <td>KAWAI grand piano C2 single-tone</td>
+                                                    <td>946 KB <br> (969,464 bytes)</td>
+                                                    <td>00:05</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Piano Sound Quality Database/7200.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Piano Sound Quality Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp; /</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn1">
+                                    <a href="#shou1" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn1.js"></script>
+                            <!-- (2) -->
+                            <div class="container" id="shou2">
+                                <div class="adjust">
+                                    <h4>Acapella Evaluation Database</h4>
+                                    <p>This database contains 6 Mandarin songs covered by 22 singers, with a total of
+                                        132 sections (.wav format). Each cover consists of a verse and a chorus. Four
+                                        professional judges will evaluate and score from nine aspects: intonation,
+                                        rhythm, range, timbre, pronunciation, vibrato, dynamic range, breath control and
+                                        overall performance, with a full score of 10 points. The final score is recorded
+                                        in the scoring results of the questionnaire.
+                                    </p>
+                                    <div class="spread" id="spread2">
+                                        <p>Choose a singer from each of the six songs. The list is as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Singer</th>
+                                                <th>Singing <br> Content</th>
+                                                <th>File <br> Size</th>
+                                                <th>Duration <br>（min）</th>
+                                                <th>File <br> Format</th>
+                                                <th>Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Heyan_At least I have you_demo.wav</td>
+                                                    <td>Heyan</td>
+                                                    <td>Song 'At least I have you'</td>
+                                                    <td>16.8 MB <br> (17,683,338 bytes)</td>
+                                                    <td>00:30</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Acapella Evaluation Database/Heyan_At least I have you_demo.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Li Jingqi_Dan Yuan Ren Chang Jiu_demo.wav</td>
+                                                    <td>Li Jingqi</td>
+                                                    <td>Song 'Dan Yuan Ren Chang Jiu'</td>
+                                                    <td>12.3 MB <br> (12,960,102 bytes)</td>
+                                                    <td>00:22</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Acapella Evaluation Database/Li Jingqi_Dan Yuan Ren Chang Jiu_demo.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Shi Chunxue_I Only Care about You_demo.wav</td>
+                                                    <td>Shi Chunxue</td>
+                                                    <td>Song 'I Only Care about You'</td>
+                                                    <td>7.47 MB <br> (7,833,702 bytes)</td>
+                                                    <td>00:13</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Acapella Evaluation Database/Shi Chunxue_I Only Care about You_demo.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Wang Haolin_Without You_demo.wav</td>
+                                                    <td>Wang Haolin</td>
+                                                    <td>Song 'Without You'</td>
+                                                    <td>16.7 MB <br> (17,568,102 bytes)</td>
+                                                    <td>00:30</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Acapella Evaluation Database/Wang Haolin_Without You_demo.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Wang Zhongbo_The Moon Represents My Heart_demo.wav</td>
+                                                    <td>Wang Zhongbo</td>
+                                                    <td>Song 'The Moon Represents My Heart'</td>
+                                                    <td>16.7 MB <br> (17,568,102 bytes)</td>
+                                                    <td>00:24</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Acapella Evaluation Database/Wang Zhongbo_The Moon Represents My Heart_demo.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Yang Hongan_Tian Mi Mi_demo.wav</td>
+                                                    <td>Yang Hongan</td>
+                                                    <td>Song 'Tian Mi Mi'</td>
+                                                    <td>16.7 MB <br> (17,568,102 bytes)</td>
+                                                    <td>00:19</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Acapella Evaluation Database/Yang Hongan_Tian Mi Mi_demo.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Acapella Evaluation Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp; /</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn2">
+                                    <a href="#shou2" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn2.js"></script>
+                            <!-- (3) -->
+                            <div class="container" id="shou3">
+                                <div class="adjust">
+                                    <h4>Chest Voice and Falsetto Database</h4>
+                                    <p>This database contains 1280 single-tone audio files (.wav format) sung with chest
+                                        voice or falsetto. Chest voice is labeled _chest, falsetto is labeled _falsetto.
+                                        In addition, the labels, Mel spectrogram, MFCC, and spectral features of
+                                        each audio segment are included in a total of 5120 .csv files.
+                                    </p>
+                                    <div class="spread" id="spread3">
+                                        <p>Examples are as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>&nbsp;&nbsp;&nbsp;Content&nbsp;&nbsp;&nbsp;</th>
+                                                <th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; melspect
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </th>
+                                                <th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mfcc
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </th>
+                                                <th>spectral <br> feature</th>
+                                                <th>Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>0011_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0011.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0011.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0011.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0011_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>0012_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0012.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0012.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0012.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0012_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>0013_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0013.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0013.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0013.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0013_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>0014_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0014.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0014.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0014.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0014_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>0015_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0015.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0015.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0015.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0015_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>0016_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0016.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0016.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0016.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0016_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>0017_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0017.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0017.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0017.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0017_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>0018_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0018.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0018.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0018.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0018_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>0019_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0019.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0019.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0019.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0019_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>0020_m_chest.wav</td>
+                                                    <td>chest voice</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0020.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0020.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0020.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0020_m_chest.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>0031_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0031.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0031.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0031.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0031_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>0032_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0032.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0032.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0032.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0032_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td>0033_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0033.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0033.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0033.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0033_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14</td>
+                                                    <td>0034_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0034.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0034.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0034.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0034_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>15</td>
+                                                    <td>0035_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0035.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0035.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0035.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0035_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>16</td>
+                                                    <td>0036_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0036.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0036.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0036.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0036_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>17</td>
+                                                    <td>0037_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0037.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0037.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0037.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0037_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>18</td>
+                                                    <td>0038_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0038.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0038.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0038.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0038_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>19</td>
+                                                    <td>0039_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0039.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0039.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0039.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0039_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>20</td>
+                                                    <td>0040_m_falsetto.wav</td>
+                                                    <td>falsetto</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/melspect/melspects_0040.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/mfcc/mfcc_0040.csv"></a>
+                                                    </td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/Chest Voice and Falsetto Database/spectral feature/feature_0040.csv"></a>
+                                                    </td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Chest Voice and Falsetto Database/audio/0040_m_falsetto.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Chest Voice and Falsetto Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp; /</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn3">
+                                    <a href="#shou3" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn3.js"></script>
+                            <!-- (4) -->
+                            <div class="container" id="shou4">
+                                <div class="adjust">
+                                    <h4>National Musical Instruments Timbre Evaluation Database</h4>
+                                    <p>This database is used for the subjective timbre evaluation experiment of 37
+                                        national musical instruments, including 1 summary audio material (.wav format)
+                                        used for subjective timbre evaluation experiment, and the scoring table (.xlsx
+                                        format) of the subjective timbre evaluation experiment of 37 musical instruments
+                                        on 16 timbre evaluation words by 14 participants. In addition, there are 10
+                                        spectrum analysis reports of 10 musical instruments (.docx format), and the
+                                        instruments' audio comes from
+                                        <a href="ctis.html">Chinese Traditional Instrument Sound Database（CTIS）</a> 。
+                                    </p>
+                                    <div class="spread" id="spread4">
+                                        <p>Partial documents are listed as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Content</th>
+                                                <th>File <br> Size</th>
+                                                <th>File <br> Format</th>
+                                                <th>Download</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Acoustic measurement and spectrum analysis report of
+                                                        Guzheng.docx</td>
+                                                    <td>Acoustic measurement and spectrum analysis report of Guzheng
+                                                        (including pitch, overtone analysis, dynamic analysis, spectrum
+                                                        analysis)</td>
+                                                    <td>546 KB (559,540 bytes)</td>
+                                                    <td>.docx</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/National Musical Instruments Timbre Evaluation Database/Acoustic measurement and spectrum analysis report of Guzheng.docx"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Acoustic measurement and spectrum analysis report of Liuqin.docx
+                                                    </td>
+                                                    <td>Acoustic measurement and spectrum analysis report of Liuqin
+                                                        (including pitch, overtone analysis, dynamic analysis, spectrum
+                                                        analysis)</td>
+                                                    <td>390 KB (400,272 bytes)</td>
+                                                    <td>.docx</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/National Musical Instruments Timbre Evaluation Database/Acoustic measurement and spectrum analysis report of Liuqin.docx"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Timbre evaluation experimental results_timbre evaluation
+                                                        words_soft, thin, pure.xlsx</td>
+                                                    <td>14 people participated in the scoring results, mean and standard
+                                                        deviation of 37 musical instruments on the three timbre
+                                                        evaluation words of "soft", "thin" and "pure"</td>
+                                                    <td>40.8 KB (41,880 bytes)</td>
+                                                    <td>.xlsx</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/National Musical Instruments Timbre Evaluation Database/Timbre evaluation experimental results_timbre evaluation words_soft, thin, pure.xlsx"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Timbre evaluation experimental results_standard deviation.xlsx
+                                                    </td>
+                                                    <td>14 people participated in the standard deviation analysis of the
+                                                        scoring results of 37 musical instruments on 16 timbre
+                                                        evaluation words</td>
+                                                    <td>26.8 KB (27,453 bytes)</td>
+                                                    <td>.xlsx</td>
+                                                    <td class="mfcc"><a
+                                                            href="../demo/ccm/National Musical Instruments Timbre Evaluation Database/Timbre evaluation experimental results_standard deviation.xlsx"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Timbre evaluation experimental material_1-37.wav</td>
+                                                    <td>Summary audio material for subjective evaluation experiment of
+                                                        timbre, including cropped audio clips of 37 instruments, the
+                                                        audio comes from Chinese Traditional Instrument Sound
+                                                        Database（CTIS）</td>
+                                                    <td>37.5 MB (39,373,148 字节)</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/National Musical Instruments Timbre Evaluation Database/Timbre evaluation experimental material_1-37.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a
+                                                    href="../demo/ccm/National Musical Instruments Timbre Evaluation Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>This database is described in detail in the following articles:</span>
+                                            <ul>
+                                                <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=FDXB202003014&uniplatform=NZKPT&v=85qLeLUyrDt%25mmd2Btak%25mmd2BN90N7vYZSv%25mmd2BVc1EfPmaYcvpvrgY1XkL215gYG4J%25mmd2FD09viR0w"
+                                                        target="_blank">&nbsp;
+                                                        江益靓, 孙校珩, 梁晓晶, 子晋, 李伟. 基于客观特征的民族乐器音色分析[J]. 复旦学报(自然科学版),
+                                                        2020,59(03):346-353+359.</a>
+                                                </li>
+                                                <li><a href="https://ieeexplore.ieee.org/document/8940168"
+                                                        target="_blank">&nbsp;
+                                                        Jiang W, Liu J, Li Z, et al. Analysis and modeling of timbre
+                                                        perception features of chinese musical instruments[C]//2019
+                                                        IEEE/ACIS 18th International Conference on Computer and
+                                                        Information
+                                                        Science (ICIS). IEEE, 2019: 191-195.</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn4">
+                                    <a href="#shou4" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn4.js"></script>
+                            <!-- (5) -->
+                            <div class="container" id="shou5">
+                                <div class="adjust">
+                                    <h4>Music Genre Database</h4>
+                                    <p>This database contains at least 1700 audio recordings from different genres (.mp3
+                                        format, from Netease Cloud), and each audio is about 270 ~ 300 seconds
+                                        long. The database is divided into 17 genres, and each genre corresponds to a
+                                        label file. The annotation information is the genre classification label,
+                                        which is used for the genre classification task. Main genre labels: classical
+                                        (symphony, opera, solo, chamber), non-classical (pop, dance & house, indie, soul
+                                        / R&B, rock).
+                                    </p>
+                                    <div class="spread" id="spread5">
+                                        <p>Format of annotation information: file_name, duration, singer,
+                                            fst_level_label, sec_level_label,
+                                            thr_level_label <br>
+                                            Take the Adult Alternative Rock genre (labeled 19) of Rock genre (labeled
+                                            11) of non-classical genre (labeled 2) as an example, part of the list
+                                            is as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>file_name</th>
+                                                <th>duration</th>
+                                                <th>singer</th>
+                                                <th>fst_level_label</th>
+                                                <th>sec_level_label</th>
+                                                <th>thr_level_label</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>A Fine Frenzy - Elements</td>
+                                                    <td>203s</td>
+                                                    <td>A Fine Frenzy</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>19</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Daniel Powter - Not Coming Back</td>
+                                                    <td>241s</td>
+                                                    <td>Daniel Powter</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>19</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Hit Crew Masters - A Place For My Head</td>
+                                                    <td>186s</td>
+                                                    <td>Hit Crew Masters</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>19</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>R.E.M. - Everybody Hurts</td>
+                                                    <td>320s</td>
+                                                    <td>R.E.M.</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>19</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Black Strobe - Boogie in zero Gravity</td>
+                                                    <td>209s</td>
+                                                    <td>Black Strobe</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>19</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Hit Crew Masters - Futures</td>
+                                                    <td>237s</td>
+                                                    <td>Hit Crew Masters</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>19</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Music Genre Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp; /</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn5">
+                                    <a href="#shou5" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn5.js"></script>
+                            <!-- (6) -->
+                            <div class="container" id="shou6">
+                                <div class="adjust">
+                                    <h4>Timbre and Range Database</h4>
+                                    <p>This database contains two sub-databases: timbre database and range database.<br>
+                                        1.The timbre database contains 775 recorded acapella of 9 singers, as well
+                                        as audio clips (.wav format).<br>
+                                        2.The range database includes the up and down chromatic sclaes audio of several
+                                        vocals,
+                                        as well as the cut single-tone audio materials. In addition, there are several
+                                        audio waveform files.
+                                    </p>
+                                    <div class="spread" id="spread6">
+                                        <p>The timbre database takes singer 2's singing as an example, and the list is
+                                            as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Content</th>
+                                                <th>File <br> Size</th>
+                                                <th>Duration</th>
+                                                <th>File <br> Format</th>
+                                                <th>Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>singer2.wav</td>
+                                                    <td>Singer 2 singing acapella clip (6s)</td>
+                                                    <td>1.05 MB (1,109,742 bytes)</td>
+                                                    <td>6s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/singer2.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>singer2-1.wav</td>
+                                                    <td>Singer 2 singing acapella clip after cutting and collage</td>
+                                                    <td>2.06 MB (2,162,706 bytes)</td>
+                                                    <td>24s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/singer2-1.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>singer2-1-1.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.1</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-1.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>singer2-1-2.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.2</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-2.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>singer2-1-3.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.3</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-3.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>singer2-1-4.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.4</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-4.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>singer2-1-5.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.5</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-5.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>singer2-1-6.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.6</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-6.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>singer2-1-7.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.7</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-7.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>singer2-1-8.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.8</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-8.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>singer2-1-9.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.9</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-9.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>singer2-1-10.wav</td>
+                                                    <td>Singer 2 singing acapella clip was cut into 10 pieces-No.10</td>
+                                                    <td>2.52 MB (2,646,042 bytes)</td>
+                                                    <td>29s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Timbre and Range Database/singer2-1-10.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>The range database takes singer 19's singing as an example, and the list is
+                                            as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Content</th>
+                                                <th>File <br> Size</th>
+                                                <th>Duration</th>
+                                                <th>File <br> Format</th>
+                                                <th>Demo/<br>Download</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>vox1_19.wav</td>
+                                                    <td>singer 19 sings chromatic scale audio</td>
+                                                    <td>5.18 MB (5,436,854 bytes)</td>
+                                                    <td>37s</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/vox1_19.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>vox1_19.pkf</td>
+                                                    <td>singer 19 sings chromatic scale audio's waveform</td>
+                                                    <td>219 KB (224,680 bytes)</td>
+                                                    <td>/</td>
+                                                    <td>.pkf</td>
+                                                    <td class="pkf"><a
+                                                            href="../demo/ccm/Timbre and Range Database/vox1_19.pkf"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>vox1_19-1.wav</td>
+                                                    <td>singer 19 sings C4</td>
+                                                    <td>85.9 KB (88,054 bytes)</td>
+                                                    <td>/</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/vox1_19-1.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>vox1_19-2.wav</td>
+                                                    <td>singer 19 sings B3</td>
+                                                    <td>106 KB (108,814 bytes)</td>
+                                                    <td>/</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/vox1_19-2.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>vox1_19-3.wav</td>
+                                                    <td>singer 19 sings #A3</td>
+                                                    <td>241 KB (247,458 bytes)</td>
+                                                    <td>/</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/vox1_19-3.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>vox1_19-4.wav</td>
+                                                    <td>singer 19 sings A3</td>
+                                                    <td>103 KB (106,398 bytes)</td>
+                                                    <td>/</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/vox1_19-4.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>vox1_19-5.wav</td>
+                                                    <td>singer 19 sings #G3</td>
+                                                    <td>94.4 KB (96,730 bytes)</td>
+                                                    <td>/</td>
+                                                    <td>.wav（RIFF）</td>
+                                                    <td><audio src="../demo/ccm/Timbre and Range Database/vox1_19-5.wav"
+                                                            controls="controls"></audio></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Timbre and Range Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=FDXB201903004&uniplatform=NZKPT&v=VAszHDtjPUYMi3JYVrdSGx4fcqlEtgCeKwRGTacCj98CGEQg5CUFHxakrvuaMzm3"
+                                                        target="_blank">&nbsp;
+                                                        江益靓, 张旭龙, 邓晋, 张文强, 李伟. 数据增强基础上使用卷积神经网络进行闻诊（英文）[J]. 复旦学报(自然科学版),
+                                                        2019, 58(03):328-334.</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn6">
+                                    <a href="#shou6" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn6.js"></script>
+                            <!-- (7) -->
+                            <div class="container" id="shou7">
+                                <div class="adjust">
+                                    <h4>Structure Annotation Database of Songs</h4>
+                                    <p>This database contains 300 pop songs (.mp3 format, from Netease Cloud), and the
+                                        structure annotation file (.txt format) of each song. Song structure: intro,
+                                        chorus, verse, pre chorus, post chorus, bridge, ending.
+                                    </p>
+                                    <div class="spread" id="spread7">
+                                        <p>Take "Britney Spears - Toxic (Bloodshy & Avant's Intoxicated
+                                            Remix)" and "Backstreet Boys - Darlin" as examples, the list of annotation
+                                            information is as
+                                            follows:
+                                        </p>
+                                        <table>
+                                            <thead>
+                                                <th colspan="2">Serial <br> Number</th>
+                                                <th colspan="2">Start <br> time（0.01s）</th>
+                                                <th colspan="2">End <br> time（0.01s）</th>
+                                                <th colspan="2">Structure <br> Annotation</th>
+                                                <th colspan="1">Demo</th>
+                                                <th colspan="2">Serial <br> Number</th>
+                                                <th colspan="2">Start <br> time（0.01s）</th>
+                                                <th colspan="2">End <br> time（0.01s）</th>
+                                                <th colspan="2">Structure <br> Annotation</th>
+                                                <th colspan="1">Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2">1</td>
+                                                    <td colspan="2">0000</td>
+                                                    <td colspan="2">4241</td>
+                                                    <td colspan="2">"Intro"</td>
+                                                    <td colspan="1" rowspan="13" class="txt"><a
+                                                            href="../demo/ccm/Structure Annotation Database of Songs/Britney Spears - Toxic (Bloodshy & Avant's Intoxicated Remix).txt"
+                                                            target="_blank">Britney
+                                                            Spears - Toxic <br> </a>
+                                                    </td>
+                                                    <td colspan="2">1</td>
+                                                    <td colspan="2">0000</td>
+                                                    <td colspan="2">2486</td>
+                                                    <td colspan="2">"Intro"</td>
+                                                    <td colspan="1" rowspan="13" class="txt"><a
+                                                            href="../demo/ccm/Structure Annotation Database of Songs/Backstreet Boys - Darlin'.txt"
+                                                            target="_blank">Backstreet
+                                                            Boys - Darlin' <br> </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">2</td>
+                                                    <td colspan="2">4241</td>
+                                                    <td colspan="2">6924</td>
+                                                    <td colspan="2">"Verse A"</td>
+                                                    <td colspan="2">2</td>
+                                                    <td colspan="2">2486</td>
+                                                    <td colspan="2">4054</td>
+                                                    <td colspan="2">"Verse A"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">3</td>
+                                                    <td colspan="2">6924</td>
+                                                    <td colspan="2">8606</td>
+                                                    <td colspan="2">"Pre-chorus A"</td>
+                                                    <td colspan="2">3</td>
+                                                    <td colspan="2">4054</td>
+                                                    <td colspan="2">5628</td>
+                                                    <td colspan="2">"Verse B"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">4</td>
+                                                    <td colspan="2">8606</td>
+                                                    <td colspan="2">11289</td>
+                                                    <td colspan="2">"Chorus A"</td>
+                                                    <td colspan="2">4</td>
+                                                    <td colspan="2">5628</td>
+                                                    <td colspan="2">8778</td>
+                                                    <td colspan="2">"Chorus A"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">5</td>
+                                                    <td colspan="2">11289</td>
+                                                    <td colspan="2">12631</td>
+                                                    <td colspan="2">"Re-intro A"</td>
+                                                    <td colspan="2">5</td>
+                                                    <td colspan="2">8778</td>
+                                                    <td colspan="2">10350</td>
+                                                    <td colspan="2">"Verse C"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">6</td>
+                                                    <td colspan="2">12631</td>
+                                                    <td colspan="2">13977</td>
+                                                    <td colspan="2">"Verse B"</td>
+                                                    <td colspan="2">6</td>
+                                                    <td colspan="2">10350</td>
+                                                    <td colspan="2">11920</td>
+                                                    <td colspan="2">"Verse D"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">7</td>
+                                                    <td colspan="2">13977</td>
+                                                    <td colspan="2">15655</td>
+                                                    <td colspan="2">"Pre-chorus B"</td>
+                                                    <td colspan="2">7</td>
+                                                    <td colspan="2">11920</td>
+                                                    <td colspan="2">15072</td>
+                                                    <td colspan="2">"Chorus B"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">8</td>
+                                                    <td colspan="2">15655</td>
+                                                    <td colspan="2">19681</td>
+                                                    <td colspan="2">"Chorus B"</td>
+                                                    <td colspan="2">8</td>
+                                                    <td colspan="2">15072</td>
+                                                    <td colspan="2">18607</td>
+                                                    <td colspan="2">"Bridge"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">9</td>
+                                                    <td colspan="2">19681</td>
+                                                    <td colspan="2">24043</td>
+                                                    <td colspan="2">"Re-intro B"</td>
+                                                    <td colspan="2">9</td>
+                                                    <td colspan="2">18607</td>
+                                                    <td colspan="2">21763</td>
+                                                    <td colspan="2">"Chorus C"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">10</td>
+                                                    <td colspan="2">24043</td>
+                                                    <td colspan="2">26730</td>
+                                                    <td colspan="2">"Chorus C"</td>
+                                                    <td colspan="2">10</td>
+                                                    <td colspan="2">21763</td>
+                                                    <td colspan="2">23334</td>
+                                                    <td colspan="2">"Re-intro"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">11</td>
+                                                    <td colspan="2">26730</td>
+                                                    <td colspan="2">28072</td>
+                                                    <td colspan="2">"Bridge A"</td>
+                                                    <td colspan="2">11</td>
+                                                    <td colspan="2">23334</td>
+                                                    <td colspan="2">26861</td>
+                                                    <td colspan="2">"Chorus D"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">12</td>
+                                                    <td colspan="2">28072</td>
+                                                    <td colspan="2">29417</td>
+                                                    <td colspan="2">"Re-intro C"</td>
+                                                    <td colspan="2">12</td>
+                                                    <td colspan="2">26861</td>
+                                                    <td colspan="2">30015</td>
+                                                    <td colspan="2">"Chorus E"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">13</td>
+                                                    <td colspan="2">29417</td>
+                                                    <td colspan="2">33443</td>
+                                                    <td colspan="2">"Chorus D"</td>
+                                                    <td colspan="2">13</td>
+                                                    <td colspan="2">30015</td>
+                                                    <td colspan="2">32758</td>
+                                                    <td colspan="2">"Chorus F"</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Structure Annotation Database of Songs.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp; /</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn7">
+                                    <a href="#shou7" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn7.js"></script>
+                            <!-- (8) -->
+                            <div class="container" id="shou8">
+                                <div class="adjust">
+                                    <h4>Erhu Playing Technique Database (ErhuPT)</h4>
+                                    <p>This database contains 1500erhu audio clips (.wav format), all of which are
+                                        played by professional erhu players. According to the different performance
+                                        techniques of erhu, they are divided into 11 categories (detache, diangong,
+                                        harmonic, legato&slide&glissando, percussive, pizzicato, ricochet, staccato,
+                                        tremolo, trill, vibrato). Each performance technique has a corresponding number
+                                        of audio. Audio from:
+                                        <a href="ctis.html">Chinese Traditional Instrument Sound Database（CTIS）</a> .
+                                    </p>
+                                    <div class="spread" id="spread8">
+                                        <p>Some audio lists are as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Performance <br> Technique</th>
+                                                <th>File <br> Size</th>
+                                                <th>File <br> Format</th>
+                                                <th>Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>detache_01.wav</td>
+                                                    <td>detache</td>
+                                                    <td>256 KB (262,372 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/detache_01.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>diangong_01.wav</td>
+                                                    <td>diangong</td>
+                                                    <td>114 KB (116,940 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/diangong_01.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>harmonic_natural_05.wav</td>
+                                                    <td>harmonic-natural</td>
+                                                    <td>215 KB (220,874 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/harmonic_natural_05.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>harmonic_artificial_02.wav</td>
+                                                    <td>harmonic-artificial</td>
+                                                    <td>153 KB (157,008 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/harmonic_artificial_02.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>glissando_down_05.wav</td>
+                                                    <td>glissando-glissando_down</td>
+                                                    <td>44.0 KB (45,064 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/glissando_down_05.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>glissando_up_03.wav</td>
+                                                    <td>glissando-glissando_up</td>
+                                                    <td>39.5 KB (40,464 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/glissando_up_03.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>huihuayin_long_04.wav</td>
+                                                    <td>slide-huihuayin_long</td>
+                                                    <td>178 KB (183,248 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/huihuayin_long_04.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>legato&slide_up_01.wav</td>
+                                                    <td>legato&slide_up</td>
+                                                    <td>183 KB (188,206 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/legato&slide_up_01.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>slide_dianzhi_03.wav</td>
+                                                    <td>slide-slide_dianzhi</td>
+                                                    <td>78.7 KB (80,626 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/slide_dianzhi_03.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>dajigong_05.wav</td>
+                                                    <td>percussive-dajigong</td>
+                                                    <td>188 KB (192,646 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/dajigong_05.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>horse_03.wav</td>
+                                                    <td>percussive-horse</td>
+                                                    <td>168 KB (172,920 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/horse_03.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>pizzicato_07.wav</td>
+                                                    <td>pizzicato</td>
+                                                    <td>25.1 KB (25,704 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/pizzicato_07.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td>ricochet_11.wav</td>
+                                                    <td>ricochet</td>
+                                                    <td>64.6 KB (66,246 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/ricochet_11.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14</td>
+                                                    <td>staccato_07.wav</td>
+                                                    <td>staccato</td>
+                                                    <td>31.0 KB (31,812 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/staccato_07.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>15</td>
+                                                    <td>tremolo_03.wav</td>
+                                                    <td>tremolo</td>
+                                                    <td>124 KB (127,082 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/tremolo_03.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>16</td>
+                                                    <td>trill_long_01.wav</td>
+                                                    <td>trill-trill_long</td>
+                                                    <td>205 KB (210,490 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/trill_long_01.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>17</td>
+                                                    <td>vibrato_late_01.wav</td>
+                                                    <td>vibrato</td>
+                                                    <td>236 KB (242,574 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Erhu Playing Technique Database (ErhuPT)/vibrato_late_01.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Erhu Playing Technique Database (ErhuPT).zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <span><a href="https://zenodo.org/record/4320991" target="_blank">&nbsp;
+                                                    Click here to download the complete data of this database |
+                                                    Zenodo</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="https://arxiv.org/abs/1910.09021" target="_blank">&nbsp;
+                                                        Zehao Wang, Jingru Li, Xiaoou Chen, Zijin Li, Shicheng Zhang,
+                                                        Baoqiang Han,
+                                                        Deshun Yang: Musical Instrument Playing Technique Detection
+                                                        Based on FCN: Using
+                                                        Chinese Bowed-Stringed Instrument as an Example. CoRR
+                                                        abs/1910.09021 (2019)</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn8">
+                                    <a href="#shou8" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn8.js"></script>
+                            <!-- (9) -->
+                            <div class="container" id="shou9">
+                                <div class="adjust">
+                                    <h4>Bel Canto and National Singing Database</h4>
+                                    <p>This database is specially used to distinguish Bel Canto and National singing.
+                                        All audio are sung by professional singers.
+                                    </p>
+                                    <div class="spread" id="spread9">
+                                        <p>Some audio lists are as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th>File <br> Name</th>
+                                                <th>Gender</th>
+                                                <th>Singing <br> Method</th>
+                                                <th>File <br> Size</th>
+                                                <th>File <br> Format</th>
+                                                <th>Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Gan Niu Shan_female_National.wav</td>
+                                                    <td>female</td>
+                                                    <td>National Singing</td>
+                                                    <td>1.23 MB (1,291,292 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Bel Canto and National Singing Database/Gan Niu Shan_female_National.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Grassland Pastoral_male_National.wav</td>
+                                                    <td>male</td>
+                                                    <td>National Singing</td>
+                                                    <td>9.63 MB (10,105,288 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Bel Canto and National Singing Database/Grassland Pastoral_male_National.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Beautiful Countryside_female_Bel Canto.wav</td>
+                                                    <td>female</td>
+                                                    <td>Bel Canto</td>
+                                                    <td>10.7 MB (11,325,040 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Bel Canto and National Singing Database/Beautiful Countryside_female_Bel Canto.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Huang He Song_male_Bel Canto.wav</td>
+                                                    <td>male</td>
+                                                    <td>Bel Canto</td>
+                                                    <td>3.27 MB (3,433,670 bytes)</td>
+                                                    <td>.wav</td>
+                                                    <td><audio
+                                                            src="../demo/ccm/Bel Canto and National Singing Database/Huang He Song_male_Bel Canto.wav"
+                                                            controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Bel Canto and National Singing Database.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                        /</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn9">
+                                    <a href="#shou9" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn9.js"></script>
+                        </div>
+                        <div class="download-all">
+                            <h3>Download</h3>
+                            <p>
+                                To download the demo files or obtain all files in the database, please click here
+                                &nbsp;<a href="../download.html"></a>
+                            </p>
+                        </div>
+                    </div>
+                    <script src="../js/click.js"></script>
+                    <div class="backtotop">
+                        <button>
+                            <span>TOP</span>
+                        </button>
+                    </div>
+                    <script src="../js/backtotop.js"></script>
+                </div>
+            </div>
+            <!-- 页脚 -->
+            <footer class="body-foot">
+                <div class="name">
+                    <a href="index.html">CCMusic</a>
+                </div>
+                <div class="foot-container">
+                    <div class="catagories">
+                        <div class="column">
+                            <a href="ctis.html"> Database </a>
+                            <ul>
+                                <li><a href="ctis.html">Chinese Traditional Instrument Sound
+                                        Database</a></li>
+                                <li><a href="ccm.html">Multi-functional Music Database for
+                                        MIR Research</a></li>
+                                <li><a href="cpop.html">Midi-wav Bi-directional Database of
+                                        Pop Music</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../download.html"> Download </a>
+                            <ul>
+                                <li><a href="https://github.com/ccmusic-database/ccmusic-database.git" target="_blank">Github</a></li>
+                                <li><a href="https://doi.org/10.5281/zenodo.5654924" target="_blank">Zenodo</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../reference.html"> Reference </a>
+                            <ul>
+                                <li><a href="../reference.html">Chinese Traditional Instrument Sound
+                                        Database</a></li>
+                                <li><a href="../reference.html">Multi-functional Music Database for
+                                        MIR Research</a></li>
+                                <li><a href="../reference.html">Midi-wav Bi-directional Database of
+                                        Pop Music</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="social1"></a>
+                                    <img src="../images/WeChat.jpg">
+                                </li>
+                                <li>
+                                    <a href="#" class="social2"></a>
+                                    <img src="../images/zhihu.png">
+                                </li>
+                                <li>
+                                    <a href="mailto:ccmusic.database@hotmail.com" class="social4"></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/ccmusic-database/ccmusic-database.git" target="_blank"
+                                        class="social5"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-bottom">
+                    Designed by Liu Zhaorui
+                </div>
+            </footer>
+            <!-- 页脚 -->
+        </div>
+    </div>
+    <!-- 内容部分 -->
+</body>
+
+</html>
