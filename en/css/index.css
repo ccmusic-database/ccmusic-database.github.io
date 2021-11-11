@@ -348,11 +348,11 @@ header {
 
 .body-container .body-overview h1 span {
     display: block;
-    margin-top: 0;
+    margin-top: 80px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 90px;
     z-index: 2;
     animation: overview-move 1.5s ease;
 }
