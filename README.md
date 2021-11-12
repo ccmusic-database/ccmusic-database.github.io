@@ -5,7 +5,7 @@ This platform is also a large-scale music data sharing platform specially used f
 
 If you want to know more information or obtain complete files, please go to the official website of this platform:
 
-https://ccmusic-database.github.io/
+https://ccmusic-database.github.io/en/
 
 
   Chinese Traditional Instrument Sound Database (CTIS)
