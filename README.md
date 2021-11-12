@@ -17,4 +17,6 @@ This database collects sound information about Chinese traditional musical instr
 This database collects sound materials of pop music, folk music and hundreds of national musical instruments, and makes comprehensive annotation to form a multi-purpose music database for MIR researchers.
 
   Midi-wav Bi-directional Database of Pop Music
-The content of this database is not publicly available.
+ 
+This database contains hundreds of Chinese pop songs, and each song contains the corresponding midi-audio-lyric information. Among them, recording the vocal part and accompaniment part of audio independently is helpful to study the MIR task under the ideal situation. In addition, the information of singing techniques consistent with vocal part (such as breath sound, falsetto, breathing, vibrato, mute, slide, etc.) is marked in MuseScore, which constitutes a Midi-Wav bi-direction corresponding pop music database.
+
