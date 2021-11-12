@@ -82,8 +82,8 @@ header {
     cursor: pointer;
     position: relative;
     display: block;
+    width: 110px;
     padding: 20px 0;
-    margin-right: 42px;
     font-weight: 600;
     font-size: 17px;
     color: #ffffff;
@@ -110,10 +110,10 @@ header {
     font-family: 'icomoon';
     position: absolute;
     top: 0;
-    left: 67px;
+    left: 80px;
     content: '\e951';
     z-index: inherit;
-    width: 90px;
+    width: 60px;
     color: #ffffff;
     text-align: center;
     font-size: 24px;
