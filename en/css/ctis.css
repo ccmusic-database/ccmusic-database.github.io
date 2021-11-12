@@ -101,10 +101,10 @@ header {
     font-family: 'icomoon';
     position: absolute;
     top: 0;
-    left: 90px;
+    left: 80px;
     content: '\e951';
     z-index: inherit;
-    width: 40px;
+    width: 60px;
     color: #ffffff;
     text-align: center;
     font-size: 24px;
@@ -254,7 +254,7 @@ header {
 
 .body-container .body-overview h1 span {
     display: block;
-    color: #d14644;
+    color: #0d5ebb;
     font-weight: 800;
     font-size: 40px;
     line-height: 60px;
@@ -377,7 +377,7 @@ header {
 }
 
 .table2 table td a:hover {
-    color: #d14644;
+    color: #0d5ebb;
 }
 
 .table2 table tbody tr td:nth-of-type(2) a::after {
@@ -396,7 +396,7 @@ header {
 
 .download-reference h4 {
     font-size: 22px;
-    color: #d14644;
+    color: #0d5ebb;
     margin-bottom: 20px;
     margin-top: 40px;
 }
@@ -419,7 +419,7 @@ header {
 }
 
 .download-reference span a:hover {
-    color: #d14644;
+    color: #0d5ebb;
 }
 
 .download-reference ul {
@@ -442,7 +442,7 @@ header {
 }
 
 .download-reference ul li a:hover {
-    color: #d14644;
+    color: #0d5ebb;
 }
 
 .body-overview .download-all {
@@ -455,7 +455,7 @@ header {
 .body-overview .download-all h3 {
     margin-bottom: 20px;
     font-size: 27px;
-    color: #d14644;
+    color: #0d5ebb;
     font-weight: 700;
 }
 
@@ -473,7 +473,7 @@ header {
 }
 
 .body-overview .download-all p a:hover::after {
-    color: #d14644;
+    color: #0d5ebb;
 }
 
 .backtotop {
@@ -490,7 +490,7 @@ header {
     border: 0;
     padding: 0;
     margin: 0;
-    color: #72909e;
+    color: #0d5ebb;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
