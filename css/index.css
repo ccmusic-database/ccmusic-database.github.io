@@ -279,7 +279,7 @@ header {
     width: 130px;
     border: 0;
     font-weight: 700;
-    color: #d14644;
+    color: #0053d6;
     font-size: 30px;
     line-height: 30px;
     background-color: transparent;
@@ -306,7 +306,7 @@ header {
     top: 36px;
     width: 130px;
     height: 2px;
-    background-color: #d14644;
+    background-color: #0053d6;
     animation: name-move-underline 2s ease;
 }
 
@@ -388,7 +388,7 @@ header {
     line-height: 50px;
     font-size: 24px;
     font-weight: 500;
-    background-color: #d14644;
+    background-color: #0d5ebb;
     animation: start-move 1.5s ease;
     transition: all 0.4s ease-in-out;
 }
