@@ -110,10 +110,10 @@ header {
     font-family: 'icomoon';
     position: absolute;
     top: 0;
-    left: 90px;
+    left: 80px;
     content: '\e951';
     z-index: inherit;
-    width: 40px;
+    width: 60px;
     color: #ffffff;
     text-align: center;
     font-size: 24px;
