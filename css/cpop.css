@@ -216,90 +216,6 @@ header {
     overflow: hidden;
 }
 
-.body-head {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 30px 0 25px;
-}
-
-.body-head ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    width: 130px;
-    height: 30px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.body-head ul li {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 130px;
-    height: 30px;
-    z-index: 2;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: -webkit-match-parent;
-}
-
-@keyframes name-move {
-    0% {
-        transform: translateY(-100px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.body-head ul li a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    height: 30px;
-    width: 130px;
-    border: 0;
-    font-weight: 700;
-    color: #d14644;
-    font-size: 30px;
-    line-height: 30px;
-    background-color: transparent;
-    animation: name-move 1s ease;
-}
-
-@keyframes name-move-underline {
-    0% {
-        transform: scaleX(0);
-    }
-    50% {
-        transform: scaleX(0);
-    }
-    100% {
-        transform: scaleX(1);
-    }
-}
-
-.body-head li a::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 36px;
-    width: 130px;
-    height: 2px;
-    background-color: #d14644;
-    animation: name-move-underline 2s ease;
-}
-
 .body-container {
     display: flex;
     position: relative;
@@ -307,25 +223,29 @@ header {
 }
 
 .body-container .body-overview {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-height: 800px;
+    justify-content: start;
+    min-height: 1000px;
     width: 100%;
     max-width: 1440px;
     padding: 0 60px;
     margin: 0px auto;
     align-items: center;
     text-align: center;
+    z-index: 1;
 }
 
 .body-container .body-overview h1 {
+    margin: 50px 0 0;
+    width: 100%;
     overflow: hidden;
 }
 
 @keyframes overview-move {
     0% {
-        transform: translateY(120px);
+        transform: translateY(100px);
     }
     100% {
         transform: translateY(0);
@@ -334,14 +254,167 @@ header {
 
 .body-container .body-overview h1 span {
     display: block;
-    margin: 30px 0 0;
     color: #d14644;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
-    letter-spacing: -.5px;
+    font-size: 40px;
     z-index: 2;
+    text-align: left;
     animation: overview-move 1.5s ease;
+}
+
+.body-container .body-overview span:nth-child(2) {
+    font-size: 24px;
+}
+
+.body-container .body-overview .description {
+    margin-top: 50px;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.body-container .body-overview .table1 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 50px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    text-indent: 2em;
+    z-index: 1;
+}
+
+.body-container .body-overview .table1:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+
+.body-container .body-overview .table1 table tbody a::after {
+    font-family: 'icomoon';
+    content: '\e93f';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.body-container .body-overview .table1 table tbody a:hover::after {
+    color: #d14644;
+}
+
+.table1 p {
+    margin-bottom: 10px;
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.table1 table {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #000000;
+    font-size: 16px;
+}
+
+.table1 table td, .table1 table th {
+    border: 1px solid #000000;
+    padding: 5px 20px;
+}
+
+.body-container .body-overview .download-reference {
+    width: 100%;
+    text-align-last: left;
+    color: #000000;
+}
+
+.download-reference h4 {
+    font-size: 22px;
+    color: #d14644;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.download-reference span {
+    display: block;
+    font-size: 18px;
+    text-indent: 2em;
+}
+
+.download-reference span a {
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+.download-reference>span>a::before {
+    font-family: 'icomoon';
+    content: '\e92b';
+    font-size: 24px;
+}
+
+.download-reference span a:hover {
+    color: #d14644;
+}
+
+.download-reference ul {
+    margin-top: 15px;
+    text-indent: 2em;
+    margin-bottom: 30px;
+}
+
+.download-reference ul li a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.download-reference ul li a::before {
+    font-family: 'icomoon';
+    content: '\e9cb';
+    font-size: 24px;
+}
+
+.download-reference ul li a:hover {
+    color: #d14644;
+}
+
+.body-overview .download-all {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.body-overview .download-all h3 {
+    margin-bottom: 20px;
+    font-size: 27px;
+    color: #d14644;
+    font-weight: 700;
+}
+
+.body-overview .download-all p {
+    font-size: 18px;
+    text-indent: 2em;
+    color: #000000;
+}
+
+.body-overview .download-all p a::after {
+    font-family: 'icomoon';
+    content: '\e9cb';
+    font-size: 24px;
+    color: #000000;
+}
+
+.body-overview .download-all p a:hover::after {
+    color: #d14644;
 }
 
 .backtotop {

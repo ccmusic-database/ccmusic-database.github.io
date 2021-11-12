@@ -256,7 +256,7 @@ header {
     display: block;
     color: #d14644;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     z-index: 2;
     text-align: left;
     animation: name-move 1.5s ease-out;
