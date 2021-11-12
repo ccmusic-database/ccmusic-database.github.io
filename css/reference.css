@@ -73,8 +73,8 @@ header {
     cursor: pointer;
     position: relative;
     display: block;
+    width: 110px;
     padding: 20px 0;
-    margin-right: 42px;
     font-weight: 600;
     font-size: 17px;
     color: #ffffff;
@@ -101,10 +101,10 @@ header {
     font-family: 'icomoon';
     position: absolute;
     top: 0;
-    left: 67px;
+    left: 80px;
     content: '\e951';
     z-index: inherit;
-    width: 90px;
+    width: 60px;
     color: #ffffff;
     text-align: center;
     font-size: 24px;
@@ -252,7 +252,7 @@ header {
 
 .body-container .body-overview h1 span {
     display: block;
-    color: #d14644;
+    color: #0d5ebb;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -306,7 +306,7 @@ header {
 }
 
 .body-container .body-overview .container .reference p a:hover {
-    color: #d14644;
+    color: #0d5ebb;
 }
 
 .body-container .body-overview .container .reference p a::before {
@@ -317,7 +317,7 @@ header {
 }
 
 .body-container .body-overview .container .reference p a:hover::before {
-    color: #d14644;
+    color: #0d5ebb;
 }
 
 .backtotop {
@@ -334,7 +334,7 @@ header {
     border: 0;
     padding: 0;
     margin: 0;
-    color: #72909e;
+    color: #0d5ebb;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
