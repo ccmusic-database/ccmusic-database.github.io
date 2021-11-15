@@ -10,7 +10,7 @@ https://ccmusic-database.github.io/en/
 
   Chinese Traditional Instrument Sound Database (CTIS)
 
-This database collects sound information about Chinese traditional musical instruments. The database includes 287 Chinese national musical instruments, including traditional musical instruments, improved musical instruments and ethnic minority musical instruments.
+This database is developed by Prof. Han Baoqiang's team for many years, which collects sound information about Chinese traditional musical instruments. The database includes 287 Chinese national musical instruments, including traditional musical instruments, improved musical instruments and ethnic minority musical instruments.
 
   Multi-functional Music Database for MIR Research
 
