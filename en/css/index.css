@@ -276,7 +276,7 @@ header {
     left: 0;
     display: block;
     height: 30px;
-    width: 130px;
+    width: 143px;
     border: 0;
     font-weight: 700;
     color: #0053d6;
@@ -304,7 +304,7 @@ header {
     position: absolute;
     left: 0;
     top: 36px;
-    width: 130px;
+    width: 143px;
     height: 2px;
     background-color: #0053d6;
     animation: name-move-underline 2s ease;
