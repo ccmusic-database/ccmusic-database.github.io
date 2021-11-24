@@ -256,6 +256,7 @@ header {
     0% {
         transform: translateY(-100px);
     }
+
     100% {
         transform: translateY(0px);
     }
@@ -281,9 +282,11 @@ header {
     0% {
         transform: scaleX(0);
     }
+
     50% {
         transform: scaleX(0);
     }
+
     100% {
         transform: scaleX(1);
     }
@@ -331,6 +334,7 @@ header {
     0% {
         transform: translateY(120px);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -481,6 +485,13 @@ header {
     color: #000000;
 }
 
+.body-container .body-overview .mdb2 .mingcheng2 .mingcheng2-5 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #d60000;
+}
+
 .body-container .body-overview .mdb2 .tupian2 {
     height: 100%;
     width: 40%;
@@ -571,6 +582,7 @@ header {
     0% {
         transform: translateX(100px);
     }
+
     100% {
         transform: translateX(0);
     }
