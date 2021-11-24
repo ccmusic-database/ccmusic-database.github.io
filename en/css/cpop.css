@@ -247,6 +247,7 @@ header {
     0% {
         transform: translateY(100px);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -270,6 +271,13 @@ header {
     line-height: 32px;
     text-align: left;
     text-indent: 2em;
+}
+
+.body-container .body-overview .description .mingcheng2-5 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #d60000;
 }
 
 .body-container .body-overview .table1 {
@@ -441,6 +449,7 @@ header {
     0% {
         transform: translateX(100px);
     }
+
     100% {
         transform: translateX(0);
     }
