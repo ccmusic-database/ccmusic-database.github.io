@@ -76,7 +76,7 @@
                         <div class="description">
                             <p>CCMusic数据库搜集了流行音乐、民族音乐及数百种民族乐器的音响素材，并进行全面的标注，构成１个供MIR研究者使用的多用途的音乐数据库。本数据库由音乐学院专门录制，录制者具有较高的音乐素养，录制环境及技术专业，录音质量高，无商品版权问题，录制的音频免费公开，并方便大规模推广。本数据库对录音环境、录音设备以及录音人员、流程等方面进行专业的限定，力求避免各种噪声的干扰，获得高质量的音频素材。此外将音频的旋律声部与伴奏声部分两轨独立录制，对音乐信息检索的研究有重要的意义。未来，我们将会搜集更多的音乐素材进行录制和详细的标注。
                             </p>
-                            <p>本数据库包含9个子数据库，列表如下：</p>
+                            <p>本数据库包含 <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">11</span> 个子数据库，列表如下：</p>
                             <div class="list">
                                 <ul>
                                     <li><a href="#shou1"> &nbsp;钢琴音质数据库</a></li>
@@ -88,6 +88,8 @@
                                     <li><a href="#shou7"> &nbsp;歌曲结构标注数据库</a></li>
                                     <li><a href="#shou8"> &nbsp;二胡演奏技法数据库</a></li>
                                     <li><a href="#shou9"> &nbsp;美声民族唱法数据库</a></li>
+                                    <li><a href="#shou10"> &nbsp;中国民族五声调式数据库</a></li>
+                                    <li><a href="#shou11"> &nbsp;古筝midi-wav数据库</a></li>
                                 </ul>
                             </div>
                             <p>关于本数据库更详细的描述请查看以下论文：</p>
@@ -1634,8 +1636,180 @@
                                     <a href="#shou9" class="shou"></a>
                                 </button>
                             </div>
+                            <script src="../js/btn9.js"></script>
+                            <!-- (10) -->
+                            <div class="container" id="shou10">
+                                <div class="adjust">
+                                    <h4>中国民族五声调式数据库</h4>
+                                    <h5>© 复旦大学版权所有</h5>
+                                    <p>本数据库基于世界音乐数据库建设中手工标注与计算机相结合的工作思路，收集并标注“宫、商、角、徵、羽”五种调式（含五声、六声、七声）的音频，同时对中国民族五声调式的判断做出详细解析，并找到应用场景与技术模型，可以为中国民族音乐特征的分析与检索提供原始数据。
+                                    </p>
+                                    <div class="spread" id="spread10">
+                                        <p>部分音频列表如下：</p>
+                                        <table>
+                                            <thead>
+                                                <th>调式种类</th>
+                                                <th>曲目名称</th>
+                                                <th>演奏者</th>
+                                                <th>专辑名称</th>
+                                                <th>民族调式名称</th>
+                                                <th>同宫系统调</th>
+                                                <th style="width: 500px;">音频链接</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>宫调式</td>
+                                                    <td>良宵引</td>
+                                                    <td>龚一</td>
+                                                    <td>古琴演奏法</td>
+                                                    <td>F宫五声</td>
+                                                    <td>F宫系统</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=qD1LCLW" target="_blank">良宵引</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>商调式</td>
+                                                    <td>金蛇狂舞</td>
+                                                    <td>刘德海</td>
+                                                    <td>琵琶</td>
+                                                    <td>E商七声清乐</td>
+                                                    <td>D宫系统</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=aPWQY2" target="_blank">金蛇狂舞</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>角调式</td>
+                                                    <td>胡笳十八拍</td>
+                                                    <td>中央民族乐团</td>
+                                                    <td>中国纯古筝</td>
+                                                    <td>D角七声清乐</td>
+                                                    <td>bB宫系统</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=AyhSL" target="_blank">胡笳十八拍</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>徵调式</td>
+                                                    <td>醉渔唱晚</td>
+                                                    <td>龚一</td>
+                                                    <td>龚一古琴专辑</td>
+                                                    <td>G徵七声清乐</td>
+                                                    <td>C宫系统</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=LbPJ6y4i" target="_blank">醉渔唱晚</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>羽调式</td>
+                                                    <td>平沙落雁</td>
+                                                    <td>管平湖</td>
+                                                    <td>古琴</td>
+                                                    <td>bE羽五声</td>
+                                                    <td>bG宫系统</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=03lREl" target="_blank">平沙落雁</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Demo地址:</h4>
+                                            <span><a href="https://github.com/oozerain/music/blob/main/index.md" target="_blank"></a></span>
+                                            <h4>相关文献：</h4>
+                                            <span>使用本数据库所做的任务：</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                        无</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn10">
+                                    <a href="#shou10" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn10.js"></script>
+                            <!-- (11) -->
+                            <div class="container" id="shou11">
+                                <div class="adjust">
+                                    <h4>古筝midi-wav数据库</h4>
+                                    <h5>© 复旦大学版权所有</h5>
+                                    <p>本数据库包含大约300首古筝音频，可以用于以数据为驱动的自动音乐转录和翻译相关算法。制作流程为首先收集各式曲谱，通过编曲软件制成MusicXML而后转为MIDI。在此基础之上对于技法表示我们将midi中的音通过实时改变音调的插件进行调试得到滑音和颤音，刮奏遥指运用不规则的连音音阶（8~12连音）在midi中编曲表达出来，琶音通过和弦关系直接同时弹拨4个关联音。</p>
+                                    <p>所有曲目加起来约20小时时长，大约15万条注释，包括起音、偏移、速度和音符等方面的内容。所有的古筝曲目均为wav和midi格式对应，对于传统乐器的转录翻译提供一些有限的帮助。</p>
+                                    <div class="spread" id="spread11">
+                                        <p>部分数据列表如下：</p>
+                                        <table>
+                                            <thead>
+                                                <th>序号</th>
+                                                <th style="width: 200px;">曲目名称</th>
+                                                <th>文件大小</th>
+                                                <th>midi文件</th>
+                                                <th>wav文件</th>
+                                                <th style="width: 500px;">demo试听</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>高山流水</td>
+                                                    <td>88.8 MB (93,139,292 字节)</td>
+                                                    <td class="midi"><a href="../demo/ccm/11/高山流水.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/11/高山流水.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/11/高山流水.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>旱天雷</td>
+                                                    <td>39.1 MB (41,072,036 字节)</td>
+                                                    <td class="midi"><a href="../demo/ccm/11/旱天雷.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/11/旱天雷.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/11/旱天雷.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>千声佛</td>
+                                                    <td>33.6 MB (35,280,092 字节)</td>
+                                                    <td class="midi"><a href="../demo/ccm/11/千声佛.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/11/千声佛.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/11/千声佛.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>送别长亭外</td>
+                                                    <td>38.7 MB (40,642,660 字节)</td>
+                                                    <td class="midi"><a href="../demo/ccm/11/送别长亭外.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/11/送别长亭外.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/11/送别长亭外.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>渔舟唱晚</td>
+                                                    <td>68.7 MB (72,043,676 字节)</td>
+                                                    <td class="midi"><a href="../demo/ccm/11/渔舟唱晚.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/11/渔舟唱晚.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/11/渔舟唱晚.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>相关文献：</h4>
+                                            <span>使用本数据库所做的任务：</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                        无</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn11">
+                                    <a href="#shou11" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn11.js"></script>
                         </div>
-                        <script src="../js/btn9.js"></script>
                         <div class="download-all">
                             <h3>下载</h3>
                             <p>
