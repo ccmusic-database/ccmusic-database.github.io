@@ -222,6 +222,7 @@ header {
 }
 
 .body-adjust2 {
+    position: relative;
     display: block;
     overflow: hidden;
 }
@@ -447,6 +448,49 @@ header {
 
 .backtotop button:hover span::before {
     top: -40px;
+}
+
+@keyframes left-move {
+    0% {
+        transform: translate(500px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.index-popup {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 90px;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    line-height: 20px;
+    animation: left-move 2s ease;
+    z-index: 999999;
+}
+
+.index-popup span:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 30, 0, 0.8);
+}
+
+.index-popup span:last-of-type {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    color: #c7c7c7;
+}
+
+.index-popup a {
+    color: #c7c7c7;
+}
+
+.index-popup a:hover {
+    color: rgba(255, 30, 0, 0.8);
 }
 
 .body-foot {

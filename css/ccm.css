@@ -308,6 +308,7 @@ header {
 }
 
 .body-container .body-overview .description .list ul li a {
+    position: relative;
     color: #000000;
     font-size: 18px;
     font-weight: 600;
@@ -322,6 +323,26 @@ header {
 
 .body-container .body-overview .description .list ul li a:hover {
     color: #0d5ebb;
+}
+
+.body-container .body-overview .description .list ul li:nth-of-type(10) a::after {
+    position: absolute;
+    top: -4px;
+    right: 230px;
+    content: '新！';
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+}
+
+.body-container .body-overview .description .list ul li:nth-of-type(11) a::after {
+    position: absolute;
+    top: -4px;
+    right: 206px;
+    content: '新！';
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 0, 0);
 }
 
 .body-container .body-overview .container-all {
@@ -360,7 +381,14 @@ header {
     color: #0d5ebb;
     font-size: 24px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.body-container .body-overview .container-all .container .adjust h5 {
+    color: rgba(232, 84, 36);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .body-container .body-overview .container-all .container .adjust p {
@@ -444,9 +472,31 @@ header {
     color: #0d5ebb;
 }
 
+.adjust .spread table tbody tr .midi a::after {
+    font-family: 'icomoon';
+    content: '\e941';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.adjust .spread table tbody tr .midi a:hover::after {
+    color: #0d5ebb;
+}
+
 .adjust .spread table td, .adjust .spread table th {
     border: 1px solid #000000;
     padding: 5px 20px;
+}
+
+.adjust .spread table tr td a {
+    font-weight: 400;
+    color: #000000;
+}
+
+.adjust .spread table tr td a:hover {
+    color: #0d5ebb;
 }
 
 .body-container .body-overview .container-all .container .adjust .spread .download-reference {
