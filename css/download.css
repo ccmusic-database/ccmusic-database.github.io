@@ -386,8 +386,20 @@ header {
 .body-container .body-overview .container2 .download-all .attention {
     margin: 40px 60px 20px;
     font-size: 20px;
-    color: #0d5ebb;
+    font-weight: 700;
+    color: #ff0000;
     text-indent: 0;
+}
+
+.body-container .body-overview .container2 .download-all p:nth-of-type(10) {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d5ebb;
+    line-height: 30px;
+}
+
+.body-container .body-overview .container2 .download-all p:nth-of-type(12) {
+    line-height: 30px;
 }
 
 .backtotop {
