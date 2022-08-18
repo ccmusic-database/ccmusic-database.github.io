@@ -345,6 +345,16 @@ header {
     color: rgb(255, 0, 0);
 }
 
+.body-container .body-overview .description .list ul li:nth-of-type(12) a::after {
+    position: absolute;
+    top: -4px;
+    right: 295px;
+    content: '新！';
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+}
+
 .body-container .body-overview .container-all {
     display: block;
     width: 100%;
