@@ -342,6 +342,16 @@ header {
     color: rgb(255, 0, 0);
 }
 
+.body-container .body-overview .description .list ul li:nth-of-type(12) a::after {
+    position: absolute;
+    top: -3px;
+    right: 240px;
+    content: 'NEW!';
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(255, 0, 0);
+}
+
 .body-container .body-overview .container-all {
     display: block;
     width: 100%;
