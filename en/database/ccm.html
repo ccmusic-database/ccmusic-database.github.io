@@ -58,6 +58,12 @@
                                             Pop Music</a></li>
                                 </ul>
                             </li>
+                            <li><a href="../team.html" class="fixnav">TEAM</a>
+                                <ul>
+                                    <li><a href="../team.html" class="subnav">Fudan University</a></li>
+                                    <li><a href="../team.html" class="subnav">Zhejiang University</a></li>
+                                </ul>
+                            </li>
                             <li><a href="../contact.html" class="fixnav">Contact</a></li>
                         </ul>
                     </div>
@@ -92,9 +98,13 @@
                                 independently. In the future, we will collect more music materials for recording and
                                 detailed annotation.
                             </p>
-                            <p>This database contains <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">12</span> sub-databases, which are listed as follows:</p>
+                            <p>This database contains <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">13</span> sub-databases, which are listed as follows:</p>
                             <div class="list">
                                 <ul>
+                                    <li><a href="#GZTech"> &nbsp;GZ_IsoTech Database</a></li>
+                                    <li><a href="#shou11"> &nbsp;GuZheng Midi-Wav Database</a></li>
+                                    <li><a href="#shou10"> &nbsp;Chinese National Pentatonic Mode Database</a></li>
+                                    <li><a href="#PMEmo"> &nbsp;PMEmo: A Dataset For Music Emotion Computing</a></li>
                                     <li><a href="#shou1"> &nbsp;Piano Sound Quality Database</a></li>
                                     <li><a href="#shou2"> &nbsp;Acapella Evaluation Database</a></li>
                                     <li><a href="#shou3"> &nbsp;Chest Voice and Falsetto Database</a></li>
@@ -106,9 +116,6 @@
                                     <li><a href="#shou7"> &nbsp;Structure Annotation Database of Songs</a></li>
                                     <li><a href="#shou8"> &nbsp;Erhu Playing Technique Database (ErhuPT)</a></li>
                                     <li><a href="#shou9"> &nbsp;Bel Canto and National Singing Database</a></li>
-                                    <li><a href="#shou10"> &nbsp;Chinese National Pentatonic Mode Database</a></li>
-                                    <li><a href="#shou11"> &nbsp;GuZheng Midi-Wav Database</a></li>
-                                    <li><a href="#GZTech"> &nbsp;GZ_IsoTech Database</a></li>
                                     
                                 </ul>
                             </div>
@@ -1837,6 +1844,9 @@
                                 <div class="adjust">
                                     <h4>Chinese National Pentatonic Mode Database</h4>
                                     <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
                                     <p>Based on the working idea of combining manual labeling with computer in the construction of World Music Database, this database collects and labels the audio of five modes (including five tones, six tones and seven tones) of "Gong, Shang, Jue, Zhi and Yu". At the same time, it makes a detailed analysis of the judgment of Chinese national pentatonic modes, and finds application scenarios and technical models, which can provide raw data for the analysis and retrieval of Chinese national music characteristics.
                                     </p>
                                     <div class="spread" id="spread10">
@@ -1927,6 +1937,9 @@
                                 <div class="adjust">
                                     <h4>GuZheng Midi-Wav Database</h4>
                                     <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
                                     <p>This database contains about 300 Guzheng audios, which can be used for data-driven automatic music transcription and translation related algorithms. The production process is to first collect all kinds of music scores, make MusicXML through music arrangement software, and then convert it to MIDI. On this basis, for the technical representation, we debug the sound in MIDI through the plug-in that changes the tone in real time to get the glide and vibrato. The scraping remote refers to the use of irregular continuous scales (8 ~ 12 continuous tones) to compose and express in MIDI, and the arpeggio directly plays four associated tones at the same time through the chord relationship.</p>
                                     <p>The total length of all audios is about 20 hours, with about 150000 annotation, including onset, offset, speed and notes. All Guzheng tracks are in wav and MIDI format, which provides some limited help for the transcription and translation of traditional musical instruments.</p>
                                     <div class="spread" id="spread11">
@@ -2009,6 +2022,9 @@
                                 <div class="adjust">
                                     <h4>GZ_IsoTech Database</h4>
                                     <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
                                     <p>This database contains 2824 audio clips of guzheng playing techniques. Among them, 2328 pieces were collected from virtual sound banks, and 496 pieces were played and recorded by a professional guzheng performer. These clips cover almost all the tones in the range of guzheng and the most commonly used playing techniques in guzheng performance. According to the different playing techniques of guzheng, the clips are divided into 8 categories: Vibrato(chanyin), Upward Portamento(shanghuayin), Downward Portamento(xiahuayin), Returning Portamento(huihuayin), Glissando (guazou, huazhi), Tremolo(yaozhi), Harmonic(fanyin), Plucks(gou,da,mo,tuo…).</p>
                                     <div class="spread" id="spread12">
                                         <p>Some data lists are as follows:</p>
@@ -2105,7 +2121,93 @@
                                     <a href="#GZTech" class="shou"></a>
                                 </button>
                             </div>
-                            <script src="../js/btn12.js"></script>
+                            <script src="../js/btn12.js"></script><!-- (13) -->
+                            <div class="container" id="PMEmo">
+                                <div class="adjust">
+                                    <h4>PMEmo: A Dataset For Music Emotion Computing</h4>
+                                    <h5>Copyright © Zhejiang University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
+                                    <p>Music Emotion Recognition (MER) has recently received considerable attention. To support the MER research which requires large music content libraries, we present the PMEmo dataset containing emotion annotations of 794 songs as well as the simultaneous electrodermal activity (EDA) signals. A Music Emotion Experiment was well-designed for collecting the affective-annotated music corpus of high quality, which recruited 457 subjects. The dataset is publically available to the research community, which is foremost intended for benchmarking in music emotion retrieval and recognition. To straightforwardly evaluate the methodologies for music affective analysis, it also involves pre-computed audio feature sets. In addition to that, manually selected chorus excerpts (compressed in MP3) of songs are provided to facilitate the development of chorus-related research. In Our article, <a href="https://dl.acm.org/doi/10.1145/3206025.3206037">The PMEmo Dataset for Music Emotion Recognition</a>, We describe in detail the resource acquisition, subject selection, experiment design and annotation collection procedures, as well as the dataset content and data reliability analysis. We also illustrate its usage in some simple music emotion recognition tasks which testified the PMEmo dataset’s competence for the MER work. Compared to other homogeneous datasets, PMEmo is novel in the organization and management of the recruited annotators, and it is also characterized by its large amount of music with simultaneous physiological signals.‌</p>
+                                    <div class="spread" id="spread13">
+                                        <p>Some data in the dataset are listed as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Audio Serial</th>
+                                                <th>Song Metadata</th>
+                                                <th>Audio Demo</th>
+                                                <th>Pre-computed Audio Features for Use in MER Tasks</th>
+                                                <th>Manually Annotated Emotion Labels</th>
+                                                <th>EDA Physiological Signals</th>
+                                                <th>Song Lyrics (LRC)</th>
+                                                <th>Song Comments</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/1.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/1_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/1.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/1.txt" target="_blank"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/5.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/5_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/5.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/5.txt" target="_blank"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/6.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/6_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/6.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/6.txt" target="_blank"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/9.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/9_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/9.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/9.txt" target="_blank"></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo</h4>
+                                            <span><a href="../demo/ccm/PMEmo.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <span><a href="https://github.com/HuiZhangDB/PMEmo">&nbsp;
+                                                Click here to download Github example code</a>
+                                            </span>
+                                            <h4>Related Papers:</h4>
+                                            <span>If you use the code or data of this dataset, please cite this paper:</span>
+                                            <ul>
+                                                <li><a href="https://dl.acm.org/doi/10.1145/3206025.3206037" target="_blank">&nbsp;
+                                                The PMEmo Dataset for Music Emotion Recognition</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn13">
+                                    <a href="#PMEmo" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn13.js"></script>
                         </div>
                         <div class="download-all">
                             <h3>Download</h3>
@@ -2177,6 +2279,23 @@
                                 <li>
                                     <a href="https://github.com/ccmusic-database/ccmusic-database.git" target="_blank"
                                         class="social5"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../team.html"> TEAM </a>
+                            <ul>
+                                <li>
+                                    <a href="../team.html"><img src="../images/fd.jpg" width="225px"><br>
+                                        FD-LAMT<br>
+                                        Lab of Audio and Music Technology
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../team.html"><img src="../images/zj.png" width="240px"><br>
+                                        Zhejiang University<br>
+                                        NEXT Lab
+                                    </a>
                                 </li>
                             </ul>
                         </div>
