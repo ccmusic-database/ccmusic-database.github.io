@@ -206,9 +206,9 @@ header {
 
 .body {
     display: block;
+    background-color: #f0f5f5;
     height: 100%;
     overflow-x: hidden;
-    z-index: 1;
 }
 
 .body-adjust1 {
@@ -219,13 +219,11 @@ header {
     width: calc(100% - 150px);
     overflow-x: hidden;
     margin-bottom: 0;
-    z-index: 1;
 }
 
 .body-adjust2 {
     display: block;
     overflow: hidden;
-    z-index: 1;
 }
 
 .body-container {
@@ -237,18 +235,18 @@ header {
 .body-container .body-overview {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     width: 100%;
     max-width: 1440px;
     padding: 0 60px;
-    margin: 0px auto;
+    margin: 0px auto 50px;
     align-items: center;
-    text-align: center;
+    text-align: left;
     z-index: 1;
 }
 
 .body-container .body-overview h1 {
-    margin: 50px 0 0;
+    margin: 50px 0 30px;
     width: 100%;
     overflow: hidden;
 }
@@ -258,7 +256,7 @@ header {
         transform: translateY(100px);
     }
     100% {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
 }
 
@@ -273,221 +271,194 @@ header {
     animation: name-move 1.5s ease-out;
 }
 
-.body-container .body-overview h1 span:nth-child(2) {
-    font-size: 24px;
+.body-container .body-overview h1 span:last-of-type {
+    font-size: 28px;
 }
 
-.body-container .body-overview .description {
-    margin-top: 50px;
-    width: 100%;
-    color: #000000;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: left;
-    text-indent: 2em;
+.body-container .body-overview .tdjs1 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    width: 90%;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
-.body-container .body-overview .property {
-    width: 100%;
-    margin-top: 40px;
+.body-container .body-overview .tdjs1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
 }
 
-.property .property-left {
-    float: left;
+.body-container .body-overview .tdjs1 .mingcheng1 {
+    position: relative;
     width: 60%;
-    padding: 30px 20px 30px 0;
-    border-right: 2px solid #dddddd;
+    height: 100%;
+    padding: 45px 30px;
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .tdjs1 .mingcheng1 .mingcheng1-1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a1a1a1;
+}
+
+.body-container .body-overview .tdjs1 .mingcheng1 .mingcheng1-2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.body-container .body-overview .tdjs1 .mingcheng1 .mingcheng1-3 {
     font-size: 16px;
-    line-height: 24px;
+}
+
+.body-container .body-overview .tdjs1 .mingcheng1 .mingcheng1-4 {
+    font-size: 24px;
+    font-weight: 500;
     color: #000000;
-    text-align: left;
-    text-indent: 2em;
 }
 
-.property .property-right1 {
-    float: left;
-    width: calc(40% - 20px);
-    height: 100%;
-    margin-left: 20px;
-    overflow: hidden;
+.watchmore {
+    position: absolute;
+    top: 330px;
+    right: 30px;
 }
 
-.property .property-right1 .property-right2 {
-    width: 100%;
+.watchmore button {
+    position: relative;
+    font-size: 18px;
+    font-weight: 520;
+    background-color: transparent;
+}
+
+.watchmore button a {
+    color: #a1a1a1;
+    transition: all 0.3s ease-in-out;
+}
+
+.watchmore button:hover a {
+    color: #0d5ebb;
+}
+
+.watchmore button:hover a::after {
+    left: 90px;
+}
+
+.watchmore button a::after {
+    position: absolute;
+    top: 4px;
+    left: 80px;
+    font-family: 'icomoon';
+    content: '\ea3c';
+    font-size: 18px;
+    font-weight: 400;
+    transform: scaleX(1.5);
+    transition: left 0.5s ease 0.3s;
+}
+
+.body-container .body-overview .tdjs1 .tupian1 {
     height: 100%;
-    background: url(../images/1.png);
+    width: 40%;
+    border-radius: 0 20px 20px 0;
+    background-image: url(../images/fd.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.body-container .body-overview .tdjs2 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    width: 90%;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.body-container .body-overview .tdjs2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+
+.body-container .body-overview .tdjs2 .mingcheng1 {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    padding: 45px 30px;
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .tdjs2 .mingcheng1 .mingcheng1-1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a1a1a1;
+}
+
+.body-container .body-overview .tdjs2 .mingcheng1 .mingcheng1-2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.body-container .body-overview .tdjs2 .mingcheng1 .mingcheng1-3 {
+    font-size: 16px;
+}
+
+.body-container .body-overview .tdjs2 .mingcheng1 .mingcheng1-4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.watchmore {
+    position: absolute;
+    top: 330px;
+    right: 30px;
+}
+
+.watchmore button {
+    position: relative;
+    font-size: 18px;
+    font-weight: 520;
+    background-color: transparent;
+}
+
+.watchmore button a {
+    color: #a1a1a1;
+    transition: all 0.3s ease-in-out;
+}
+
+.watchmore button:hover a {
+    color: #0d5ebb;
+}
+
+.watchmore button:hover a::after {
+    left: 90px;
+}
+
+.watchmore button a::after {
+    position: absolute;
+    top: 4px;
+    left: 80px;
+    font-family: 'icomoon';
+    content: '\ea3c';
+    font-size: 18px;
+    font-weight: 400;
+    transform: scaleX(1.5);
+    transition: left 0.5s ease 0.3s;
+}
+
+.body-container .body-overview .tdjs2 .tupian1 {
+    height: 100%;
+    width: 40%;
+    border-radius: 0 20px 20px 0;
+    background-image: url(../images/zj1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    transition: all 1s ease;
-}
-
-.property .property-right1:hover .property-right2 {
-    transform: scale(1.05);
-}
-
-.body-container .body-overview .table1 {
-    width: 100%;
-    margin-top: 50px;
-}
-
-.table1 p {
-    margin-bottom: 10px;
-    text-align: left;
-    color: #000000;
-    font-size: 18px;
-    line-height: 30px;
-    text-indent: 2em;
-}
-
-.table1 table {
-    width: 100%;
-    margin: 0 auto;
-    border: 2px solid #000000;
-    border-collapse: collapse;
-    border-spacing: 0;
-    color: #000000;
-    font-size: 16px;
-}
-
-.table1 table td, .table1 table th {
-    border: 1px solid #000000;
-    padding: 5px 20px;
-}
-
-.body-container .body-overview .table2 {
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.table2 p {
-    margin-bottom: 10px;
-    text-align: left;
-    color: #000000;
-    font-size: 18px;
-    line-height: 30px;
-    text-indent: 2em;
-}
-
-.table2 table {
-    width: 100%;
-    margin: 0 auto;
-    border: 2px solid #000000;
-    border-collapse: collapse;
-    border-spacing: 0;
-    color: #000000;
-    font-size: 16px;
-}
-
-.table2 table td, .table2 table th {
-    border: 1px solid #000000;
-    padding: 5px 20px;
-}
-
-.table2 table td a {
-    color: #000000;
-    transition: all 0.5s ease;
-}
-
-.table2 table td a:hover {
-    color: #0d5ebb;
-}
-
-.table2 table tbody tr td:nth-of-type(2) a::after {
-    font-family: 'icomoon';
-    content: '\e941';
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-}
-
-.body-container .body-overview .download-reference {
-    width: 100%;
-    text-align-last: left;
-    color: #000000;
-}
-
-.download-reference h4 {
-    font-size: 22px;
-    color: #0d5ebb;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
-.download-reference span {
-    display: block;
-    font-size: 18px;
-    text-indent: 2em;
-}
-
-.download-reference span a {
-    color: #000000;
-    transition: all 0.5s ease;
-}
-
-.download-reference>span>a::before {
-    font-family: 'icomoon';
-    content: '\e92b';
-    font-size: 24px;
-}
-
-.download-reference span a:hover {
-    color: #0d5ebb;
-}
-
-.download-reference ul {
-    margin-top: 15px;
-    text-indent: 2em;
-    margin-bottom: 30px;
-}
-
-.download-reference ul li a {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 700;
-    transition: all 0.5s ease;
-}
-
-.download-reference ul li a::before {
-    font-family: 'icomoon';
-    content: '\e9cb';
-    font-size: 24px;
-}
-
-.download-reference ul li a:hover {
-    color: #0d5ebb;
-}
-
-.body-overview .download-all {
-    margin-top: 30px;
-    margin-bottom: 50px;
-    width: 100%;
-    text-align: left;
-}
-
-.body-overview .download-all h3 {
-    margin-bottom: 20px;
-    font-size: 27px;
-    color: #0d5ebb;
-    font-weight: 700;
-}
-
-.body-overview .download-all p {
-    font-size: 18px;
-    text-indent: 2em;
-    color: #000000;
-}
-
-.body-overview .download-all p a::after {
-    font-family: 'icomoon';
-    content: '\e9cb';
-    font-size: 24px;
-    color: #000000;
-}
-
-.body-overview .download-all p a:hover::after {
-    color: #0d5ebb;
+    background-position: center;
 }
 
 .backtotop {
