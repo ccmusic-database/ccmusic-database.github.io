@@ -1,0 +1,795 @@
+musicId,fileName,title,artist,album,duration,chorus_start_time,chorus_end_time
+1,1.mp3,Good Drank,2 Chainz,"Def Jam Presents: Direct Deposit, Vol. 2",32.1,02:35,03:05
+4,4.mp3,X Bitch (feat. Future),21 Savage,Savage Mode,28.09,03:00,03:26
+5,5.mp3,No Heart,21 Savage,Savage Mode,84.23,00:41,02:03
+6,6.mp3,Red Opps,21 Savage,Red Opps,29.53,02:16,02:44
+7,7.mp3,Girls Talk Boys,5 Seconds Of Summer,Ghostbusters (Original Motion Picture Soundtrack),29.11,02:30,02:57
+8,8.mp3,PRBLMS,6LACK,FREE 6LACK,40.14,02:10,02:48
+9,9.mp3,Timeless,A Boogie Wit Da Hoodie,TBA,23.09,01:57,02:18
+10,10.mp3,Drowning,A Boogie Wit Da Hoodie,Drowning,32.1,02:43,03:13
+11,11.mp3,My Shit,A Boogie Wit Da Hoodie,My Shit,15.08,01:37,01:50
+12,12.mp3,We The People....,A Tribe Called Quest,We got it from Here... Thank You 4 Your service,27.1,02:27,02:52
+13,13.mp3,Weak,AJR,What Everyone's Thinking,33.12,02:38,03:09
+14,14.mp3,I’m Sorry,Adam Wakefield,I’m Sorry (The Voice Performance),26.1,01:55,02:19
+15,15.mp3,Lonesome Broken and Blue (The Voice Performance),Adam Wakefield,The Complete Season 10 Collection (The Voice Performance),37.13,02:56,03:31
+16,16.mp3,When I Call Your Name (The Voice Performance),Adam Wakefield,The Complete Season 10 Collection (The Voice Performance),51.16,02:06,02:55
+17,17.mp3,Hello,Adele,Hello,53.15,03:51,04:42
+18,18.mp3,Send My Love (To Your New Lover),Adele,Send My Love (To Your New Lover),52.16,02:50,03:40
+19,19.mp3,Water Under The Bridge,Adele,25,43.15,03:02,03:43
+20,20.mp3,We're In This Love Together,Al Jarreau,Breakin' Away,81.22,02:27,03:46
+21,21.mp3,Faded,Alan Walker,Faded,45.14,02:32,03:15
+23,23.mp3,How Far I'll Go(Alessia Cara Version),Alessia Cara,Moana (Original Motion Picture Soundtrack),28.09,02:19,02:45
+25,25.mp3,Scars To Your Beautiful,Alessia Cara,Know-It-All (Deluxe),42.13,02:57,03:37
+26,26.mp3,Wild Things(NuKid Remix),Alessia Cara,Wild Things (The Remixes),18.09,03:54,04:10
+28,28.mp3,Not Easy,Alex Da Kid,Not Easy,49.14,03:13,04:00
+29,29.mp3,Down That Road (The Voice Performance),Alisan Porter,The Complete Season 10 Collection (The Voice Performance),41.13,03:02,03:41
+30,30.mp3,Somewhere (The Voice Performance),Alisan Porter,The Complete Season 10 Collection (The Voice Performance),52.16,01:53,02:43
+31,31.mp3,Caroline,Amine,Caroline,18.09,02:55,03:11
+32,32.mp3,Rise Up,Andra Day,Rise Up,35.11,03:17,03:50
+33,33.mp3,Fresh Eyes,Andy Grammer,Fresh Eyes,33.12,02:30,03:01
+34,34.mp3,It's the Most Wonderful Time of the Year,Andy Williams,Five Songs Of Christmas - Classic,36.13,01:53,02:27
+35,35.mp3,True Colors,Anna Kendrick,True Colors,52.16,03:01,03:51
+37,37.mp3,Alarm,Anne-Marie,Alarm,44.14,02:41,03:23
+38,38.mp3,Ciao Adios,Anne-Marie,Ciao Adios,39.12,02:41,03:18
+39,39.mp3,Thief,Ansel Elgort,Thief,44.14,02:51,03:33
+40,40.mp3,Beauty and the Beast,Ariana Grande,"Beauty and the Beast (From ""Beauty and the Beast"")",37.13,02:35,03:10
+42,42.mp3,Dangerous Woman,Ariana Grande,KISS Kesähitti,47.15,02:40,03:25
+43,43.mp3,One Last Time,Ariana Grande,My Everything (Deluxe),40.14,02:34,03:12
+44,44.mp3,Forever Country,Artists Of Then,Forever Country,60.17,02:49,03:47
+46,46.mp3,Rolex,Ayo & Teo,Rolex,45.14,02:38,03:21
+47,47.mp3,Suga Suga,Baby Bash,Now That's What I Call Music! Vol. 14,36.13,02:49,03:23
+48,48.mp3,Do They Know It's Christmas?,Band Aid 20,Do They Know Its Christmas?,33.12,03:06,03:37
+49,49.mp3,Good Grief,Bastille,Good Grief,34.12,02:53,03:25
+50,50.mp3,Fight For Your Right,Beastie Boys,Anthology:  The Sounds Of Science,33.12,02:44,03:15
+51,51.mp3,I Got You,Bebe Rexha,I Got You,21.08,02:26,02:45
+52,52.mp3,Might Not,Belly,Up For Days,31.1,02:36,03:05
+54,54.mp3,Brand New,Ben Rector,Brand New,29.11,03:05,03:32
+55,55.mp3,No Favors,Big Sean,I Decided.,33.12,01:53,02:24
+56,56.mp3,Blessings,Big Sean,Dark Sky Paradise (Deluxe),28.09,03:46,04:12
+57,57.mp3,Bounce Back,Big Sean,I Decided.,49.14,01:50,02:37
+58,58.mp3,Halfway Off the Balcony,Big Sean,I Decided.,55.17,01:55,02:48
+59,59.mp3,Jump Out the Window,Big Sean,I Decided.,28.09,01:24,01:50
+60,60.mp3,Light,Big Sean,I Decided.,47.15,02:19,03:04
+61,61.mp3,Moves,Big Sean,I Decided.,28.09,01:41,02:07
+63,63.mp3,Owe Me,Big Sean,I Decided.,29.11,02:28,02:55
+64,64.mp3,Sacrifices,Big Sean,I Decided.,14.06,02:42,02:54
+65,65.mp3,Sweatshirt - Tribute to Jacob Sartorius,Billboard Masters,Sweatshirt - Tribute to Jacob Sartorius,25.11,02:12,02:35
+66,66.mp3,It Don't Hurt Like It Used To,Billy Currington,Summer Forever,25.11,02:23,02:46
+67,67.mp3,River,Bishop Briggs,River,33.12,03:00,03:31
+68,68.mp3,Do Re mi,Blackbear,Digital Druglord,29.11,02:35,03:02
+69,69.mp3,A Guy With a Girl,Blake Shelton,If I'm Honest,17.07,02:26,02:41
+70,70.mp3,Came Here to Forget,Blake Shelton,If I'm Honest,30.11,02:24,02:52
+71,71.mp3,Every Time I Hear That Song,Blake Shelton,If I'm Honest,28.09,02:18,02:44
+72,72.mp3,Go Ahead and Break My Heart,Blake Shelton,If I'm Honest,21.08,03:17,03:36
+73,73.mp3,She's Got a Way With Words,Blake Shelton,If I'm Honest,18.09,02:21,02:37
+74,74.mp3,Bored To Death,Blink 182,California,26.1,02:45,03:09
+75,75.mp3,Rabbit Hole,Blink-182,Rabbit Hole,22.1,01:46,02:06
+76,76.mp3,Is This Love (Extended Mix),Bob Marley,Is This Love,20.08,02:28,02:46
+78,78.mp3,Jingle Bell Rock,韩国群星,해피 에로 크리스마스,41.13,01:26,02:05
+79,79.mp3,Livin' On A Prayer,Bon Jovi,Slippery When Wet,48.15,03:23,04:09
+80,80.mp3,Without a Fight,Brad Paisley,Without a Fight,19.09,03:15,03:32
+81,81.mp3,Today,Brad Paisley,Today,26.1,02:17,02:41
+83,83.mp3,The Weekend,Brantley Gilbert,The Weekend,27.1,02:17,02:42
+84,84.mp3,Rockin' Around The Christmas Tree (Re-Recorded Version),²¼Â×´ï.Àî(Brenda Lee),,17.07,01:28,01:43
+85,85.mp3,Rockin' Around the Christmas Tree,Brenda Lee,Rockin' Around the Christmas Tree,14.06,01:28,01:40
+86,86.mp3,Somethin' I'm Good At,Brett Eldredge,Somethin' I'm Good At,32.1,03:07,03:37
+87,87.mp3,Wanna Be That Song,Brett Eldredge,Illinois,30.11,02:52,03:20
+88,88.mp3,In Case You Didn't Know,Brett Young,Brett Young,35.11,02:44,03:17
+89,89.mp3,Sleep Without You,Brett Young,Brett Young,30.11,02:12,02:40
+90,90.mp3,Make Me...,Britney Spears,Make Me...,35.11,03:14,03:47
+91,91.mp3,Slumber Party,Britney Spears,Glory (Deluxe Version),30.11,02:45,03:13
+92,92.mp3,Make Me...,Britney Spears,Make Me...,35.11,03:14,03:47
+93,93.mp3,Broadway+For+Orlando,Various Artists,The Sound Of Dance In 2000,76.22,02:30,03:44
+94,94.mp3,Dance Like Me,Brooklyn and Bailey,Dance Like Me,37.13,02:12,02:47
+95,95.mp3,It Ain't My Fault,Brothers Osborne,Pawn Shop,14.06,02:58,03:10
+96,96.mp3,24K Magic,Bruno Mars,24K Magic,38.12,03:07,03:43
+97,97.mp3,Perm,Bruno Mars,24K Magic,19.09,03:10,03:27
+98,98.mp3,That's What I Like,Bruno Mars,24K Magic,31.1,02:54,03:23
+99,99.mp3,Versace On The Floor,Bruno Mars,24K Magic,26.1,03:39,04:03
+100,100.mp3,Don't,Bryson Tiller,T R A P S O U L,40.14,02:40,03:18
+101,101.mp3,Exchange,Bryson Tiller,T R A P S O U L,13.07,01:50,02:01
+102,102.mp3,A Holly Jolly Christmas,Burl Ives,Colorful Fruit,18.09,01:01,01:17
+103,103.mp3,LIFTED,CL,LIFTED,24.09,02:28,02:50
+104,104.mp3,Dancing On My Own(Ben Dooks Remix),Calum Scott,Dancing On My Own (Ben Dooks Remix),65.19,04:06,05:09
+105,105.mp3,Dancing on My Own,Calum Scott,Dancing on My Own,50.17,03:08,03:56
+106,106.mp3,Slide,Calvin Harris,Slide,40.14,02:54,03:32
+107,107.mp3,Rollin,Calvin Harris,Rollin,22.1,04:10,04:30
+108,108.mp3,This Is What You Came For,Calvin Harris,This Is What You Came For,49.14,02:50,03:37
+109,109.mp3,Heatstroke,Calvin Harris,Heatstroke,54.17,02:19,03:11
+110,110.mp3,My Way,Calvin Harris,My Way,14.06,02:40,02:52
+113,113.mp3,Crying In The Club,Camila Cabello,Crying In The Club,38.12,02:57,03:33
+114,114.mp3,I Have Questions,Camila Cabello,I Have Questions,38.12,03:02,03:38
+115,115.mp3,La Bicicleta,Carlos Vives,La Bicicleta,43.15,03:02,03:43
+116,116.mp3,Church Bells,Carrie Underwood,Storyteller,27.1,02:44,03:09
+117,117.mp3,Dirty Laundry,Carrie Underwood,Storyteller,21.08,02:25,02:44
+118,118.mp3,Millionaire (feat. Nelly),Nelly,"Blood, Sweat & 3 Years",11.08,01:46,01:55
+119,119.mp3,How Does A Moment Last Forever,Céline Dion,Beauty and the Beast (Original Motion Picture Soundtrack),59.17,02:03,03:00
+120,120.mp3,No Problem,Chance The Rapper,Coloring Book,59.17,04:04,05:01
+123,123.mp3,The Only One Who Gets Me,Charles Kelley,The Driver,33.12,01:55,02:26
+124,124.mp3,After The Afterparty,Charli XCX,After The Afterparty,36.13,03:05,03:39
+126,126.mp3,We Don't Talk Anymore,Charlie Puth,Nine Track Mind,43.15,02:53,03:34
+127,127.mp3,Attention,Charlie Puth,Attention,43.15,02:44,03:25
+128,128.mp3,One Call Away,Charlie Puth,One Call Away (Acoustic),26.1,02:40,03:04
+132,132.mp3,Everybody We Know Does,Chase Rice,Everybody We Know Does,46.13,02:46,03:30
+133,133.mp3,No Promises,Cheat Codes,No Promises,62.18,02:41,03:41
+134,134.mp3,Let Me Hold You (Turn Me On),Cheat Codes,Let Me Hold You (Turn Me On),41.13,02:02,02:41
+135,135.mp3,Me and your Mama,Childish Gambino,Me and your Mama,41.13,02:59,03:38
+136,136.mp3,Redbone,Childish Gambino,"""Awaken, My Love!""",50.17,02:43,03:31
+137,137.mp3,Money On You,Chris Blue,Money On You (The Voice Performance),42.13,02:31,03:11
+138,138.mp3,Take Me To the King,Chris Blue,Take Me To the King (The Voice Performance),41.13,02:01,02:40
+139,139.mp3,Party,Chris Brown,Party,32.1,01:59,02:29
+140,140.mp3,Back To Sleep,Chris Brown,Back To Sleep,85.22,01:55,03:18
+141,141.mp3,chris brown - grass ain't greener,Chris Brown,Grass Ain't Greene,28.09,02:52,03:18
+142,142.mp3,01 Privacy,Chris Brown,Privacy,24.09,02:48,03:10
+143,143.mp3,Holdin' Her,Chris Janson,Buy Me A Boat,61.19,02:50,03:49
+144,144.mp3,Fix,Chris Lane,Fix,40.14,01:29,02:07
+145,145.mp3,For Her,Chris Lane,Girl Problems,40.14,01:48,02:26
+146,146.mp3,Driving Home For Christmas (2003),¿ËÀïË¹ÀûÑÇ(Chris Rea),Driving Home For Christmas,40.14,02:37,03:15
+147,147.mp3,Broken Halos,Chris Stapleton,"From a Room, Vol. 1",52.16,02:06,02:56
+148,148.mp3,Either Way,Chris Stapleton,From A Room: Volume 1,35.11,03:20,03:53
+149,149.mp3,Fire Away,Chris Stapleton,Traveller,65.19,02:53,03:56
+150,150.mp3,Parachute,Chris Stapleton,Traveller,43.15,03:23,04:04
+151,151.mp3,Tennessee Whiskey,Chris Stapleton,Traveller,75.22,03:28,04:41
+152,152.mp3,Think of You (Duet with Cassadee Pope),Chris Young,Think of You (Duet with Cassadee Pope),37.13,02:53,03:28
+153,153.mp3,Sober Saturday Night (feat. Vince Gill),Chris Young,Sober Saturday Night (feat. Vince Gill),39.12,01:36,02:13
+156,156.mp3,Change,Christina Aguilera,Change,63.18,02:02,03:03
+157,157.mp3,Tilted,Christine and the Queens,Saint Claude,41.13,02:52,03:31
+158,158.mp3,Johnny B. Goode,Chuck Berry,The Ultimate Rock `n Roll Party (A Fine Rock `n Roll Voyage)  Vol1,21.08,02:15,02:34
+159,159.mp3,Tears (feat. Louisa Johnson),Clean Bandit,Tears ,49.14,02:43,03:30
+160,160.mp3,Rockabye (feat. Sean Paul & Anne-Marie),Sean Paul,Rockabye ,48.15,03:20,04:06
+161,161.mp3,Symphony,Clean Bandit,Symphony,42.13,02:49,03:29
+162,162.mp3,Rockabye (feat. Sean Paul & Anne-Marie),Sean Paul,Rockabye ,48.15,03:20,04:06
+165,165.mp3,Hymn For The Weekend,Coldplay,A Head Full Of Dreams,46.13,03:31,04:15
+166,166.mp3,Hypnotised,Coldplay,Hypnotised,38.12,05:03,05:39
+167,167.mp3,Flatliner (feat. Dierks Bentley),Cole Swindell,You Should Be Here,54.17,02:00,02:52
+168,168.mp3,Middle of a Memory,Cole Swindell,You Should Be Here,57.18,02:44,03:39
+169,169.mp3,You Should Be Here,Cole Swindell,You Should Be Here,32.1,02:27,02:57
+170,170.mp3,The Scientist,Corinne Bailey Rae,Fifty Shades Darker (Original Motion Picture Soundtrack),42.13,02:04,02:44
+171,171.mp3,Ain't Giving Up,Craig David,Ain't Giving Up,33.12,01:49,02:20
+172,172.mp3,BROCCOLI,D.R.A.M.,Broccoli,29.11,03:04,03:31
+174,174.mp3,Wishing,DJ Drama,Quality Street Music 2,26.1,03:06,03:30
+175,175.mp3,Too Much Sauce,Future,Too Much Sauce,31.1,02:57,03:26
+176,176.mp3,Shining,DJ Khaled,Shining,21.08,03:45,04:04
+177,177.mp3,For Free,DJ Khaled,Major Key,30.11,02:12,02:40
+179,179.mp3,I Got the Keys,DJ Khaled,I Got the Keys,33.12,03:00,03:31
+180,180.mp3,I'm the One,DJ Khaled,I'm the One,18.09,02:55,03:11
+181,181.mp3,Do You Mind,DJ Khaled,Major Key,18.09,04:59,05:15
+184,184.mp3,Holy Key,DJ Khaled,Major Key,34.12,04:03,04:35
+185,185.mp3,I Got the Keys,DJ Khaled,I Got the Keys,33.12,03:00,03:31
+186,186.mp3,Shining,DJ Khaled,Shining,29.11,03:42,04:09
+187,187.mp3,OTW (Remix),DJ Luke Nasty,The Boom Boom Room,28.09,02:44,03:10
+188,188.mp3,Key to the Streets(Chopped Not Slopped),DJ Slim K,Refund Season,31.1,04:59,05:28
+189,189.mp3,Middle(4B Remix),DJ Snake,Middle (4B Remix),21.08,02:31,02:50
+191,191.mp3,Let Me Love You,DJ Snake,Encore,21.08,02:02,02:21
+192,192.mp3,Turn Down for What,DJ Snake,Ultimate... Hip-Hop,23.09,02:12,02:33
+196,196.mp3,Cash Me Outside (#CashmeOutside),DJ Suede The Remix God,Cash Me Outside (#CashMeOutside),16.08,00:31,00:45
+197,197.mp3,DNCE - Cake By The Ocean (From ＂Grease Live!＂ Music From The Television Event),Various Artists,Grease Live! (Music From The Television Event),36.13,02:02,02:36
+198,198.mp3,Toothbrush,DNCE,Swaay,40.14,03:07,03:45
+199,199.mp3,Shaky Shaky,Daddy Yankee,Shaky Shaky,23.09,02:56,03:17
+200,200.mp3,"Wat U Mean (Aye, Aye, Aye)",Dae Dae,"Wat U Mean (Aye, Aye, Aye)",26.1,02:08,02:32
+201,201.mp3,From the Ground Up,Dan + Shay,Obsessed,32.1,03:23,03:53
+202,202.mp3,How Not To,Dan + Shay,Obsessed,30.11,02:20,02:48
+203,203.mp3,When I Pray For You,Dan + Shay,The Shack: Music From and Inspired By the Original Motion Picture,36.13,02:33,03:07
+204,204.mp3,Evermore,Dan Stevens,Beauty and the Beast (Original Motion Picture Soundtrack),31.1,02:10,02:39
+205,205.mp3,If I Told You,Darius Rucker,If I Told You,14.06,02:42,02:54
+206,206.mp3,Light My Body Up (feat. Nicki Minaj & Lil Wayne),David Guetta,Light My Body Up (feat. Nicki Minaj & Lil Wayne),12.07,03:25,03:35
+207,207.mp3,Titanium (Feat. Sia),David Guetta,Nothing But The Beat (US Edition),32.1,03:03,03:33
+209,209.mp3,Night's On Fire,David Nail,Night's On Fire,28.09,02:35,03:01
+210,210.mp3,Hide Away,Daya,"Sit Still, Look Pretty",24.09,02:26,02:48
+211,211.mp3,"Sit Still, Look Pretty",Daya,Daya,44.14,02:17,02:59
+212,212.mp3,Body Say,Demi Lovato,Body Say,46.13,02:23,03:07
+213,213.mp3,Panda (#PANDATO Version),Desiigner,Panda,66.19,02:23,03:27
+215,215.mp3,Tiimmy Turner,Desiigner,Tiimmy Turner,48.15,03:09,03:55
+216,216.mp3,Different for Girls,Dierks Bentley,Black,30.11,02:22,02:50
+217,217.mp3,Black,Dierks Bentley,Black,27.1,02:23,02:48
+219,219.mp3,Drunk On A Plane,Dierks Bentley,,39.12,03:09,03:46
+220,220.mp3,Somewhere on a Beach,Dierks Bentley,Black,29.11,02:13,02:40
+221,221.mp3,On My Mind,Disciples,On My Mind,33.12,02:29,03:00
+222,222.mp3,The Sound Of Silence,Disturbed,Immortalized,39.12,03:05,03:42
+224,224.mp3,Sneakin',Drake,Sneakin',24.09,03:35,03:57
+225,225.mp3,Get It Together,Drake,More Life,20.08,02:56,03:14
+226,226.mp3,Grammys,Drake,Views,15.08,03:05,03:18
+227,227.mp3,Jumpman,Drake,What a Time To Be Alive,22.1,02:50,03:10
+228,228.mp3,KMT,Drake,More Life,16.08,02:10,02:24
+229,229.mp3,No Long Talk,Drake,More Life,36.13,01:35,02:09
+230,230.mp3,Glow,Drake,More Life,28.09,02:59,03:25
+231,231.mp3,With You,Drake,Views,30.11,02:02,02:30
+232,232.mp3,Faithful,Drake,Views,39.12,03:44,04:21
+233,233.mp3,Controlla,Drake,Controlla,60.17,03:05,04:03
+234,234.mp3,Portland,Drake,More Life,29.11,02:58,03:25
+235,235.mp3,Too Good,Drake,Views,25.11,03:32,03:55
+236,236.mp3,4422,Drake,More Life,32.1,02:18,02:48
+237,237.mp3,Pop Style,Drake,Pop Style,44.14,01:50,02:32
+238,238.mp3,One Dance,Drake,Views,20.08,02:30,02:48
+239,239.mp3,Ice Melts,Drake,More Life,49.14,02:34,03:21
+241,241.mp3,9,Drake,Views,19.09,02:54,03:11
+242,242.mp3,Blem,Drake,More Life,29.11,02:17,02:44
+244,244.mp3,Childs Play,Drake,Views,44.14,02:28,03:10
+249,249.mp3,Fake Love,Drake,Fake Love,31.1,02:45,03:14
+251,251.mp3,Feel No Ways,Drake,Views,22.1,02:28,02:48
+252,252.mp3,Fire & Desire,Drake,Views,37.13,03:18,03:53
+253,253.mp3,Free Smoke,Drake,More Life,50.17,02:26,03:14
+257,257.mp3,Gyalchester,Drake,More Life,61.19,01:17,02:16
+258,258.mp3,Hype,Drake,Views,18.09,02:21,02:37
+260,260.mp3,Jorja Interlude,Drake,More Life,46.13,00:19,01:03
+263,263.mp3,Keep The Family Close,Drake,Views,30.11,03:51,04:19
+264,264.mp3,Lose You,Drake,More Life,12.07,03:58,04:08
+265,265.mp3,Madiba Riddim,Drake,More Life,41.13,02:03,02:42
+267,267.mp3,Nothings Into Somethings,Drake,More Life,41.13,00:47,01:26
+269,269.mp3,Passionfruit,Drake,More Life,36.13,03:16,03:50
+273,273.mp3,Redemption,Drake,Views,49.14,02:34,03:21
+275,275.mp3,Since Way Back,Drake,More Life,38.12,04:39,05:15
+276,276.mp3,Skepta Interlude,Drake,More Life,47.15,01:19,02:04
+277,277.mp3,Sneakin’,Drake,Sneakin’,24.09,03:35,03:57
+278,278.mp3,Still Here,Drake,Views,15.08,01:56,02:09
+279,279.mp3,Summer Sixteen,Drake,Summer Sixteen,28.09,02:41,03:07
+280,280.mp3,Teenage Fever,Drake,More Life,38.12,02:18,02:54
+282,282.mp3,"Two Birds, One Stone",Drake,"Two Birds, One Stone",24.09,03:20,03:42
+283,283.mp3,U With Me?,Drake,Views,20.08,03:29,03:47
+284,284.mp3,Views,Drake,Views,32.1,03:13,03:43
+285,285.mp3,Weston Road Flows,Drake,Views,60.17,02:08,03:06
+287,287.mp3,Body,Dreezy,Body,25.11,03:12,03:35
+291,291.mp3,Be The One,Dua Lipa,Be The Ones,12.07,02:56,03:06
+292,292.mp3,Blow Your Mind (Mwah),Dua Lipa,Blow Your Mind (Mwah),27.1,02:30,02:55
+293,293.mp3,Mind Reader,Dustin Lynch,Where It's At 1,25.11,02:29,02:52
+294,294.mp3,Seein' Red,Dustin Lynch,Seein' Red,31.1,02:32,03:01
+295,295.mp3,Small Town Boy,Dustin Lynch,Small Town Boy,35.11,02:27,03:00
+296,296.mp3,You're Welcome,Dwayne Johnson,Moana (Original Motion Picture Soundtrack),37.13,02:05,02:40
+297,297.mp3,My Girl,Dylan Scott,Dylan Scott,36.13,02:30,03:04
+298,298.mp3,Castle on the Hill,Ed Sheeran,÷ (Deluxe),29.11,03:45,04:12
+299,299.mp3,How Would You Feel (Paean),Ed Sheeran,÷ (Deluxe),34.12,03:42,04:14
+300,300.mp3,06-ed_sheeran-photograph,Ed Sheeran,X (Deluxe Edition),36.13,03:19,03:53
+301,301.mp3,Shape of You,Ed Sheeran,Shape of You,42.13,03:10,03:50
+302,302.mp3,Thinking Out Loud,Ed Sheeran,Bridget Jones’s Baby,23.09,03:29,03:50
+303,303.mp3,Mr. Blue Sky (Album Version),Electric Light Orchestra,Flashback,33.12,03:19,03:50
+304,304.mp3,America's Sweetheart,Elle King,Love Stuff,48.15,02:56,03:42
+305,305.mp3,Still Falling For You,Ellie Goulding,Still Falling For You,40.14,03:07,03:45
+306,306.mp3,Step Into Christmas,Elton John,Caribou,62.18,03:22,04:22
+307,307.mp3,Hurts,Emeli Sandé,Hurts,37.13,03:01,03:36
+308,308.mp3,Love The Way You Lie,Eminem,Now Thats What I disposition Music! 37 (US Retail),24.09,03:47,04:09
+309,309.mp3,Infinite,Eminem,,26.1,03:31,03:55
+310,310.mp3,Something There,Emma Watson,Beauty and the Beast (Original Motion Picture Soundtrack),29.11,01:33,02:00
+311,311.mp3,Súbeme La Radio,Enrique Iglesias,Súbeme La Radio,13.07,03:00,03:11
+312,312.mp3,DUELE EL CORAZON,Enrique Iglesias,DUELE EL CORAZON,32.1,02:33,03:03
+313,313.mp3,Kill a Word,Eric Church,Mr. Misunderstood,22.1,02:22,02:42
+314,314.mp3,Record Year,Eric Church,Mr. Misunderstood,29.11,02:10,02:37
+315,315.mp3,Bring Me To Life,Evanescence,Daredevil - The Album (Music From The Motion Picture),44.14,03:00,03:42
+316,316.mp3,Be Our Guest,Ewan McGregor,Beauty and the Beast (Original Motion Picture Soundtrack),64.17,03:41,04:43
+317,317.mp3,Be Our Guest,Ewan McGregor,Beauty and the Beast (Original Motion Picture Soundtrack),64.17,03:41,04:43
+318,318.mp3,Capsize,Emily Warren,Capsize,33.12,02:58,03:29
+319,319.mp3,Keep Your Eyes On Me,Faith Hill,Stars (The Shack Version),30.11,03:25,03:53
+320,320.mp3,Subeme la Radio,Farandula Boys,Subeme la Radio,14.06,03:00,03:12
+321,321.mp3,All the Way Up,Fat Joe,All the Way Up,42.13,02:20,03:00
+323,323.mp3,Life Goes On,Fergie,Life Goes On,22.1,03:06,03:26
+324,324.mp3,M.I.L.F. $,Fergie,M.I.L.F. $,24.09,02:03,02:25
+325,325.mp3,Wake Up,Fetty Wap,Wake Up,44.14,02:30,03:12
+326,326.mp3,All In My Head (Flex),Fifth Harmony,7/27,41.13,02:47,03:26
+327,327.mp3,Work From Home,Fifth Harmony,7/27,39.12,02:53,03:30
+329,329.mp3,That's My Girl,Fifth Harmony,7/27 (Deluxe),42.13,02:30,03:10
+331,331.mp3,HandClap,Fitz,Fitz & the Tantrums,30.11,02:35,03:03
+332,332.mp3,The Chain,Fleetwood Mac,Rumours (Super Deluxe),60.17,03:23,04:21
+333,333.mp3,Cake,Flo Rida,This Is A Challenge,35.11,02:19,02:52
+334,334.mp3,My House,Flo Rida,空,25.11,02:43,03:06
+336,336.mp3,"God, Your Mama, And Me",Florida Georgia Line,Dig Your Roots,30.11,02:26,02:54
+337,337.mp3,May We All,Florida Georgia Line,Dig Your Roots,54.17,02:42,03:34
+338,338.mp3,Confession,Florida Georgia Line,Anything Goes,26.1,02:24,02:48
+339,339.mp3,H.O.L.Y,Florida Georgia Line,H.O.L.Y,27.1,02:30,02:55
+341,341.mp3,Smooth,Florida Georgia Line,Dig Your Roots,26.1,02:00,02:24
+342,342.mp3,Never Be Like You,Flume,Never Be Like You,17.07,03:03,03:18
+343,343.mp3,Say It,Flume,Say It,27.1,03:54,04:19
+347,347.mp3,Chanel,Frank Ocean,Chanel,32.1,02:54,03:24
+348,348.mp3,Ivy,Frank Ocean,Blonde,69.2,02:39,03:46
+349,349.mp3,Nights,Frank Ocean,Blonde,36.13,04:27,05:01
+350,350.mp3,Nikes,Frank Ocean,Blonde,36.13,04:05,04:39
+351,351.mp3,Pink + White,Frank Ocean,Blonde,54.17,02:00,02:52
+352,352.mp3,Solo,Frank Ocean,Blonde,15.08,03:05,03:18
+353,353.mp3,It All Started with a Beer,Frankie Ballard,El Rio,29.11,03:16,03:43
+354,354.mp3,No Shopping,French Montana,No Shopping,40.14,02:47,03:25
+355,355.mp3,Lockjaw,French Montana,Lockjaw,29.11,03:07,03:34
+356,356.mp3,Unforgettable,French Montana,Unforgettable,60.17,02:48,03:46
+358,358.mp3,Wicked Version,Future Pigeon,The Echodelic Sounds Of Future Pigeon,46.13,01:52,02:36
+359,359.mp3,Used to This,Future,Used to This,15.08,02:31,02:44
+360,360.mp3,Selfish,Future,HNDRXX,40.14,02:30,03:08
+361,361.mp3,Comin Out Strong,Future,HNDRXX,25.11,02:58,03:21
+362,362.mp3,Low Life (feat. The Weeknd),Future,EVOL,27.1,03:27,03:52
+364,364.mp3,Draco,Future,FUTURE,58.18,02:29,03:25
+366,366.mp3,Mask Off,Future,FUTURE,41.13,02:33,03:12
+367,367.mp3,New Level,Future,New Level,32.1,03:51,04:21
+368,368.mp3,Rent Money,Future,FUTURE,38.12,03:04,03:40
+370,370.mp3,Super Trapper,Future,FUTURE,23.09,03:12,03:33
+371,371.mp3,Wicked,Future,Wicked,12.07,02:24,02:34
+372,372.mp3,Zoom,Future,FUTURE,60.17,03:37,04:35
+373,373.mp3,"Me, Myself & I",Bebe Rexha,"Me, Myself & I (Marc Stout & Scott Svejda Remix	)",33.12,03:34,04:05
+375,375.mp3,Good Life,G-Eazy,Fast & Furious 8: The Album,58.18,02:40,03:36
+376,376.mp3,Some Kind Of Drug,G-Eazy,When It's Dark Out,31.1,02:48,03:17
+379,379.mp3,Love On Me,Galantis,Love On Me,36.13,02:33,03:07
+381,381.mp3,No Money,Galantis,No Money,17.07,02:18,02:33
+382,382.mp3,She Sets The City On Fire,Gavin DeGraw,She Sets The City On Fire,33.12,02:49,03:20
+383,383.mp3,Careless Whisper,George Michael,The Final,25.11,03:12,03:35
+384,384.mp3,Faith,George Michael,Faith CD3,11.08,03:05,03:14
+385,385.mp3,Freedom! '90(Remastered),George Michael,Happiness Forever,40.14,05:45,06:23
+386,386.mp3,My Boo,Ghost Town DJ's,Boom! 17 Explosive Hits,61.19,03:41,04:40
+388,388.mp3,home,Gnash,home,25.11,03:07,03:30
+389,389.mp3,I Hate U I Love U,Gnash,I Hate U I Love U,24.09,03:18,03:40
+391,391.mp3,Come Together,Godsmack,Live & Inspired,29.11,02:33,03:00
+392,392.mp3,Life Can't Get Much Better,Good Charlotte,Youth Authority (Bonus Track Version),15.08,02:57,03:10
+393,393.mp3,Saturnz Barz,Gorillaz,Humanz (Deluxe),25.11,02:36,02:59
+394,394.mp3,You Don't Own Me,Grace,You Don't Own Me,47.15,02:10,02:55
+395,395.mp3,You Don't Own Me,Grace,#LOVE...heartbreak,47.15,02:10,02:55
+396,396.mp3,If the Boot Fits,Granger Smith,Remington,37.13,02:10,02:45
+397,397.mp3,Both,Gucci Mane,The Return of East Atlanta Santa,45.14,01:35,02:18
+398,398.mp3,P**** Print (feat. Kanye West),Kanye West,Everybody Looking,32.1,02:32,03:02
+399,399.mp3,Back On Road,Drake,Everybody Looking,34.12,01:18,01:50
+401,401.mp3,Make Love,Gucci Mane,Make Love,46.13,03:34,04:18
+402,402.mp3,Hollaback Girl,Gwen Stefani,Love Angel Music Baby Deluxe,39.12,05:13,05:50
+403,403.mp3,Want You Back,HAIM,Want You Back,37.13,02:50,03:25
+404,404.mp3,Starving,Grey,Starving,13.07,02:29,02:40
+405,405.mp3,Most Girls,Hailee Steinfeld,Most Girls,23.09,02:44,03:05
+407,407.mp3,Eyes Closed,Halsey,Eyes Closed,31.1,02:31,03:00
+408,408.mp3,Not Afraid Anymore,Halsey,Not Afraid Anymore,31.1,02:52,03:21
+409,409.mp3,Not Afraid Anymore,Halsey,Not Afraid Anymore,31.1,02:52,03:21
+410,410.mp3,Now Or Never,Halsey,Now Or Never,54.17,02:37,03:29
+411,411.mp3,Every Breath You Take (The Voice Performance),Hannah Huston,The Complete Season 10 Collection (The Voice Performance),44.14,02:13,02:55
+412,412.mp3,I Call the Shots (The Voice Performance),Hannah Huston,The Complete Season 10 Collection (The Voice Performance),27.1,02:10,02:35
+413,413.mp3,Sign of the Times,Harry Styles,Sign of the Times,34.12,03:45,04:17
+414,414.mp3,Sweet Creature,Harry Styles,Harry Styles,37.13,02:55,03:30
+415,415.mp3,Guys My Age(Stripped),Hey Violet,Guys My Age (Stripped),32.1,02:37,03:07
+417,417.mp3,Make You Mine,High Valley,Make You Mine,22.1,02:10,02:30
+418,418.mp3,13 What a Beautiful Name (Acoustic),Hillsong Worship,Let There Be Light (Deluxe),44.14,03:20,04:02
+419,419.mp3,Higher Love,Hunter Plake,Higher Love (The Voice Performance),30.11,02:50,03:18
+420,420.mp3,Mo Bounce,Iggy Azalea,Mo Bounce,47.15,02:55,03:40
+421,421.mp3,Team(Young Bombs Remix),Iggy Azalea,Team (Young Bombs Remix),57.18,03:25,04:20
+423,423.mp3,Believer,Imagine Dragons,Evolve,31.1,02:50,03:19
+424,424.mp3,Not Today,Imagine Dragons,Me Before You (Original Motion Picture Soundtrack),40.14,03:10,03:48
+425,425.mp3,Radioactive,Imagine Dragons,Continued Silence,30.11,02:34,03:02
+426,426.mp3,Thunder,Imagine Dragons,Thunder,48.15,02:05,02:51
+427,427.mp3,Whatever It Takes,Imagine Dragons,Whatever It Takes,30.11,02:46,03:14
+428,428.mp3,Did You See,J Hus,Did You See,22.1,02:42,03:02
+429,429.mp3,4 Your Eyez Only,J. Cole,4 Your Eyez Only,32.1,05:20,05:50
+431,431.mp3,Deja Vu,J. Cole,4 Your Eyez Only,22.1,02:59,03:19
+432,432.mp3,False Prophets,J. Cole,False Prophets,24.09,03:33,03:55
+433,433.mp3,Foldin Clothes,J. Cole,4 Your Eyez Only,37.13,03:10,03:45
+434,434.mp3,For Whom the Bell Tolls,J. Cole,4 Your Eyez Only,31.1,01:06,01:35
+435,435.mp3,Immortal,J. Cole,4 Your Eyez Only,27.1,01:40,02:05
+436,436.mp3,Neighbors,J. Cole,4 Your Eyez Only,34.12,02:18,02:50
+437,437.mp3,"She's Mine, Pt. 1",J. Cole,4 Your Eyez Only,16.08,02:46,03:00
+438,438.mp3,"She's Mine, Pt. 2",J. Cole,4 Your Eyez Only,17.07,02:58,03:13
+439,439.mp3,Ville Mentality,J. Cole,4 Your Eyez Only,25.11,02:25,02:48
+440,440.mp3,everbody dies,J. Cole,everybody dies,76.22,00:46,02:00
+441,441.mp3,September Song,JP Cooper,September Song,36.13,02:56,03:30
+442,442.mp3,Hit or Miss - Jacob Sartorius,Jacob Sartorius,Hit or Miss,51.16,03:08,03:57
+443,443.mp3,American Country Love Song,Jake Owen,American Country Love Song,33.12,02:29,03:00
+444,444.mp3,If He Ain't Gonna Love You,Jake Owen,Good Company,52.16,02:35,03:25
+445,445.mp3,Safe Inside,James Arthur,Back from the Edge,40.14,02:42,03:20
+446,446.mp3,Say You Won't Let Go,James Arthur,Say You Won't Let Go,56.16,02:26,03:20
+447,447.mp3,Let It Go,James Bay,Power Hits 2015,28.09,03:35,04:01
+448,448.mp3,A Little More Summertime,Jason Aldean,They Don't Know,27.1,02:54,03:19
+449,449.mp3,Any Ol' Barstool,Jason Aldean,They Don't Know,26.1,02:41,03:05
+450,450.mp3,Lights Come On,Jason Aldean,Lights Come On,26.1,02:41,03:05
+451,451.mp3,If It Ain't Love,Jason Derulo,If It Ain't Love,33.12,02:50,03:21
+452,452.mp3,You Don't Know Me,Jax Jones,You Don't Know Me,44.14,02:47,03:29
+454,454.mp3,Love Make the World Go Round,Jennifer Lopez,Love Make the World Go Round,42.13,03:10,03:50
+455,455.mp3,Ain't Your Mama,Jennifer Lopez,Ain't Your Mama,53.15,02:42,03:33
+456,456.mp3,Unlove You,Jennifer Nettles,Playing With Fire,27.1,03:06,03:31
+457,457.mp3,oui,Jeremih,Late Nights: The Album,34.12,03:20,03:52
+458,458.mp3,Woman,Jesse Larson,Woman (The Voice Performance),46.13,02:23,03:07
+459,459.mp3,God Only Knows (Live At The 59h Grammy Awards 2017)-John Legend、Cynthia Erivo,Various Artists,The Sound Of Dance In 2000,13.07,01:00,01:11
+460,460.mp3,Love Me Now,John Legend,Love Me Now,34.12,02:57,03:29
+461,461.mp3,Changing,John Mayer,The Search for Everything - Wave One,20.08,01:27,01:45
+462,462.mp3,Love On The Weekend,John Mayer,Love On The Weekend,24.09,03:00,03:22
+463,463.mp3,Moving On and Getting Over,John Mayer,The Search for Everything - Wave One,47.15,03:30,04:15
+464,464.mp3,You're Gonna Live Forever in Me,John Mayer,The Search for Everything - Wave One,11.08,01:41,01:50
+465,465.mp3,Ain't No Grave (Album Version),Johnny Cash,American VI:  Ain't No Grave,21.08,02:21,02:40
+466,466.mp3,All Time Low (explicit),Jon Bellion,All Time Low,26.1,03:01,03:25
+468,468.mp3,Dirt On My Boots,Jon Pardi,California Sunrise,49.14,02:32,03:19
+469,469.mp3,Head Over Boots,Jon Pardi,Head Over Boots,27.1,02:35,03:00
+470,470.mp3,Perfect Strangers,JP Cooper,Perfect Strangers,63.18,02:02,03:03
+471,471.mp3,By Your Side,Jonas Blue,By Your Side,66.19,02:13,03:17
+472,472.mp3,Mama,Jonas Blue,Mama,56.16,01:41,02:35
+476,476.mp3,Feliz Navidad,José Feliciano,Feliz Navidad,41.13,02:21,03:00
+477,477.mp3,Homecoming,Josh Ritter,Sermon on the Rocks,42.13,04:35,05:15
+478,478.mp3,Hometown Girl,Josh Turner,Hometown Girl,45.14,02:30,03:13
+479,479.mp3,Get Your Freedom,Joy Villa,Get Your Freedom,23.09,02:14,02:35
+480,480.mp3,I Make the Static,Joy Villa,I Make the Static,48.15,02:19,03:05
+481,481.mp3,The Darkness,Joy Villa,I Make the Static,26.1,02:43,03:07
+482,482.mp3,Vagabonds,Joy Villa,I Make the Static,50.17,02:42,03:30
+483,483.mp3,Ain't Nothing,Juicy J,Ain't Nothing,25.11,02:51,03:14
+484,484.mp3,Issues,Julia Michaels,Issues,34.12,02:18,02:50
+485,485.mp3,. Company,Justin Bieber,Purpose (Deluxe),43.15,02:24,03:05
+486,486.mp3,. Love Yourself,Justin Bieber,Purpose (Deluxe),42.13,03:12,03:52
+487,487.mp3,. Sorry,Justin Bieber,Purpose (Deluxe),37.13,02:30,03:05
+488,488.mp3,You Look Like I Need A Drink,Justin Moore,You Look Like I Need A Drink,27.1,02:35,03:00
+489,489.mp3,justin timberlake - can't stop the feeling! (original song from dreamworks animation’s “trolls”),Justin Timberlake,"CAN'T STOP THE FEELING! (Original Song From DreamWorks Animation's ""Trolls"")",44.14,03:10,03:52
+490,490.mp3,Liability,KLOE,Liability,27.1,02:35,03:00
+491,491.mp3,Way Down We Go,Kaleo,A/B,49.14,01:10,01:57
+492,492.mp3,What Ifs,Kane Brown,Kane Brown,34.12,02:18,02:50
+493,493.mp3,Ain't No Stopping Us Now,Kane Brown,Ain't No Stopping Us Now,40.14,02:22,03:00
+494,494.mp3,01 Champions,Kanye West,Champions,32.1,05:00,05:30
+495,495.mp3,Kanye West Ft. Rihanna - Famous (New Version) (CDQ),Kanye West,Famous,69.2,01:50,02:57
+496,496.mp3,Fade,Kanye West,The Life Of Pablo,34.12,02:28,03:00
+499,499.mp3,Bon Appétit,Katy Perry,Bon Appétit,29.11,03:13,03:40
+500,500.mp3,Swish Swish,Katy Perry,Swish Swish,35.11,03:26,03:59
+501,501.mp3,Chained To The Rhythm,Katy Perry,Chained To The Rhythm,44.14,03:13,03:55
+503,503.mp3,Katy Perry - Rise (CDQ),Katy Perry,Rise,60.17,02:15,03:13
+504,504.mp3,Kehlani - CRZY,Kehlani,CRZY,32.1,02:13,02:43
+505,505.mp3,Distraction,Kehlani,Distraction,34.12,03:10,03:42
+506,506.mp3,Gangsta,Kehlani,Suicide Squad: The Album,34.12,02:10,02:42
+507,507.mp3,8,Keith Urban,Ripcord,32.1,02:18,02:48
+508,508.mp3,7,Keith Urban,Ripcord,37.13,02:55,03:30
+510,510.mp3,Wasted Time,Keith Urban,Wasted Time,35.11,03:12,03:45
+511,511.mp3,"Michelle Obama,Kelly Clarkson,Missy Elliott - This Is For My Girls",Michelle Obama,This Is For My Girls,41.13,03:03,03:42
+512,512.mp3,Piece By Piece (Idol Version),Kelly Clarkson,Piece by Piece (Idol Version),32.1,03:01,03:31
+514,514.mp3,Peter Pan,Kelsea Ballerini,The First Time,40.14,02:32,03:10
+515,515.mp3,Yeah Boy,Kelsea Ballerini,Kelsea Ballerini,57.18,02:17,03:12
+516,516.mp3,LOYALTY.,Kendrick Lamar,DAMN.,29.11,03:18,03:45
+517,517.mp3,XXX.,Kendrick Lamar,DAMN.,21.08,03:55,04:14
+518,518.mp3,LOVE.,Kendrick Lamar,DAMN.,22.1,03:10,03:30
+519,519.mp3,BLOOD.,Kendrick Lamar,DAMN.,19.09,01:41,01:58
+520,520.mp3,DNA.,Kendrick Lamar,DAMN.,63.18,02:03,03:04
+521,521.mp3,DUCKWORTH.,Kendrick Lamar,DAMN.,62.18,02:30,03:30
+522,522.mp3,ELEMENT.,Kendrick Lamar,DAMN.,54.17,02:08,03:00
+523,523.mp3,FEAR.,Kendrick Lamar,DAMN.,47.15,05:25,06:10
+524,524.mp3,FEEL.,Kendrick Lamar,DAMN.,22.1,02:50,03:10
+525,525.mp3,GOD.,Kendrick Lamar,DAMN.,33.12,02:39,03:10
+526,526.mp3,HUMBLE.,Kendrick Lamar,DAMN.,37.13,02:15,02:50
+530,530.mp3,LUST.,Kendrick Lamar,DAMN.,38.12,04:30,05:06
+531,531.mp3,PRIDE.,Kendrick Lamar,DAMN.,51.16,03:42,04:31
+532,532.mp3,The Heart Part 4,Kendrick Lamar,The Heart Part 4,38.12,03:50,04:26
+534,534.mp3,YAH.,Kendrick Lamar,DAMN.,40.14,02:00,02:38
+535,535.mp3,Setting the World On Fire,Kenny Chesney,Setting the World On Fire,37.13,02:50,03:25
+536,536.mp3,Bar at the End of the World,Kenny Chesney,Cosmic Hallelujah,45.14,02:25,03:08
+537,537.mp3,Noise,Kenny Chesney,Noise,58.18,02:03,02:59
+539,539.mp3,Don't Mind,Kent Jones,Don't Mind,67.18,02:10,03:15
+540,540.mp3,You,Keyshia Cole,You,49.14,03:03,03:50
+541,541.mp3,Location,Khalid,Location,47.15,02:00,02:45
+542,542.mp3,Promise,KiD Ink,Summer in the Winter,40.14,02:48,03:26
+544,544.mp3,Picture,Kid Rock,The Studio Albums: 1998 - 2012,72.21,03:45,04:55
+546,546.mp3,Crank It (Woah!)(Radio Edit),Kideko,Crank It (Woah!) (Radio Edit),34.12,02:06,02:38
+548,548.mp3,Gold,Kiiara,Gold,37.13,03:00,03:35
+549,549.mp3,09 Conscience (feat. Future),Kodak Black,Painting Pictures,63.18,02:24,03:25
+550,550.mp3,Everything 1K,Kodak Black,Lil Big Pac,32.1,02:35,03:05
+551,551.mp3,Tunnel Vision,Kodak Black,Tunnel Vision,52.16,03:10,04:00
+552,552.mp3,This Girl (Kungs Vs. Cookin' On 3 Burners),Kungs,This Girl (Kungs Vs. Cookin' On 3 Burners),25.11,02:34,02:57
+554,554.mp3,First Time,Kygo,First Time,41.13,02:21,03:00
+555,555.mp3,It Ain't Me,Kygo,It Ain't Me,24.09,03:13,03:35
+558,558.mp3,iSpy,Kyle,iSpy,17.07,03:50,04:05
+560,560.mp3,call the police,LCD Soundsystem,call the police / american dream,47.15,05:55,06:40
+561,561.mp3,Another Day of Sun,La La Land Cast,La La Land (Original Motion Picture Soundtrack),52.16,02:55,03:45
+562,562.mp3,You Look Good,Lady Antebellum,You Look Good,27.1,02:35,03:00
+563,563.mp3,Telephone (Feat. Beyonc?,群星쀀,2011 Grammy Nominees,25.11,03:17,03:40
+564,564.mp3,Just Dance(Richard Vission Remix),Lady GaGa,Just Dance,47.15,04:15,05:00
+565,565.mp3,A-Yo,Lady Gaga,A-Yo,37.13,02:50,03:25
+566,566.mp3,Alejandro,Lady GaGa,The Fame Monster (Deluxe Edition),52.16,03:30,04:20
+567,567.mp3,Applause,Lady GaGa,ARTPOP,32.1,03:00,03:30
+568,568.mp3,Bad Romance,Lady GaGa,2010 The Hottest,34.12,04:11,04:43
+569,569.mp3,Born This Way,Lady Gaga,Born This Way (Bonus Track Version),67.18,03:05,04:10
+570,570.mp3,Million Reasons,Lady Gaga,Joanne (Deluxe),24.09,02:43,03:05
+571,571.mp3,Paparazzi,Lady GaGa,The Fame,35.11,02:47,03:20
+572,572.mp3,Perfect Illusion,Lady Gaga,Joanne (Deluxe),30.11,01:52,02:20
+573,573.mp3,Poker Face,Lady GaGa,The Fame,76.22,02:41,03:55
+574,574.mp3,Lady Gaga - The Cure,Lady Gaga,The Cure,44.14,02:43,03:25
+575,575.mp3,The Edge Of Glory (Lady Gaga Tribute) - Instrumental,Pure Music,The Edge Of Glory (Lady Gaga Tribute) - Instrumental,72.21,04:03,05:13
+576,576.mp3,You And I,Lady GaGa,Born This Way (Special Edition),57.18,03:53,04:48
+577,577.mp3,Morning Light (The Voice Performance),Laith Al-Saadi,The Complete Season 10 Collection (The Voice Performance),28.09,03:19,03:45
+578,578.mp3,Lust for Life,Lana Del Rey,Lust for Life,42.13,03:40,04:20
+579,579.mp3,Love,Lana Del Rey,Love,29.11,03:58,04:25
+580,580.mp3,Road Less Traveled,Lauren Alaina,Lauren Alaina,37.13,02:45,03:20
+582,582.mp3,Lauren_Duski_-_Ghost_In_This_House_-_Studio_Version_-_The_Voice_12,Lauren Duski,Ghost In This House (The Voice Performance),62.18,02:25,03:25
+583,583.mp3,The Dance,Lauren Duski,The Dance (The Voice Performance),39.12,02:40,03:17
+584,584.mp3,Boy,Lee Brice,Boy,17.07,02:25,02:40
+585,585.mp3,That Don't Sound Like You,Lee Brice,I Don't Dance,32.1,02:30,03:00
+587,587.mp3,Hallelujah((Album Version),Leonard Cohen,Various Positions,62.18,03:30,04:30
+588,588.mp3,Strip That Down,Liam Payne,Strip That Down,39.12,02:45,03:22
+589,589.mp3,03 Money Longer,Lil Uzi Vert,Lil Uzi Vert Vs. The World,43.15,02:24,03:05
+590,590.mp3,XO TOUR Llif3,Lil Uzi Vert,XO TOUR Llif3,53.15,02:09,03:00
+591,591.mp3,05 You Was Right,Lil Uzi Vert,Lil Uzi Vert Vs. The World,27.1,02:15,02:40
+592,592.mp3,Sucker For Pain,Lil Wayne,Suicide Squad: The Album,32.1,03:30,04:00
+594,594.mp3,Peek A Boo,Lil Yachty,Peek A Boo,64.17,02:48,03:50
+595,595.mp3,One Night (Extended),Lil Yachty,Lil' Boat,42.13,03:00,03:40
+596,596.mp3,We Know the Way (Finale),Various Artists,Moana (Original Motion Picture Soundtrack) [Deluxe Edition],14.06,00:48,01:00
+597,597.mp3,Heavy,Linkin Park,Heavy,31.1,02:18,02:47
+598,598.mp3,Battle Symphony,Linkin Park,One More Light,30.11,03:02,03:30
+599,599.mp3,Better Man,Little Big Town,Better Man,37.13,03:40,04:15
+600,600.mp3,Girl Crush,Little Big Town,Pain Killer,29.11,02:13,02:40
+601,601.mp3,One of Those Days,Little Big Town,One of Those Days,34.12,02:33,03:05
+602,602.mp3,When Someone Stops Loving You,Little Big Town,The Breaker,42.13,03:00,03:40
+603,603.mp3,No More Sad Songs,Little Mix,No More Sad Songs,22.1,03:00,03:20
+605,605.mp3,Shout Out to My Ex,Little Mix,Glory Days (Deluxe),33.12,03:10,03:41
+606,606.mp3,Touch,Little Mix,Glory Days (Deluxe),21.08,03:08,03:27
+607,607.mp3,I Know Somebody,Locash,I Love This Life,44.14,02:09,02:51
+608,608.mp3,Help Me Help You,Logan Paul,Help Me Help You,30.11,01:32,02:00
+609,609.mp3,"Logic,Alessia Cara,Khalid - 1-800-273-8255",Logic,1-800-273-8255,39.12,02:34,03:11
+610,610.mp3,Black SpiderMan,Logic,Black SpiderMan,14.06,04:00,04:12
+611,611.mp3,Everybody,Logic,Everybody,17.07,01:50,02:05
+612,612.mp3,Flexicution,Logic,Flexicution,24.09,02:28,02:50
+613,613.mp3,BRANDY,Looking Glass,Looking Glass,18.09,02:33,02:49
+614,614.mp3,The Night We Met,Lord Huron,Strange Trails,28.09,01:56,02:22
+615,615.mp3,Green Light,Lorde,Melodrama,32.1,02:35,03:05
+616,616.mp3,So Good,Louisa Johnson,So Good,30.11,02:38,03:06
+617,617.mp3,Despacito,Luis Fonsi,Despacito (Remix),24.09,02:52,03:14
+621,621.mp3,7 Years,Lukas Graham,Lukas Graham,22.1,03:31,03:51
+622,622.mp3,Mama Said,Lukas Graham,KISS Kesähitti,25.11,02:24,02:47
+623,623.mp3,Country Girl (Shake It For Me),Luke Bryan,Tailgates &amp; Tanlines,37.13,03:00,03:35
+624,624.mp3,Fast,Luke Bryan,Kill the Lights,29.11,02:24,02:51
+625,625.mp3,"Huntin', Fishin' and Lovin' Every Day",Luke Bryan,Kill the Lights,26.1,03:05,03:29
+626,626.mp3,Move,Luke Bryan,Kill the Lights,34.12,02:55,03:27
+627,627.mp3,Hurricane,Luke Combs,This One's for You,30.11,02:52,03:20
+628,628.mp3,One Number Away,Luke Combs,One Number Away,29.11,03:00,03:27
+629,629.mp3,Jump,Lupe Fiasco,DROGAS Light,29.11,03:12,03:39
+630,630.mp3,Sweet Home Alabama,Lynyrd Skynyrd,Endangered Species,21.08,03:16,03:35
+631,631.mp3,Bad Things,Machine Gun Kelly,Bad Things,29.11,03:29,03:56
+632,632.mp3,At My Best,Machine Gun Kelly,At My Best,25.11,02:40,03:03
+634,634.mp3,Uber Everywhere,MadeinTYO,Uber Everywhere,45.14,01:41,02:24
+635,635.mp3,Pretty Girl,Maggie Lindemann,Pretty Girl,24.09,02:53,03:15
+636,636.mp3,Red Dress,Magic!,Red Dress,17.07,02:41,02:56
+637,637.mp3,Cold Water (feat. Justin Bieber & MØ),Major Lazer,Cold Water (feat. Justin Bieber & MØ),35.11,02:22,02:55
+638,638.mp3,Light It Up (Remix),Major Lazer,Peace Is the Mission (Extended),19.09,01:20,01:37
+639,639.mp3,Run Up,Major Lazer,Run Up,18.09,02:45,03:01
+643,643.mp3,Felices los 4,Maluma,Felices los 4,24.09,03:14,03:36
+644,644.mp3,You & Me,Marc E. Bassy,You & Me,24.09,02:50,03:12
+645,645.mp3,You & Me,Marc E. Bassy,You & Me,24.09,02:50,03:12
+646,646.mp3,80s Mercedes,Maren Morris,Hero,27.1,02:39,03:04
+647,647.mp3,I Could Use a Love Song,Maren Morris,Hero,26.1,02:36,03:00
+648,648.mp3,My Church,Maren Morris,Hero,38.12,02:30,03:06
+649,649.mp3,Once,Maren Morris,Hero,53.15,02:49,03:40
+650,650.mp3,I Don't,Mariah Carey,I Don't,40.14,03:28,04:06
+651,651.mp3,All I Want For Christmas Is You(Original Version),Mariah Carey,Merry Christmas,67.18,02:52,03:57
+652,652.mp3,Down,Marian Hill,ACT ONE,70.2,02:09,03:17
+653,653.mp3,Return Of The Mack,Various Artists©,Ministry of Sound R&B Anthems (Dics2),44.14,02:50,03:32
+654,654.mp3,Uptown Funk,Mark Ronson,Uptown Special,28.09,03:44,04:10
+656,656.mp3,Cold,Maroon 5,Cold,40.14,02:28,03:06
+657,657.mp3,Don't Wanna Know,Maroon 5,Don't Wanna Know,20.08,02:24,02:42
+659,659.mp3,She Will Be Loved,Maroon 5,Songs About Jane,33.12,02:34,03:05
+660,660.mp3,Alone (Original Mix),Marshmello,Alone,42.13,03:09,03:49
+661,661.mp3,In The Name Of Love,Bebe Rexha,In The Name Of Love,18.09,02:29,02:45
+662,662.mp3,Scared To Be Lonely,Martin Garrix,Scared To Be Lonely,43.15,02:27,03:08
+665,665.mp3,Solo Dance,Martin Jensen,Solo Dance,36.13,01:42,02:16
+666,666.mp3,Places,Martin Solveig,Places,37.13,02:42,03:17
+668,668.mp3,False Alarm,Matoma,False Alarm,23.09,02:36,02:57
+670,670.mp3,When Christmas Comes Around,Matt Terry,When Christmas Comes Around,39.12,02:35,03:12
+671,671.mp3,Litty (feat. Tory Lanez),Meek Mill,DC4,30.11,03:57,04:25
+672,672.mp3,Blessed Up,Meek Mill,DC4,23.09,02:37,02:58
+673,673.mp3,Blue Notes,Meek Mill,DC4,65.19,01:16,02:19
+674,674.mp3,Froze (feat. Lil Uzi Vert & Nicki Minaj),Nicki Minaj,DC4,44.14,01:55,02:37
+675,675.mp3,Offended (feat. Young Thug & 21 Savage),Meek Mill,DC4,48.15,02:43,03:29
+676,676.mp3,On The Regular,Meek Mill,DC4,25.11,02:34,02:57
+677,677.mp3,The Difference (feat. Quavo),Meek Mill,DC4,30.11,02:20,02:48
+678,678.mp3,Mom,Meghan Trainor,Thank You (Deluxe),59.15,02:18,03:25
+679,679.mp3,Me Too (Live At Macy's 4th of July),Various Artists,The Sound Of Dance In 2000,48.15,02:15,03:01
+681,681.mp3,NO,Meghan Trainor,NO,38.12,02:57,03:33
+682,682.mp3,Even If,MercyME,Even If,55.17,02:57,03:50
+683,683.mp3,It's Beginning To Look A Lot Like Christmas,Michael Bublé,Christmas,45.14,02:32,03:15
+684,684.mp3,Cold Little Heart,Michael Kiwanuka,Love & Hate,37.13,07:25,08:00
+685,685.mp3,Think A Little Less,Michael Ray,Michael Ray,31.1,02:01,02:30
+686,686.mp3,Drinkin' Problem,Midland,Midland - EP,38.12,02:59,03:35
+687,687.mp3,Slippery,Migos,Culture,15.08,04:44,04:57
+688,688.mp3,Bad and Boujee,Migos,Bad and Boujee,17.07,05:02,05:17
+689,689.mp3,Kelly Price,Migos,Culture,48.15,03:56,04:42
+692,692.mp3,Call Casting,Migos,Culture,16.08,03:19,03:33
+693,693.mp3,Culture,Migos,Culture,21.08,02:09,02:28
+694,694.mp3,Get Right Witcha,Migos,Culture,26.1,03:46,04:10
+697,697.mp3,T-Shirt,Migos,Culture,36.13,03:27,04:01
+698,698.mp3,What the Price,Migos,Culture,51.16,03:19,04:08
+699,699.mp3,The Ocean,Mike Perry,The Ocean (Radio Edit),57.18,02:08,03:03
+700,700.mp3,I Took a Pill In Ibiza,Mike Posner,"At Night, Alone.",22.1,03:40,04:00
+703,703.mp3,Nothing Is Promised,Mike Will Made-It,Nothing Is Promised,32.1,01:45,02:15
+704,704.mp3,Malibu,Miley Cyrus,Malibu,40.14,01:56,02:34
+705,705.mp3,Tin Man,Miranda Lambert,The Weight of These Wings,47.15,01:41,02:26
+706,706.mp3,Vice,Miranda Lambert,Vice,32.1,01:43,02:13
+707,707.mp3,I'm Better,Missy Elliott,I'm Better,39.12,02:16,02:53
+708,708.mp3,Get Ur Freak On,Missy Elliott,Miss E...So Addictive,34.12,02:14,02:46
+710,710.mp3,Final Song,MØ,Final Song,42.13,01:47,02:27
+711,711.mp3,Sexual,NEIKED,Sexual,37.13,01:20,01:55
+713,713.mp3,The Mack,Nevada,The Mack,37.13,01:12,01:47
+715,715.mp3,Can You Stand the Rain,New Edition,"Slow Jam Classic, Vol. 2",56.16,02:13,03:07
+716,716.mp3,Starboy(Originally Performed ByThe Weeknd Feat. Daft Punk),New Tribute Kings,It's The Hits 2016! Vol. 12,62.18,01:55,02:55
+717,717.mp3,Slow Hands,Niall Horan,Slow Hands,32.1,01:36,02:06
+718,718.mp3,This Town,Niall Horan,This Town,49.14,02:40,03:27
+719,719.mp3,Bom Bidi Bom,Nick Jonas,Fifty Shades Darker (Original Motion Picture Soundtrack),35.11,01:50,02:23
+720,720.mp3,Close,Nick Jonas,Close (Remixes),34.12,02:11,02:43
+722,722.mp3,Bacon,Nick Jonas,Last Year Was Complicated,32.1,01:28,01:58
+726,726.mp3,Jealous,Nick Jonas,Nick Jonas,45.14,01:31,02:14
+727,727.mp3,No Frauds,Nicki Minaj,No Frauds,32.1,02:09,02:39
+728,728.mp3,Changed It,Nicki Minaj,Changed It,42.13,03:45,04:25
+729,729.mp3,Black Barbies,Nicki Minaj,Black Barbies1,35.11,02:25,02:58
+730,730.mp3,Regret In Your Tears,Nicki Minaj,Regret In Your Tears,56.16,02:06,03:00
+731,731.mp3,El Amante,Nicky Jam,Fénix,44.14,01:57,02:39
+732,732.mp3,Hasta el Amanecer,Nicky Jam,Hasta el Amanecer,33.12,02:11,02:42
+733,733.mp3,Make Me (Cry),Noah Cyrus,Make Me (Cry),27.1,02:13,02:38
+734,734.mp3,I'm Stuck,Noah Cyrus,I'm Stuck,32.1,01:39,02:09
+736,736.mp3,Cut It (feat. Young Dolph),O.T. Genasis,Cut It,45.14,02:13,02:56
+738,738.mp3,No Such Thing as a Broken Heart,Old Dominion,No Such Thing as a Broken Heart,30.11,01:25,01:53
+739,739.mp3,Snapback,Old Dominion,Snapback,39.12,01:49,02:26
+740,740.mp3,Song for Another Time,Old Dominion,Meat and Candy,42.13,01:37,02:17
+741,741.mp3,Hate U Love U,Olivia O'Brien,Hate U Love U,32.1,02:25,02:55
+742,742.mp3,Grow Up,Olly Murs,Grow Up,36.13,01:54,02:28
+743,743.mp3,You Don't Know Love,Olly Murs,You Don't Know Love,34.12,01:53,02:25
+744,744.mp3,Kids,OneRepublic,Kids,61.19,02:43,03:42
+745,745.mp3,OneRepublic - Wherever I Go (CDQ) (HipHopStoners.com),OneRepublic,Wherever I Go,35.11,01:27,02:00
+746,746.mp3,We Know The Way,Opetaia Foa'i,"We Know The Way (From ""Moana"")",45.14,01:25,02:08
+747,747.mp3,Just Like Fire,P!NK,Alice Through the Looking Glass (Original Motion Picture Soundtrack),38.12,01:45,02:21
+748,748.mp3,Come and See Me,PARTYNEXTDOOR,Come and See Me,27.1,01:58,02:23
+749,749.mp3,Not Nice,PARTYNEXTDOOR,Not Nice,46.13,01:37,02:21
+750,750.mp3,Magnolia,PLAYBOI CARTI,Playboi Carti,49.14,01:43,02:30
+751,751.mp3,Woke Up Like This,PLAYBOI CARTI,Woke Up Like This,60.17,01:52,02:50
+752,752.mp3,Bohemian Rhapsody,Panic! At The Disco,Suicide Squad: The Album,41.13,03:23,04:02
+753,753.mp3,Death Of A Bachelor,Panic! At The Disco,Death Of A Bachelor,29.11,01:56,02:23
+754,754.mp3,Hard Times,Paramore,Hard Times,53.15,01:17,02:08
+755,755.mp3,Wonderful Christmastime [Edited Version],Paul McCartney,McCartney II,35.11,02:23,02:56
+757,757.mp3,"Mary, Did You Know?",Pentatonix,That's Christmas To Me,38.12,02:37,03:13
+758,758.mp3,Pen Pineapple Apple Pen,Piko-Taro,Pen Pineapple Apple Pen,16.08,00:23,00:37
+759,759.mp3,Pen Pineapple Apple Pen,Piko-Taro,Pen Pineapple Apple Pen,16.08,00:23,00:37
+760,760.mp3,Messin' Around,Pitbull,Messin' Around,26.1,01:49,02:13
+761,761.mp3,Greenlight,Pitbull,Greenlight,35.11,02:30,03:03
+763,763.mp3,Hey There Delilah (Bonus),Plain White T's,Every Second Counts,41.13,03:04,03:43
+765,765.mp3,Feel It Still,Portugal. The Man,Feel It Still,50.17,01:01,01:49
+767,767.mp3,Congratulations,Post Malone,Congratulations,34.12,01:47,02:19
+769,769.mp3,Go Flex,Post Malone,Go Flex,34.12,02:08,02:40
+770,770.mp3,1999 (LP Version),Prince,,78.21,04:26,05:42
+771,771.mp3,I Would Die 4 U,Prince,Purple Rain (Soundtrack from the Motion Picture),28.09,01:40,02:06
+772,772.mp3,Kiss (LP Version),Prince,Parade - Music From The Motion Picture Under The Cherry Moon,53.15,02:45,03:36
+773,773.mp3,Let's Go Crazy (LP Version),Prince,,36.13,02:59,03:33
+774,774.mp3,Little Red Corvette,Prince,The Very Best Of Prince,52.16,02:20,03:10
+775,775.mp3,Purple Rain (LP Version),Prince,,44.14,01:53,02:35
+776,776.mp3,Raspberry Beret,Prince,Around the World In a Day,36.13,02:46,03:20
+777,777.mp3,When Doves Cry (LP Version),Prince,,40.14,03:35,04:13
+778,778.mp3,Fight Song,Rachel Platten,Fight Song,43.15,01:39,02:20
+779,779.mp3,Creep,Radiohead,Pablo Honey,68.21,02:03,03:09
+780,780.mp3,Black Beatles,Rae Sremmurd,SremmLife 2,28.09,03:43,04:09
+783,783.mp3,Look Alive,Rae Sremmurd,Look Alive,32.1,02:56,03:26
+784,784.mp3,Swang,Rae Sremmurd,SremmLife 2,35.11,02:44,03:17
+786,786.mp3,Human,Rag'N'Bone Man,Post-Party Workout,60.17,03:27,04:25
+788,788.mp3,Skin,Rag'N'Bone Man,Skin,88.24,02:13,03:39
+789,789.mp3,Light of the Seven,Ramin Djawadi,Game of Thrones: Season 6 (Music from the HBO® Series),75.22,04:43,05:56
+790,790.mp3,I Like The Sound Of That,Rascal Flatts,Rewind,44.14,01:47,02:29
+791,791.mp3,Yours If You Want It,Rascal Flatts,Yours If You Want It,48.15,02:20,03:06
+792,792.mp3,Back to God,Reba McEntire,Sing It Now: Songs of Faith and Hope,42.13,03:04,03:44
+793,793.mp3,Dark Necessities,Red Hot Chili Peppers,The Getaway,45.14,03:20,04:03
+794,794.mp3,We Turn Red,Red Hot Chili Peppers,The Getaway,62.18,01:50,02:50
+796,796.mp3,Trap Trap Trap,Rick Ross,Rather You Than Me,31.1,03:52,04:21
+797,797.mp3,"Rihanna,Lost Kings - Work (Lost Kings Remix)",Rihanna,Work (Remixes),26.1,03:01,03:25
+798,798.mp3,Needed Me,Rihanna,Needed Me (Dance Remix),18.09,02:39,02:55
+799,799.mp3,Sledgehammer,Rihanna,"Sledgehammer (From The Motion Picture ""Star Trek Beyond"")",86.25,02:02,03:26
+801,801.mp3,Chill Bill,Rob $tone,Chill Bill,37.13,02:03,02:38
+803,803.mp3,Love My Life,Robbie Williams,Heavy Entertainment Show (Deluxe),40.14,02:34,03:12
+804,804.mp3,Shed A Light,David Guetta,Shed A Light,33.12,02:05,02:36
+806,806.mp3,Héroe Favorito,Romeo Santos,Héroe Favorito,32.1,03:16,03:46
+807,807.mp3,Losin Control,Russ,Losin Control,39.12,02:59,03:36
+808,808.mp3,What They Want,Russ,What They Want,32.1,02:03,02:33
+809,809.mp3,Lost Boy,Ruth B,Lost Boy,49.14,03:43,04:30
+810,810.mp3,City Of Stars,Ryan Gosling,La La Land (Original Motion Picture Soundtrack),35.11,01:18,01:51
+812,812.mp3,Thumbs,Sabrina Carpenter,EVOLution,44.14,02:49,03:31
+813,813.mp3,Now and Later,Sage the Gemini,Now and Later,32.1,02:41,03:11
+814,814.mp3,Body Like A Back Road,Sam Hunt,Body Like A Back Road,35.11,02:07,02:40
+815,815.mp3,Drinkin' Too Much (8pm),Sam Hunt,Drinkin' Too Much,32.1,02:31,03:01
+816,816.mp3,Make You Miss Me(Acoustic Mixtape),Sam Hunt,Between The Pines (Acoustic Mixtape),33.12,01:30,02:01
+818,818.mp3,THat Part,Schoolboy Q,THat Part,32.1,03:58,04:28
+820,820.mp3,Five More Minutes,Scotty McCreery,Five More Minutes,36.13,03:04,03:38
+821,821.mp3,No Lie,Sean Paul,No Lie,40.14,03:00,03:38
+823,823.mp3,Bad Liar,Selena Gomez,Bad Liar,34.12,02:55,03:27
+824,824.mp3,Kill Em With Kindness,Selena Gomez,Revival (Deluxe),35.11,02:54,03:27
+825,825.mp3,It Wasn't Me,Shaggy,Summer Party,43.15,03:01,03:42
+827,827.mp3,Merry Christmas Everyone,Shakin' Stevens,The Hits Of Shakin' Stevens Vol II,41.13,01:36,02:15
+828,828.mp3,Chantaje,Shakira,Chantaje,32.1,02:24,02:54
+829,829.mp3,Hips Don't Lie (2006 FIFA World Cup Mix),Shakira,单曲- 世界杯之歌-2006国际足联世界杯官方指定专辑 VOICES,38.12,01:40,02:16
+830,830.mp3,Me Enamoré,Shakira,Me Enamoré,39.12,02:43,03:20
+831,831.mp3,Try Everything,Shakira,Zootopia (Original Motion Picture Soundtrack),34.12,01:55,02:27
+832,832.mp3,Mercy,Shawn Mendes,Illuminate (Deluxe),42.13,02:36,03:16
+833,833.mp3,"Stitches(From ""Dance Camp"" Original Motion Picture Soundtrack)",Shawn Mendes,Dance Camp (Original Motion Picture Soundtrack),41.13,02:45,03:24
+834,834.mp3,There's Nothing Holdin' Me Back,Shawn Mendes,Illuminate (Deluxe),34.12,02:45,03:17
+835,835.mp3,Treat You Better,Shawn Mendes,Treat You Better,36.13,02:18,02:52
+836,836.mp3,The Greatest,Sia,This Is Acting (Deluxe Version),32.1,02:30,03:00
+837,837.mp3,Cheap Thrills,Sia,Cheap Thrills (Remix),45.14,02:40,03:23
+839,839.mp3,California Dreamin',Sia,San Andreas (Original Motion Picture Soundtrack),46.13,02:46,03:30
+842,842.mp3,Helium,Sia,Fifty Shades Darker (Original Motion Picture Soundtrack),52.16,03:13,04:03
+844,844.mp3,Find Me,Sigma,Find Me,32.1,02:52,03:22
+846,846.mp3,Purple Lamborghini,Skrillex,Suicide Squad: The Album,29.11,02:23,02:50
+847,847.mp3,Merry Xmas Everybody,Various Artists,Sounds Of Christmas,61.19,02:24,03:23
+848,848.mp3,Don't Leave,Snakehips,Don't Leave,56.16,02:36,03:30
+850,850.mp3,Kush Ups,Snoop Dogg,Kush Ups,39.12,03:00,03:37
+851,851.mp3,Don't Touch My Hair,Solange,A Seat at the Table,44.69,03:35,04:18
+852,852.mp3,Cranes in the Sky,Solange,A Seat at the Table,47.13,03:26,04:11
+853,853.mp3,Call On Me,Starley,Call On Me,22.1,01:47,02:07
+854,854.mp3,Call on Me,Starley,Call on Me (Ryan Riback Remix),56.16,02:26,03:20
+855,855.mp3,Just Hold On,Steve Aoki,Just Hold On,79.23,01:58,03:15
+857,857.mp3,Big For Your Boots,Stormzy,Big For Your Boots,43.15,03:00,03:41
+858,858.mp3,All Around You,Sturgill Simpson,A Sailor's Guide to Earth,29.11,02:57,03:24
+859,859.mp3,At Last,Sundance Head,At Last (The Voice Performance),38.12,02:31,03:07
+860,860.mp3,Darlin' Don't Go,Sundance Head,Darlin' Don't Go (The Voice Performance),43.15,02:52,03:33
+861,861.mp3,Giants,Take That,Giants,49.14,02:58,03:45
+862,862.mp3,I'm Still Standing,Taron Egerton,Sing (Original Motion Picture Soundtrack Deluxe),56.03,02:14,03:38
+863,863.mp3,Southern Land—Taylor Ray Holbrook & Ryan Upchurch,Taylor Ray Holbrook,Southern Land,33.12,02:13,02:44
+864,864.mp3,First Day Out,Tee Grizzley,First Day Out,65.19,03:04,04:07
+865,865.mp3,Something Just Like This,The Chainsmokers,Memories...Do Not Open,43.15,03:13,03:54
+866,866.mp3,Don't Let Me Down,The Chainsmokers,Don't Let Me Down (Hardwell & Sephyx Remix),14.06,01:20,01:32
+868,868.mp3,Closer,The Chainsmokers,Closer,42.13,02:52,03:32
+869,869.mp3,All We Know,The Chainsmokers,All We Know,25.11,02:17,02:40
+870,870.mp3,Roses,The Chainsmokers,SO FRESH 2016,40.14,02:24,03:02
+871,871.mp3,Setting Fires,The Chainsmokers,Collage EP,46.13,02:03,02:47
+876,876.mp3,Paris,The Chainsmokers,Paris,43.15,02:41,03:22
+879,879.mp3,The One,The Chainsmokers,The One,25.11,01:22,01:45
+880,880.mp3,Glad All Over,The Dave Clark Five,Glad All Over,46.13,01:57,02:41
+881,881.mp3,All Eyez (Feat. Jeremih),The Game,All Eyez,23.09,02:48,03:09
+882,882.mp3,Mr. Brightside,The Killers,Hot Fuss,28.09,02:29,02:55
+883,883.mp3,Kiss The Sky (feat. Wyclef Jean),Wyclef Jean,Kiss The Sky,22.1,01:54,02:14
+884,884.mp3,Ophelia,The Lumineers,Cleopatra (Deluxe),39.12,01:53,02:30
+885,885.mp3,Hypnotize,The Notorious BIG,Life After Death,53.15,02:59,03:50
+886,886.mp3,Fairytale Of New York,The Pogues,The Ultimate Collection,72.21,01:29,02:39
+888,888.mp3,02 Wish I Knew You,The Revivalists,Men Amongst Mountains,43.15,03:38,04:19
+889,889.mp3,Spirits,The Strumbellas,Spirits,26.1,02:50,03:14
+890,890.mp3,All Night,The Vamps,All Night,30.11,02:13,02:41
+892,892.mp3,I Feel It Coming,The Weeknd,I Feel It Coming,44.14,03:04,03:46
+894,894.mp3,All I Know,The Weeknd,Starboy,34.12,01:51,02:23
+895,895.mp3,Sidewalks,The Weeknd,Starboy,27.1,02:59,03:24
+896,896.mp3,A Lonely Night,The Weeknd,Starboy,36.13,02:39,03:13
+897,897.mp3,Acquainted,The Weeknd,Beauty Behind The Madness,41.13,03:20,03:59
+900,900.mp3,Die For You,The Weeknd,Starboy,32.1,03:34,04:04
+903,903.mp3,Love To Lay,The Weeknd,Starboy,36.13,03:01,03:35
+904,904.mp3,Nothing Without You,The Weeknd,Starboy,43.15,01:53,02:34
+905,905.mp3,Ordinary Life,The Weeknd,Starboy,81.22,02:05,03:24
+906,906.mp3,Party Monster,The Weeknd,Starboy,55.17,02:47,03:40
+907,907.mp3,Reminder,The Weeknd,Starboy,60.17,02:13,03:11
+908,908.mp3,Rockin',The Weeknd,Starboy,37.13,03:17,03:52
+909,909.mp3,Secrets,The Weeknd,Starboy,44.14,03:38,04:20
+911,911.mp3,Six Feet Under,The Weeknd,Starboy,87.24,02:32,03:57
+913,913.mp3,Stargirl Interlude,The Weeknd,Starboy,34.12,00:39,01:11
+915,915.mp3,Seven Nation Army,The White Stripes,Pay Close Attention : XL Recordings,47.15,02:55,03:40
+916,916.mp3,On Hold,The xx,I See You,35.11,03:11,03:44
+917,917.mp3,"Thomas Rhett,Maren Morris - Craving You",Thomas Rhett,Craving You,65.19,02:41,03:44
+918,918.mp3,Die A Happy Man,Thomas Rhett,Die A Happy Man,32.1,03:10,03:40
+919,919.mp3,Star Of The Show,Thomas Rhett,Tangled Up (Deluxe),56.16,02:01,02:55
+921,921.mp3,Vacation,Thomas Rhett,Tangled Up,40.14,01:54,02:32
+922,922.mp3,Sunshine (Radio Edit),Various Artists,Go Hard or Go Home - Ministry of Sound,58.18,01:59,02:55
+924,924.mp3,Speak to a Girl,Tim Mcgraw,Speak to a Girl,41.13,03:12,03:51
+925,925.mp3,How I'll Always Be,Tim Mcgraw,Damn Country Music (Deluxe Edition),40.14,02:40,03:18
+926,926.mp3,Humble and Kind,Tim Mcgraw,Damn Country Music,38.12,03:29,04:05
+927,927.mp3,Tinashé - Superlove,Tinashe,Superlove,78.21,01:47,03:03
+928,928.mp3,Text from Your Ex,Tinie Tempah,Text fom Your Ex,52.16,02:35,03:25
+929,929.mp3,You Want Me,Tom Zanetti,You Want Me,48.15,02:22,03:08
+931,931.mp3,LUV,Tory Lanez,LUV,68.21,02:42,03:48
+932,932.mp3,Cool Girl,Tove Lo,Cool Girl,44.14,02:37,03:19
+933,933.mp3,Play That Song,Train,Play That Song,44.14,03:19,04:01
+934,934.mp3,Beibs in the Trap,Travis Scott,Birds in the Trap Sing McKnight,34.12,02:31,03:03
+935,935.mp3,Goosebumps,Travis Scott,Birds in the Trap Sing McKnight,47.15,03:18,04:03
+936,936.mp3,Nobody Else But You,Trey Songz,Nobody Else But You,52.16,02:58,03:48
+937,937.mp3,WILD,Troye Sivan,WILD,58.18,02:43,03:39
+938,938.mp3,YOUTH,Troye Sivan,Blue Neighbourhood (Deluxe),50.17,02:17,03:05
+939,939.mp3,Rock On,Tucker Beathard,The Demos,40.14,02:37,03:15
+940,940.mp3,Heathens,Twenty One Pilots,TOPxMM,68.21,02:09,03:15
+941,941.mp3,Cancer,Twenty One Pilots,Cancer,40.14,03:13,03:51
+943,943.mp3,Ride,Twenty One Pilots,Blurryface Live,38.12,02:51,03:27
+945,945.mp3,02 - Stressed Out,Twenty One Pilots,Blurryface,38.12,02:46,03:22
+946,946.mp3,Feel Me,Tyga,Feel Me,43.15,02:26,03:07
+948,948.mp3,No Limit [dirty],Usher,No Limit,78.21,02:32,03:48
+950,950.mp3,Yeah,Usher,Confessions (Special edition),52.16,03:04,03:54
+951,951.mp3,Hands,Various Artists,Handsddd,26.1,03:54,04:18
+952,952.mp3,Running Back (feat. Lil Wayne),Lil Wayne,Running Back (feat. Lil Wayne),33.12,03:01,03:32
+953,953.mp3,My PYT,Wale,My PYT,41.13,03:16,03:55
+957,957.mp3,Pull Up (feat. Lil Uzi Vert),Wiz Khalifa,Pull Up ,28.09,02:42,03:08
+958,958.mp3,I Wish It Could Be Christmas Everyday,Wizzard,I Wish It Could Be Christmas Everyday,64.17,02:52,03:54
+959,959.mp3,X Ambassadors - Unsteady (Erich Lee Gravity Remix),Various Artists,Me Before You (Original Motion Picture Soundtrack),50.17,02:20,03:08
+962,962.mp3,Look At Me!,XXXTENTACION,Look At Me!,29.11,01:41,02:08
+964,964.mp3,Everyday We Lit,YFN Lucci,Everyday We Lit,47.15,02:25,03:10
+965,965.mp3,Why You Always Hatin?,YG,Why You Always Hatin?,64.17,01:55,02:57
+966,966.mp3,Law,Yo Gotti,The Art of Hustle (Deluxe),56.16,03:23,04:17
+967,967.mp3,Law,Yo Gotti,The Art of Hustle (Deluxe),56.16,03:23,04:17
+968,968.mp3,Moolah,Young Greatness,Moolah,42.13,02:43,03:23
+969,969.mp3,YOUNG MA - OOOUUU (intro),Young M.a.,Ooouuu,67.18,02:45,03:50
+970,970.mp3,Pick Up the Phone,Travis Scott,Pick Up the Phone,50.17,03:16,04:04
+971,971.mp3,Gang Up,Young Thug,Fast & Furious 8: The Album,64.17,02:45,03:47
+973,973.mp3,PILLOWTALK REMIX,ZAYN,PILLOWTALK REMIX,36.13,02:49,03:23
+974,974.mp3,Still Got Time,ZAYN,Still Got Time,65.19,02:00,03:03
+978,978.mp3,Castaway,Zac Brown Band,JEKYLL + HYDE,36.13,02:34,03:08
+979,979.mp3,My Old Man,Zac Brown Band,My Old Man,30.11,03:10,03:38
+980,980.mp3,Roots,Zac Brown Band,Welcome Home,84.23,02:29,03:51
+981,981.mp3,Never Forget You,MNEK,The Remixes,57.18,02:38,03:33
+983,983.mp3,Ain't My Fault,Zara Larsson,Ain't My Fault,34.12,03:12,03:44
+984,984.mp3,I Would Like,Zara Larsson,I Would Like,61.19,02:47,03:46
+985,985.mp3,Lush Life,Zara Larsson,Lush Life,46.13,02:37,03:21
+989,989.mp3,Juju On That Beat (TZ Anthem),Zay Hilfigerrr,This Is A Challenge,66.19,01:20,02:24
+992,992.mp3,JuJu On Dat Beat,Zayion McCall,Why So Serious?,45.53,01:20,02:24
+993,993.mp3,Stay,Zedd,Stay,57.18,02:35,03:30
+996,996.mp3,Trouble,offaiah,Trouble,50.17,02:05,02:53
+997,997.mp3,A Supplementary Story : You Never Walk Alone,방탄소년단,YOU NEVER WALK ALONE,58.18,01:40,02:36
+999,999.mp3,Outro : Wings,방탄소년단,YOU NEVER WALK ALONE,39.12,03:08,03:45
+1000,1000.mp3,Spring Day,방탄소년단,YOU NEVER WALK ALONE,77.21,03:19,04:34
