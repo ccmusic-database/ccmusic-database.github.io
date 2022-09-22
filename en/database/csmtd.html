@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-functional Music Database for MIR Research | CCMUSIC DATASET</title>
+    <meta name="description"
+        content="CCMUSIC DATASET-Music Data Sharing Platform for Computational Musicology Research-Multi-functional Music Database for MIR Research Computational Musicology,music,database,music data,music database,audio,tagging,academic research,Chinese music,traditional music,pop music,Chinese traditional music,Chinese national musical instruments,Chinese musical instruments,musical instruments,music information retrieval,MIR,voice,piano,singing,music genre,timbre,Range,song structure,Bel Canto">
+    <meta name="keywords"
+        content="Computational Musicology,music,database,music data,music database,audio,tagging,academic research,Chinese music,traditional music,pop music,Chinese traditional music,Chinese national musical instruments,Chinese musical instruments,musical instruments,music information retrieval,MIR,voice,piano,singing,music genre,timbre,Range,song structure,Bel Canto">
+    <!-- 引入favicon图表 -->
+    <link rel="shortcut icon" href="../favicon/logo.ico">
+    <!-- 引入初始化样式文件 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 引入独立文件 -->
+    <link rel="stylesheet" href="../css/ccm.css">
+</head>
+
+<body>
+    <!-- 左侧导航栏 -->
+    <dm-header class="dm-header">
+        <header>
+            <div class="menu-container">
+                <div class="menu-wrapper">
+                    <div class="menu-header">
+                        <a href="../index.html" class="logo">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="menu-nav">
+                        <ul class="menu-pages">
+                            <li><a href="../overview.html" class="fixnav">Overview</a></li>
+                            <li><a href="ctis.html" class="fixnav">Database</a>
+                                <ul>
+                                    <li><a href="ctis.html" class="subnav">CTIS</a></li>
+                                    <li><a href="ccm.html" class="subnav">Multi-functional Music Database for
+                                            MIR Research</a></li>
+                                    <li><a href="cpop.html" class="subnav">Midi-wav Bi-directional Database of
+                                            Pop Music</a></li>
+                                    <li><a href="csmtd.html" class="subnav">China Sound and Music Technology Database</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../download.html" class="fixnav">Download</a>
+                                <ul>
+                                    <li><a href="../download.html" class="subnav">Github</a></li>
+                                    <li><a href="../download.html" class="subnav">Zenodo</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../reference.html" class="fixnav">Reference</a>
+                                <ul>
+                                    <li><a href="../reference.html" class="subnav">CTIS</a></li>
+                                    <li><a href="../reference.html" class="subnav">Multi-functional Music Database for
+                                            MIR Research</a></li>
+                                    <li><a href="../reference.html" class="subnav">Midi-wav Bi-directional Database of
+                                            Pop Music</a></li>
+                                    <li><a href="../reference.html" class="subnav">China Sound and Music Technology Database</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../team.html" class="fixnav">TEAM</a>
+                                <ul>
+                                    <li><a href="../team.html" class="subnav">China Conservatory of Music</a></li>
+                                    <li><a href="../team.html" class="subnav">Fudan University</a></li>
+                                    <li><a href="../team.html" class="subnav">Zhejiang University</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../contact.html" class="fixnav">Contact</a></li>
+                        </ul>
+                    </div>
+                    <button class="switch">
+                        <a href="../../database/ccm.html">中文</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </dm-header>
+    <!-- 左侧导航栏 -->
+    <!-- 内容部分 -->
+    <div class="body clearfix">
+        <div class="body-adjust1">
+            <div class="body-adjust2">
+                <div class="body-container">
+                    <div class="body-overview">
+                        <h1>
+                            <span>China Sound and Music Technology Database</span>
+                        </h1>
+                        <div class="description">
+                            <p>China Sound and Music Technology Database collects pop music, folk music and the sound materials of national
+                                musical instruments, and makes comprehensive annotation to form a multi-purpose music
+                                database for MIR researchers. This database is specially recorded by the conservatory of
+                                music, the recordists have high music literacy, professional recording environment and
+                                technology, high recording quality, no commodity copyright problems, and the recorded
+                                audio is free and public, which is convenient for large-scale promotion. This database
+                                professionally limits the recording environment, recording equipment, recording
+                                personnel and processes, so as to avoid variety noises interference and obtain
+                                high-quality audio materials. In addition, it is of great significance to the research
+                                of music information retrieval to record the melody part and accompaniment part
+                                independently. In the future, we will collect more music materials for recording and
+                                detailed annotation.
+                            </p>
+                            <p>This database contains <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">4</span> sub-databases, which are listed as follows:</p>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#GZTech"> &nbsp;GZ_IsoTech Database</a></li>
+                                    <li><a href="#shou11"> &nbsp;GuZheng Midi-Wav Database</a></li>
+                                    <li><a href="#shou10"> &nbsp;Chinese National Pentatonic Mode Database</a></li>
+                                    <li><a href="#PMEmo"> &nbsp;PMEmo: A Dataset For Music Emotion Computing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="container-all">
+                            <!-- (10) -->
+                            <div class="container" id="shou10">
+                                <div class="adjust">
+                                    <h4>Chinese National<br>Pentatonic Mode Database</h4>
+                                    <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
+                                    <p>Based on the working idea of combining manual labeling with computer in the construction of World Music Database, this database collects and labels the audio of five modes (including five tones, six tones and seven tones) of "Gong, Shang, Jue, Zhi and Yu". At the same time, it makes a detailed analysis of the judgment of Chinese national pentatonic modes, and finds application scenarios and technical models, which can provide raw data for the analysis and retrieval of Chinese national music characteristics.
+                                    </p>
+                                    <div class="spread" id="spread10">
+                                        <p>Some audio lists are as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Mode <br> Type</th>
+                                                <th>Name</th>
+                                                <th>Performer</th>
+                                                <th>Album <br> Name</th>
+                                                <th>National <br> Mode Name</th>
+                                                <th>Tonggong <br> System</th>
+                                                <th style="width: 500px;">Audio Links</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Gong mode</td>
+                                                    <td>Liang Xiao Yin</td>
+                                                    <td>Gong Yi</td>
+                                                    <td>Gu Qin Yan Zou Fa</td>
+                                                    <td>F Gong/Pentatonic mode</td>
+                                                    <td>F Gong System</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=qD1LCLW" target="_blank">Liang Xiao Yin</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Shang mode</td>
+                                                    <td>Jin She Kuang Wu</td>
+                                                    <td>Liu De Hai</td>
+                                                    <td>Pipa</td>
+                                                    <td>E Shang/Seven tone mode/Qing Yue</td>
+                                                    <td>D Gong System</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=aPWQY2" target="_blank">Jin She Kuang Wu</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jue mode</td>
+                                                    <td>Hu Jia Shi Ba Po</td>
+                                                    <td>China National Traditional Orchestra</td>
+                                                    <td>China Chun Guzheng</td>
+                                                    <td>D Jue/Seven tone mode/Qing Yue</td>
+                                                    <td>B Flat Gong System</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=AyhSL" target="_blank">Hu Jia Shi Ba Po</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Zhi mode</td>
+                                                    <td>Zui Yu Chang Wan</td>
+                                                    <td>Gong Yi</td>
+                                                    <td>Gong Yi Gu Qin</td>
+                                                    <td>G Zhi/Seven tone mode/Qing Yue</td>
+                                                    <td>C Gong System</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=LbPJ6y4i" target="_blank">Zui Yu Chang Wan</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Yu mode</td>
+                                                    <td>Ping Sha Luo Yan</td>
+                                                    <td>Guan Ping Hu</td>
+                                                    <td>Gu Qin</td>
+                                                    <td>E Flat Yu/Pentatonic mode</td>
+                                                    <td>G Flat Gong System</td>
+                                                    <td><a href="https://c.y.qq.com/base/fcgi-bin/u?__=03lREl" target="_blank">Ping Sha Luo Yan</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Demo Address:</h4>
+                                            <span><a href="https://github.com/oozerain/music/blob/main/index.md" target="_blank"></a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                        /</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn10">
+                                    <a href="#shou10" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn10.js"></script>
+                            <!-- (11) -->
+                            <div class="container" id="shou11">
+                                <div class="adjust">
+                                    <h4>GuZheng Midi-Wav Database</h4>
+                                    <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
+                                    <p>This database contains about 300 Guzheng audios, which can be used for data-driven automatic music transcription and translation related algorithms. The production process is to first collect all kinds of music scores, make MusicXML through music arrangement software, and then convert it to MIDI. On this basis, for the technical representation, we debug the sound in MIDI through the plug-in that changes the tone in real time to get the glide and vibrato. The scraping remote refers to the use of irregular continuous scales (8 ~ 12 continuous tones) to compose and express in MIDI, and the arpeggio directly plays four associated tones at the same time through the chord relationship.</p>
+                                    <p>The total length of all audios is about 20 hours, with about 150000 annotation, including onset, offset, speed and notes. All Guzheng tracks are in wav and MIDI format, which provides some limited help for the transcription and translation of traditional musical instruments.</p>
+                                    <div class="spread" id="spread11">
+                                        <p>Some data lists are as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial <br> Number</th>
+                                                <th style="width: 200px;">Name</th>
+                                                <th>File <br> Size</th>
+                                                <th>Midi File</th>
+                                                <th>Wav File</th>
+                                                <th style="width: 500px;">Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Gao Shan Liu Shui</td>
+                                                    <td>88.8 MB (93,139,292 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Gao Shan Liu Shui.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Gao Shan Liu Shui.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GuZheng Midi-Wav Database/Gao Shan Liu Shui.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Han Tian Lei</td>
+                                                    <td>39.1 MB (41,072,036 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Han Tian Lei.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Han Tian Lei.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GuZheng Midi-Wav Database/Han Tian Lei.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Qian Sheng Fo</td>
+                                                    <td>33.6 MB (35,280,092 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Qian Sheng Fo.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Qian Sheng Fo.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GuZheng Midi-Wav Database/Qian Sheng Fo.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Song Bie Chang Ting Wai</td>
+                                                    <td>38.7 MB (40,642,660 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Song Bie Chang Ting Wai.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Song Bie Chang Ting Wai.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GuZheng Midi-Wav Database/Song Bie Chang Ting Wai.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Yu Zhou Chang Wan</td>
+                                                    <td>68.7 MB (72,043,676 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Yu Zhou Chang Wan.mid" target="_blank"></a></td>
+                                                    <td class="midi"><a href="../demo/ccm/GuZheng Midi-Wav Database/Yu Zhou Chang Wan.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GuZheng Midi-Wav Database/Yu Zhou Chang Wan.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                        /</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn11">
+                                    <a href="#shou11" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn11.js"></script>
+                            <!-- (12) -->
+                            <div class="container" id="GZTech">
+                                <div class="adjust">
+                                    <h4>GZ_IsoTech Database</h4>
+                                    <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
+                                    <p>This database contains 2824 audio clips of guzheng playing techniques. Among them, 2328 pieces were collected from virtual sound banks, and 496 pieces were played and recorded by a professional guzheng performer. These clips cover almost all the tones in the range of guzheng and the most commonly used playing techniques in guzheng performance. According to the different playing techniques of guzheng, the clips are divided into 8 categories: Vibrato(chanyin), Upward Portamento(shanghuayin), Downward Portamento(xiahuayin), Returning Portamento(huihuayin), Glissando (guazou, huazhi), Tremolo(yaozhi), Harmonic(fanyin), Plucks(gou,da,mo,tuo…).</p>
+                                    <div class="spread" id="spread12">
+                                        <p>Some data lists are as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Serial Number</th>
+                                                <th style="width: 400px;">Tech Name</th>
+                                                <th>File Size</th>
+                                                <th>Wav File</th>
+                                                <th style="width: 500px;">Demo</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Upward Portamento</td>
+                                                    <td>147 KB (145,496 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/upward_portamento.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/upward_portamento.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Downward Portamento</td>
+                                                    <td>168 KB (167,924 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/downward_portamento.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/downward_portamento.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Vibrato</td>
+                                                    <td>172 KB (168,682 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/vibrato.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/vibrato.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Returning Portamento</td>
+                                                    <td>94 KB (93,342 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/returning_portamento.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/returning_portamento.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Glissando</td>
+                                                    <td>332 KB (330,440 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/glissando.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/glissando.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Tremolo</td>
+                                                    <td>193 KB (188,810 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/tremolo.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/tremolo.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Harmonic</td>
+                                                    <td>57 KB (54,160 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/harmonics.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/harmonics.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Plucks</td>
+                                                    <td>78 KB (74,696 bytes)</td>
+                                                    <td class="midi"><a href="../demo/ccm/GZTech/plucks.wav" target="_blank"></a></td>
+                                                    <td><audio src="../demo/ccm/GZTech/plucks.wav" controls="controls"></audio>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/GZTech.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                        /</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn12">
+                                    <a href="#GZTech" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn12.js"></script><!-- (13) -->
+                            <div class="container" id="PMEmo">
+                                <div class="adjust">
+                                    <h4>PMEmo: <br>A Dataset For Music Emotion Computing</h4>
+                                    <h5>Copyright © Zhejiang University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
+                                    <p>Music Emotion Recognition (MER) has recently received considerable attention. To support the MER research which requires large music content libraries, we present the PMEmo dataset containing emotion annotations of 794 songs as well as the simultaneous electrodermal activity (EDA) signals. A Music Emotion Experiment was well-designed for collecting the affective-annotated music corpus of high quality, which recruited 457 subjects. The dataset is publically available to the research community, which is foremost intended for benchmarking in music emotion retrieval and recognition. To straightforwardly evaluate the methodologies for music affective analysis, it also involves pre-computed audio feature sets. In addition to that, manually selected chorus excerpts (compressed in MP3) of songs are provided to facilitate the development of chorus-related research. In Our article, <a href="https://dl.acm.org/doi/10.1145/3206025.3206037">The PMEmo Dataset for Music Emotion Recognition</a>, We describe in detail the resource acquisition, subject selection, experiment design and annotation collection procedures, as well as the dataset content and data reliability analysis. We also illustrate its usage in some simple music emotion recognition tasks which testified the PMEmo dataset’s competence for the MER work. Compared to other homogeneous datasets, PMEmo is novel in the organization and management of the recruited annotators, and it is also characterized by its large amount of music with simultaneous physiological signals.‌</p>
+                                    <div class="spread" id="spread13">
+                                        <p>Some data in the dataset are listed as follows:</p>
+                                        <table>
+                                            <thead>
+                                                <th>Audio Serial</th>
+                                                <th>Song Metadata</th>
+                                                <th>Audio Demo</th>
+                                                <th>Pre-computed Audio Features for Use in MER Tasks</th>
+                                                <th>Manually Annotated Emotion Labels</th>
+                                                <th>EDA Physiological Signals</th>
+                                                <th>Song Lyrics (LRC)</th>
+                                                <th>Song Comments</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/1.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/1_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/1.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/1.txt" target="_blank"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/5.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/5_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/5.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/5.txt" target="_blank"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/6.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/dynamic_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/6_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/6.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/6.txt" target="_blank"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/metadata.csv"></td>
+                                                    <td><audio src="../demo/ccm/PMEmo/9.mp3" controls="controls"></audio></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_features.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/static_annotations.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/9_EDA.csv" target="_blank"></a></td>
+                                                    <td class="mfcc"><a href="../demo/ccm/PMEmo/9.lrc" target="_blank"></a></td>
+                                                    <td class="pkf"><a href="../demo/ccm/PMEmo/9.txt" target="_blank"></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo</h4>
+                                            <span><a href="../demo/ccm/PMEmo.zip">&nbsp;
+                                                    Click here to download all demo files</a></span>
+                                            <span><a href="https://github.com/HuiZhangDB/PMEmo">&nbsp;
+                                                Click here to download Github example code</a>
+                                            </span>
+                                            <h4>Related Papers:</h4>
+                                            <span>If you use the code or data of this dataset, please cite this paper:</span>
+                                            <ul>
+                                                <li><a href="https://dl.acm.org/doi/10.1145/3206025.3206037" target="_blank">&nbsp;
+                                                The PMEmo Dataset for Music Emotion Recognition</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn13">
+                                    <a href="#PMEmo" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn13.js"></script>
+                        </div>
+                        <div class="download-all">
+                            <h3>Download</h3>
+                            <p>
+                                To download the demo files or obtain all files in the database, please click here
+                                &nbsp;<a href="../download.html"></a>
+                            </p>
+                        </div>
+                    </div>
+                    <script src="../js/click.js"></script>
+                    <div class="backtotop">
+                        <button>
+                            <span>TOP</span>
+                        </button>
+                    </div>
+                    <script src="../js/backtotop.js"></script>
+                </div>
+            </div>
+            <!-- 页脚 -->
+            <footer class="body-foot">
+                <div class="name">
+                    <a href="index.html">CCMUSIC</a>
+                </div>
+                <div class="foot-container">
+                    <div class="catagories">
+                        <div class="column">
+                            <a href="ctis.html"> Database </a>
+                            <ul>
+                                <li><a href="ctis.html">Chinese Traditional Instrument Sound
+                                        Database</a></li>
+                                <li><a href="ccm.html">Multi-functional Music Database for
+                                        MIR Research</a></li>
+                                <li><a href="cpop.html">Midi-wav Bi-directional Database of
+                                        Pop Music</a></li>
+                                <li><a href="csmtd.html">China Sound and Music Technology Database</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../download.html"> Download </a>
+                            <ul>
+                                <li><a href="https://github.com/ccmusic-database/ccmusic-database.git"
+                                        target="_blank">Github</a></li>
+                                <li><a href="https://doi.org/10.5281/zenodo.5676893" target="_blank">Zenodo</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../reference.html"> Reference </a>
+                            <ul>
+                                <li><a href="../reference.html">Chinese Traditional Instrument Sound
+                                        Database</a></li>
+                                <li><a href="../reference.html">Multi-functional Music Database for
+                                        MIR Research</a></li>
+                                <li><a href="../reference.html">Midi-wav Bi-directional Database of Pop Music</a></li>
+                                <li><a href="../reference.html">China Sound and Music Technology Database</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="social">
+                                <li>
+                                    <a href="#" class="social1"></a>
+                                    <img src="../images/WeChat.jpg">
+                                </li>
+                                <li>
+                                    <a href="#" class="social2"></a>
+                                    <img src="../images/zhihu.png">
+                                </li>
+                                <li>
+                                    <a href="mailto:ccmusic.database@hotmail.com" class="social4"></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/ccmusic-database/ccmusic-database.git" target="_blank"
+                                        class="social5"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <a href="../team.html"> TEAM </a>
+                            <ul>
+                                <li>
+                                    <a href="../team.html"><img src="../images/gyyk.jpg" width="200px"><br>
+                                        China Conservatory of Music<br>
+                                        Han Baoqiang Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../team.html"><img src="../images/fd.jpg" width="225px"><br>
+                                        FD-LAMT<br>
+                                        Lab of Audio and Music Technology
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../team.html"><img src="../images/zj.png" width="240px"><br>
+                                        Zhejiang University<br>
+                                        NEXT Lab
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-bottom">
+                    Designed by Liu Zhaorui
+                </div>
+            </footer>
+            <!-- 页脚 -->
+        </div>
+    </div>
+    <!-- 内容部分 -->
+</body>
+
+</html>
