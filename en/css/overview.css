@@ -327,7 +327,7 @@ header {
     width: 100%;
     max-width: 1440px;
     padding: 0 60px;
-    margin: 0px auto;
+    margin: 50px auto;
     align-items: center;
     text-align: left;
 }
@@ -353,7 +353,7 @@ header {
 .body-container .body-overview h1 span {
     display: block;
     width: 80%;
-    margin: 30px 0 0;
+    margin: 50px 0 0;
     color: rgb(75, 75, 75);
     font-weight: 500;
     font-size: 22px;
@@ -448,6 +448,16 @@ header {
     width: 40%;
     border-radius: 0 20px 20px 0;
     background-image: url(../images/ctis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.body-container .body-overview .mdb1 .tupian4 {
+    height: 100%;
+    width: 40%;
+    border-radius: 0 20px 20px 0;
+    background-image: url(../images/csmtd.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -671,7 +681,7 @@ header {
 }
 
 .catagories .column:nth-of-type(5) {
-    width: 620px;
+    width: 870px;
 }
 
 .catagories .column>a {
