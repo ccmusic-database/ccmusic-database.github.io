@@ -364,6 +364,16 @@ header {
     background-position: center;
 }
 
+.body-container .body-overview .tdjs1 .tupian3 {
+    height: 100%;
+    width: 40%;
+    border-radius: 0 20px 20px 0;
+    background-image: url(../images/gyyk.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .body-container .body-overview .tdjs2 {
     display: flex;
     flex-flow: row wrap;
@@ -563,7 +573,7 @@ header {
 }
 
 .catagories .column:nth-of-type(5) {
-    width: 620px;
+    width: 870px;
 }
 
 .catagories .column>a {
