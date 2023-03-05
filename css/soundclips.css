@@ -1,0 +1,661 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ulcmfs');
+    src: url('../fonts/icomoon.eot?ulcmfs#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?ulcmfs') format('truetype'), url('../fonts/icomoon.woff?ulcmfs') format('woff'), url('../fonts/icomoon.svg?ulcmfs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.body {
+    display: block;
+    background-color: #f0f5f5;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.body-adjust1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.body-adjust2 {
+    display: block;
+    overflow: hidden;
+}
+
+.body-container {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.body-container .body-overview {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 1000px;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.body-container .body-overview h1 {
+    margin: 50px 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes name-move {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.body-container .body-overview h1 span {
+    display: block;
+    color: #0d5ebb;
+    font-weight: 700;
+    font-size: 32px;
+    z-index: 2;
+    text-align: left;
+    animation: name-move 1.5s ease-out;
+}
+
+.body-container .body-overview span:nth-child(2) {
+    font-size: 20px;
+}
+
+.body-container .body-overview .description {
+    margin-top: 50px;
+    width: 100%;
+    color: #000000;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.body-container .body-overview .description p {
+    margin-bottom: 20px;
+}
+
+.body-container .body-overview .description ul {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.body-container .body-overview .description ul li a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.body-container .body-overview .description ul li a::before {
+    font-family: 'icomoon';
+    content: '\e966';
+    font-size: 20px;
+}
+
+.body-container .body-overview .description ul li a:hover {
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .description .list ul li a {
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.body-container .body-overview .description .list ul li a::before {
+    font-family: 'icomoon';
+    content: '\e966';
+    font-size: 20px;
+}
+
+.body-container .body-overview .description .list ul li a:hover {
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .container-all {
+    display: block;
+    width: 100%;
+}
+
+.body-container .body-overview .container-all .container {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+    height: auto;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    line-height: 30px;
+    z-index: 1;
+}
+
+.body-container .body-overview .container-all .container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+
+.body-container .body-overview .container-all .container .adjust {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.body-container .body-overview .container-all .container .adjust h4 {
+    color: #0d5ebb;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.body-container .body-overview .container-all .container .adjust h5 {
+    color: rgba(232, 84, 36);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.body-container .body-overview .container-all .container .teamintro {
+    position: absolute;
+    top: 65px;
+    right: 105px;
+    height: 50px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    z-index: 999999;
+}
+
+.body-container .body-overview .container-all .container .teamintro a {
+    color: #6a6f7e;
+}
+
+.body-container .body-overview .container-all .container .teamintro a::after {
+    position: absolute;
+    top: 8px;
+    left: 110px;
+    font-family: 'icomoon';
+    content: '\ea3c';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.body-container .body-overview .container-all .container .teamintro a:hover {
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .container-all .container .adjust p {
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.body-container .body-overview .container-all .container .adjust p>a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.body-container .body-overview .container-all .container .adjust p>a:hover {
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .container-all .container .adjust .spread {
+    height: auto;
+    overflow: hidden;
+}
+
+.body-container .body-overview .container-all .container .adjust .spread table {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #000000;
+    font-size: 16px;
+}
+
+.adjust .spread table tbody tr .txt a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.adjust .spread table tbody tr .pkf a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.adjust .spread table tbody tr .pkf a::after {
+    font-family: 'icomoon';
+    content: '\e93f';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.adjust .spread table tbody tr .pkf a:hover::after {
+    color: #0d5ebb;
+}
+
+.adjust .spread table tbody tr .txt a::after {
+    font-family: 'icomoon';
+    content: '\e93f';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.adjust .spread table tbody tr .txt a:hover::after {
+    color: #0d5ebb;
+}
+
+.adjust .spread table tbody tr .mfcc a::after {
+    font-family: 'icomoon';
+    content: '\eae2';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.adjust .spread table tbody tr .mfcc a:hover::after {
+    color: #0d5ebb;
+}
+
+.adjust .spread table tbody tr .midi a::after {
+    font-family: 'icomoon';
+    content: '\e941';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.adjust .spread table tbody tr .midi a:hover::after {
+    color: #0d5ebb;
+}
+
+.adjust .spread table td, .adjust .spread table th {
+    border: 2px solid #000000;
+    padding: 5px 5px;
+}
+
+.adjust .spread table tr td a {
+    font-weight: 400;
+    color: #000000;
+}
+
+.adjust .spread table tr td a:hover {
+    color: #0d5ebb;
+}
+
+.body-container .body-overview .container-all .container .adjust .spread .download-reference {
+    display: block;
+    width: 100%;
+    text-align-last: left;
+    color: #000000;
+}
+
+.download-reference h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-indent: 0;
+}
+
+.download-reference span {
+    display: block;
+    font-size: 24px;
+    text-indent: 2em;
+}
+
+.download-reference span a {
+    color: #000000;
+    transition: all 0.5s ease;
+    z-index: 9999;
+}
+
+.download-reference>span>a::before {
+    font-family: 'icomoon';
+    content: '\e92b';
+    font-size: 24px;
+}
+
+.download-reference>span:nth-of-type(2)>a::before {
+    font-family: 'icomoon';
+    content: '\e9cb';
+    font-size: 24px;
+}
+
+.download-reference span a:hover {
+    color: #0d5ebb;
+}
+
+.download-reference ul {
+    margin-top: 15px;
+    text-indent: 2em;
+    margin-bottom: 30px;
+}
+
+.download-reference ul li a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.download-reference ul li a::before {
+    font-family: 'icomoon';
+    content: '\e9cb';
+    font-size: 24px;
+}
+
+.download-reference ul li a:hover {
+    color: #0d5ebb;
+}
+
+.container button {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 15px);
+    background-color: transparent;
+}
+
+.container button .shou {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 20px;
+    text-indent: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.container button .shou:hover {
+    color: #0d5ebb;
+}
+
+.container button .shou::after {
+    font-family: 'icomoon';
+    content: '\e909';
+    font-size: 30px;
+    line-height: 30px;
+    transform: rotate(180deg);
+}
+
+.container button.open .shou::after {
+    transform: rotate(0);
+}
+
+.body-overview .download-all {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.body-overview .download-all h3 {
+    margin-bottom: 20px;
+    font-size: 27px;
+    color: #0d5ebb;
+    font-weight: 700;
+}
+
+.body-overview .download-all p {
+    font-size: 20px;
+    text-indent: 2em;
+    color: #000000;
+}
+
+.body-overview .download-all p a::after {
+    font-family: 'icomoon';
+    content: '\e9cb';
+    font-size: 24px;
+    color: #000000;
+}
+
+.body-overview .download-all p a:hover::after {
+    color: #0d5ebb;
+}
+
+.backtotop {
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 5%;
+    z-index: 999;
+}
+
+.backtotop button {
+    display: flex;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #0d5ebb;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: 0 0;
+    overflow-y: visible;
+    animation: top-to-left 1s ease;
+}
+
+@keyframes top-to-left {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.backtotop button span {
+    position: relative;
+}
+
+.backtotop button span::before {
+    position: absolute;
+    top: -30px;
+    left: 12px;
+    font-family: 'icomoon';
+    content: '\ea3a';
+    font-size: 18px;
+    transform: scale(1.2, 1.5);
+    transition: top .5s ease;
+}
+
+.backtotop button:hover span::before {
+    top: -40px;
+}
+
+.body-foot {
+    background-color: #3c3f48;
+    padding: 50px 50px 20px 50px;
+}
+
+.body-foot .name {
+    position: relative;
+    margin: 0 0 30px;
+    width: 100%;
+    height: 30px;
+}
+
+.body-foot .name a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.body-foot .foot-container {
+    flex: 1 1 0%;
+    position: relative;
+    border-bottom: 1px solid #5c657f;
+}
+
+.body-foot .foot-container .catagories {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.catagories .column:first-child {
+    margin-left: 0;
+}
+
+.catagories .column {
+    margin: 0 40px 30px 0;
+    width: 300px;
+}
+
+.catagories .column:nth-of-type(2) {
+    width: 120px;
+}
+
+.catagories .column:nth-of-type(4) {
+    width: 190px;
+}
+
+.catagories .column:nth-of-type(5) {
+    width: 900px;
+}
+
+.catagories .column>a {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.catagories .column a:hover {
+    color: #d2d600;
+}
+
+.catagories .column ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.catagories .column:nth-of-type(5)  ul li {
+    display: inline-block;
+    margin: 0 40px 10px 0;
+    text-align: -webkit-match-parent;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.catagories .column ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.catagories .column ul li a {
+    display: inherit;
+}
+
+.catagories .social {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+}
+
+.catagories .column .social li {
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.catagories .social li img {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.catagories .social li:hover img {
+    width: 120px;
+    height: 120px;
+}
+
+.catagories .social li .social1::after {
+    font-family: 'icomoon';
+    content: '\e927';
+}
+
+.catagories .social li .social2::after {
+    font-family: 'icomoon';
+    content: '\e9a4';
+}
+
+.catagories .social li .social3::after {
+    font-family: 'icomoon';
+    content: '\e922';
+}
+
+.catagories .social li .social4::after {
+    font-family: 'icomoon';
+    content: '\ea84';
+}
+
+.catagories .social li .social5::after {
+    font-family: 'icomoon';
+    content: '\e903';
+}
+
+.body-foot .foot-bottom {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+    color: #9aa1a7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
