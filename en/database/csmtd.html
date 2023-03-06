@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                     <button class="switch">
-                        <a href="../../database/ccm.html">中文</a>
+                        <a href="../../database/csmtd.html">中文</a>
                     </button>
                 </div>
             </div>
@@ -99,13 +99,14 @@
                                 independently. In the future, we will collect more music materials for recording and
                                 detailed annotation.
                             </p>
-                            <p>This database contains <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">4</span> sub-databases, which are listed as follows:</p>
+                            <p>This database contains <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">5</span> sub-databases, which are listed as follows:</p>
                             <div class="list">
                                 <ul>
                                     <li><a href="#GZTech"> &nbsp;GZ_IsoTech Database</a></li>
                                     <li><a href="#shou11"> &nbsp;GuZheng Midi-Wav Database</a></li>
                                     <li><a href="#shou10"> &nbsp;Chinese National Pentatonic Mode Database</a></li>
                                     <li><a href="#PMEmo"> &nbsp;PMEmo: A Dataset For Music Emotion Computing</a></li>
+                                    <li><a href="#Tech99"> &nbsp;Guzheng_Tech99</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -379,10 +380,10 @@
                                             <span><a href="../demo/ccm/GZTech.zip">&nbsp;
                                                     Click here to download all demo files</a></span>
                                             <h4>Related Papers:</h4>
-                                            <span>Tasks using this database:</span>
+                                            <span>If you use the code or data of this dataset, please cite this paper:</span>
                                             <ul>
-                                                <li><a href="#" target="_blank">&nbsp;
-                                                        /</a>
+                                                <li><a href="https://arxiv.org/pdf/2209.08774.pdf" target="_blank">&nbsp;
+                                                    Li D, Wu Y, Li Q, et al. Playing Technique Detection by Fusing Note Onset Information in Guzheng Performance[J]. arXiv preprint arXiv:2209.08774, 2022.</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -392,7 +393,8 @@
                                     <a href="#GZTech" class="shou"></a>
                                 </button>
                             </div>
-                            <script src="../js/btn12.js"></script><!-- (13) -->
+                            <script src="../js/btn12.js"></script>
+                            <!-- (13) -->
                             <div class="container" id="PMEmo">
                                 <div class="adjust">
                                     <h4>PMEmo: <br>A Dataset For Music Emotion Computing</h4>
@@ -479,6 +481,113 @@
                                 </button>
                             </div>
                             <script src="../js/btn13.js"></script>
+                            <!-- (14) -->
+                            <div class="container" id="Tech99">
+                                <div class="adjust">
+                                    <h4>Guzheng_Tech99</h4>
+                                    <h5>Copyright © Fudan University</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">About the Team</a></span>
+                                    </div>
+                                    <p>Instrument playing technique (IPT) is a key element of musical presentation.</p>
+                                    <p>Guzheng is a polyphonic instrument. In Guzheng performance, notes with different IPTs are usually overlapped and mixed IPTs that can be decomposed into multiple independent IPTs are usually used. Most existing work on IPT detection typically uses datasets with monophonic instrumental solo pieces. This dataset fills a gap in the research field.</p>
+                                    <p>The dataset comprises 99 Guzheng solo compositions, recorded by professionals in a studio,  totaling 9064.6 seconds. It includes seven playing techniques labeled for each note (onset, offset, pitch, vibrato, point note, upward portamento, downward portamento, plucks, glissando, and tremolo), resulting in 63,352 annotated labels. The dataset is divided into 79, 10, and 10 songs for the training, validation, and test sets, respectively.</p>
+                                    <p>More details about the code and datasets can be found at <a href="https://lidcc.github.io/GuzhengTech99/" target="_blank">https://lidcc.github.io/GuzhengTech99/</a> </p>
+                                    <p>The paper will be released at ICASSP 2023 (IEEE International Conference on Acoustics, Speech, and Signal Processing).</p>
+                                    <div class="spread" id="spread14">
+                                        <p>Label samples：</p>
+                                        <table>
+                                            <thead>
+                                                <th style="width: 360px">onset_time</th>
+                                                <th style="width: 360px">offset_time</th>
+                                                <th style="width: 360px">IPT</th>
+                                                <th style="width: 360px">note</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>2.252335601</td>
+                                                    <td>3.018594104</td>
+                                                    <td>boxian</td>
+                                                    <td>69</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3.018594104</td>
+                                                    <td>3.81968254</td>
+                                                    <td>boxian</td>
+                                                    <td>57</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3.81968254</td>
+                                                    <td>4.551111111</td>
+                                                    <td>boxian</td>
+                                                    <td>59</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4.551111111</td>
+                                                    <td>5.317369615</td>
+                                                    <td>boxian</td>
+                                                    <td>47</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5.317369615</td>
+                                                    <td>6.025578231</td>
+                                                    <td>chanyin</td>
+                                                    <td>62</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6.025578231</td>
+                                                    <td>6.397097506</td>
+                                                    <td>boxian</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6.397097506</td>
+                                                    <td>6.745396825</td>
+                                                    <td>chanyin</td>
+                                                    <td>62</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6.745396825</td>
+                                                    <td>7.476825397</td>
+                                                    <td>boxian</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7.476825397</td>
+                                                    <td>8.196643991</td>
+                                                    <td>chanyin</td>
+                                                    <td>62</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8.196643991</td>
+                                                    <td>8.93968254</td>
+                                                    <td>shanghua</td>
+                                                    <td>59</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4"><audio src="../demo/ccm/Guzheng_Tech99/1.flac" controls="controls"></audio></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Download Demo:</h4>
+                                            <span><a href="../demo/ccm/Guzheng_Tech99.zip">&nbsp;
+                                                Click here to download all demo files</a></span>
+                                            <h4>Related Papers:</h4>
+                                            <span>Tasks using this database:</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                /</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn14">
+                                    <a href="#Tech99" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn14.js"></script>
                         </div>
                         <div class="download-all">
                             <h3>Download</h3>
