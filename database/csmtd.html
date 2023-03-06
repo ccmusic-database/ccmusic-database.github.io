@@ -65,7 +65,7 @@
                         </ul>
                     </div>
                     <button class="switch">
-                        <a href="../en/database/ccm.html">EN</a>
+                        <a href="../en/database/csmtd.html">EN</a>
                     </button>
                 </div>
             </div>
@@ -85,13 +85,14 @@
                         <div class="description">
                             <p>中国声音与音乐技术数据库搜集了流行音乐、民族音乐及数百种民族乐器的音响素材，并进行全面的标注，构成１个供MIR研究者使用的多用途的音乐数据库。本数据库由音乐学院专门录制，录制者具有较高的音乐素养，录制环境及技术专业，录音质量高，无商品版权问题，录制的音频免费公开，并方便大规模推广。本数据库对录音环境、录音设备以及录音人员、流程等方面进行专业的限定，力求避免各种噪声的干扰，获得高质量的音频素材。此外将音频的旋律声部与伴奏声部分两轨独立录制，对音乐信息检索的研究有重要的意义。未来，我们将会搜集更多的音乐素材进行录制和详细的标注。
                             </p>
-                            <p>本数据库包含 <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">4</span> 个子数据库，列表如下：</p>
+                            <p>本数据库包含 <span class="db-number" style="font-weight: 700; font-size: 24px; color: #0d5ebb;">5</span> 个子数据库，列表如下：</p>
                             <div class="list">
                                 <ul>
                                     <li><a href="#GZTech"> &nbsp;古筝演奏技法GZ_IsoTech数据库</a></li>
                                     <li><a href="#shou11"> &nbsp;古筝midi-wav数据库</a></li>
                                     <li><a href="#shou10"> &nbsp;中国民族五声调式数据库</a></li>
                                     <li><a href="#PMEmo"> &nbsp;PMEmo流行音乐情感数据集</a></li>
+                                    <li><a href="#Tech99"> &nbsp;古筝真实演奏数据集Guzheng_Tech99</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -367,8 +368,8 @@
                                             <h4>相关文献：</h4>
                                             <span>使用本数据库所做的任务：</span>
                                             <ul>
-                                                <li><a href="#" target="_blank">&nbsp;
-                                                        无</a>
+                                                <li><a href="https://arxiv.org/pdf/2209.08774.pdf" target="_blank">&nbsp;
+                                                    Li D, Wu Y, Li Q, et al. Playing Technique Detection by Fusing Note Onset Information in Guzheng Performance[J]. arXiv preprint arXiv:2209.08774, 2022.</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -475,6 +476,114 @@
                                 </button>
                             </div>
                             <script src="../js/btn13.js"></script>
+                            <!-- (14) -->
+                            <div class="container" id="Tech99">
+                                <div class="adjust">
+                                    <h4>古筝真实演奏数据集Guzheng_Tech99</h4>
+                                    <h5>© 复旦大学版权所有</h5>
+                                    <div class="teamintro">
+                                        <span><a href="../team.html">查看团队简介</a></span>
+                                    </div>
+                                    <p>大部分的古筝独奏存在“重叠技法”（多个使用不同技法的音符同时弹奏）或者“混合技法”（一个音符使用了多种技法，例如：“滑摇”就是“滑音”和“摇指”的结合）的情况，而大部分现有的对于乐器演奏技法检测的研究只在不存在重叠演奏技法的乐器上进行，所以该数据集的提出填补了该领域研究的一块空白，增加乐器演奏技法检测领域的研究范围和多样性。</p>
+                                    <p>该数据集包含了99首古筝独奏曲目，由两位古筝演奏家在专业录音棚录制而成，涵盖了古筝音乐的大部分类型。数据集中的音频记录总共长9064.6秒。</p>
+                                    <p>我们按照古筝简谱对这些古筝曲中存在的7种演奏技法进行标注（颤音、点音、上滑音、下滑音、拨弦、刮奏、摇指），我们对录音中的每个音符都标注出了起始时间、结束时间、音高和演奏技法。最终，该数据集总共包含了63352个标注。</p>
+                                    <p>该数据集在训练集、验证集和测试集中分别分配了79首、10首和10首歌曲。</p>
+                                    <p>有关代码和数据集的更多详细信息可以在 <a href="https://lidcc.github.io/GuzhengTech99/" target="_blank">https://lidcc.github.io/GuzhengTech99/</a> 找到。</p>
+                                    <p>论文将在ICASSP 2023（IEEE International Conference on Acoustics, Speech, and Signal Processing）发表。</p>
+                                    <div class="spread" id="spread14">
+                                        <p>标注示例如下：</p>
+                                        <table>
+                                            <thead>
+                                                <th style="width: 360px">onset_time</th>
+                                                <th style="width: 360px">offset_time</th>
+                                                <th style="width: 360px">IPT</th>
+                                                <th style="width: 360px">note</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>2.252335601</td>
+                                                    <td>3.018594104</td>
+                                                    <td>boxian</td>
+                                                    <td>69</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3.018594104</td>
+                                                    <td>3.81968254</td>
+                                                    <td>boxian</td>
+                                                    <td>57</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3.81968254</td>
+                                                    <td>4.551111111</td>
+                                                    <td>boxian</td>
+                                                    <td>59</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4.551111111</td>
+                                                    <td>5.317369615</td>
+                                                    <td>boxian</td>
+                                                    <td>47</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5.317369615</td>
+                                                    <td>6.025578231</td>
+                                                    <td>chanyin</td>
+                                                    <td>62</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6.025578231</td>
+                                                    <td>6.397097506</td>
+                                                    <td>boxian</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6.397097506</td>
+                                                    <td>6.745396825</td>
+                                                    <td>chanyin</td>
+                                                    <td>62</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6.745396825</td>
+                                                    <td>7.476825397</td>
+                                                    <td>boxian</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7.476825397</td>
+                                                    <td>8.196643991</td>
+                                                    <td>chanyin</td>
+                                                    <td>62</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8.196643991</td>
+                                                    <td>8.93968254</td>
+                                                    <td>shanghua</td>
+                                                    <td>59</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4"><audio src="../demo/ccm/14/1.flac" controls="controls"></audio></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="download-reference">
+                                            <h4>Demo下载：</h4>
+                                            <span><a href="../demo/ccm/14.zip">&nbsp;
+                                                    点击此处下载以上所有demo文件</a></span>
+                                            <h4>相关文献：</h4>
+                                            <span>使用本数据库所做的任务：</span>
+                                            <ul>
+                                                <li><a href="#" target="_blank">&nbsp;
+                                                暂无</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="btn14">
+                                    <a href="#Tech99" class="shou"></a>
+                                </button>
+                            </div>
+                            <script src="../js/btn14.js"></script>
                         </div>
                         <div class="download-all">
                             <h3>下载</h3>
