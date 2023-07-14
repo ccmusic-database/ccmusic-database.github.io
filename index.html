@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/base.css">
     <!-- 引入独立文件 -->
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/echarts.min.js"></script>
 </head>
 
 <body>
@@ -104,6 +105,11 @@
                     <span><a href="database/csmtd.html">查看</a></span>
                 </div>
             </div>
+            <!-- 数据可视化 -->
+            <div id="visualiser" style="padding: 20px 0; width: 100%; display: flex; flex-flow: row wrap; justify-content: space-evenly; background-color: #100c2a;">
+                <div id="visual1" style="width: 700px; height: 570px;"></div>
+                <div id="visual2" style="width: 700px; height: 570px;"></div>
+            </div>
             <!-- 页脚 -->
             <footer class="body-foot">
                 <div class="name">
@@ -186,8 +192,173 @@
         </div>
     </div>
     <!-- 内容部分 -->
-    <script
-        type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280454291'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1280454291%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script>
+    <script>
+        var myChart1 = echarts.init(document.querySelector('#visual1'), 'dark');
+        var option1;
+        
+        var myChart2 = echarts.init(document.querySelector('#visual2'), 'dark');
+        var option2;
+
+        const data = [
+            ["-30", 33], 
+            ["-29", 37], 
+            ["-28", 39], 
+            ["-27", 26], 
+            ["-26", 23], 
+            ["-25", 30], 
+            ["-24", 25], 
+            ["-23", 22], 
+            ["-22", 28], 
+            ["-21", 39], 
+            ["-20", 69], 
+            ["-19", 40], 
+            ["-18", 33], 
+            ["-17", 37], 
+            ["-16", 25], 
+            ["-15", 27], 
+            ["-14", 22], 
+            ["-13", 32], 
+            ["-12", 87], 
+            ["-11", 59], 
+            ["-10", 39], 
+            ["-09", 31], 
+            ["-08", 25], 
+            ["-07", 28], 
+            ["-06", 25], 
+            ["-05", 23], 
+            ["-04", 26], 
+            ["-03", 36], 
+            ["-02", 31], 
+            ["-01", 37], 
+            ["today", 40]
+        ];
+        const dateList = data.map(function (item) {
+            return item[0];
+        });
+        const valueList = data.map(function (item) {
+            return item[1];
+        });
+
+        option1 = {
+            title: {
+                text: 'Data Proportion',
+                subtext: 'Unit: MByte',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: '{a} <br/>{b} : {c} ({d}%)'
+            },
+            legend: {
+                left: 'center',
+                top: 'bottom',
+                data: [
+                '音乐流派数据集',
+                '民族乐器音色打分数据集',
+                '音色音域数据集',
+                '流行歌曲midi-wav双向数据库',
+                '歌曲结构标注数据集',
+                '歌唱干声评价数据集',
+                '中国声音与音乐技术数据库',
+                'CTIS中国传统乐器音响数据库',
+                '美声民族唱法数据集',
+                '钢琴音质数据集',
+                '二胡演奏技法数据集',
+                '真假声数据集',
+                ]
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: { show: true },
+                    dataView: { show: false, readOnly: false },
+                    restore: { show: false },
+                    saveAsImage: { show: false }
+                }
+            },
+            series: [
+                {
+                    name: 'Radius Mode',
+                    type: 'pie',
+                    radius: [40, 240],
+                    center: ['50%', '52%'],
+                    roseType: 'radius',
+                    itemStyle: {
+                        borderRadius: 5
+                    },
+                    label: {
+                        show: false
+                    },
+                    emphasis: {
+                        label: {
+                            show: false
+                        }
+                    },
+                    data: [
+                        { value: 12553.500, name: '音乐流派数据集' },
+                        { value: 8888.578, name: '民族乐器音色打分数据集' },
+                        { value: 5941.563, name: '音色音域数据集' },
+                        { value: 5041.562, name: '流行歌曲midi-wav双向数据库' },
+                        { value: 4357.242, name: '歌曲结构标注数据集' },
+                        { value: 2898.891, name: '歌唱干声评价数据集' },
+                        { value: 2563.223, name: '中国声音与音乐技术数据库' },
+                        { value: 1747.806, name: '中国传统乐器音响数据库' },
+                        { value: 1470.879, name: '美声民族唱法数据集' },
+                        { value: 1190.613, name: '钢琴音质数据集' },
+                        { value: 256.469, name: '二胡演奏技法数据集' },
+                        { value: 102.500, name: '真假声数据集' },
+                    ]
+                }
+            ]
+        };
+        
+        option2 = {
+            visualMap: [
+                {
+                    show: false,
+                    type: 'continuous',
+                    seriesIndex: 0,
+                    min: 0,
+                    max: 80
+                }
+            ],
+            title: [
+                {
+                    left: 'center',
+                    text: 'Visitor Statistics over the Last Month'
+                }
+            ],
+            tooltip: {
+                trigger: 'axis'
+            },
+            xAxis: [
+                {
+                    data: dateList
+                }
+            ],
+            yAxis: [
+                {
+
+                }
+            ],
+            grid: [
+                {
+                    top: '20%',
+                    bottom: '20%'
+                }
+            ],
+            series: [
+                {
+                    type: 'line',
+                    showSymbol: false,
+                    data: valueList
+                }
+            ]
+        };
+
+        option1 && myChart1.setOption(option1);
+        option2 && myChart2.setOption(option2);
+    </script>
 </body>
 
 </html>
