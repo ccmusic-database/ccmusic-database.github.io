@@ -1,11 +1,14 @@
 # Music-Data-Sharing-Platform-for-Computational-Musicology-Research
+[![license](https://img.shields.io/badge/license-CC--BY--NC--ND-74c853.svg)](./LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af752735-8fd7-4b18-8b01-ecfa9d5f3787/deploy-status)](https://ccmusic-database.netlify.app)
+
 This platform is a multi-functional music data sharing platform for computational musicology research.  It contains many music datas such as the sound information of Chinese traditional musical instruments and the labeling information of Chinese pop music, which is available for free use by computational musicology researchers.
 
 This platform is also a large-scale music data sharing platform specially used for Computational Musicology research in China, including 3 music databases: Chinese Traditional Instrument Sound Database (CTIS), Midi-wav Bi-directional Database of Pop Music and Multi-functional Music Database for MIR Research (CCMusic). All 3 databases are available for free use by computational musicology researchers. For the contents contained in the database, we will provide audio files recorded by the professional team of the conservatory of music, as well as corresponding labelled files, which have no commodity copyright problem and facilitate large-scale promotion. We hope that this music data sharing platform can meet the one-stop data needs of users and contribute to the research in the field of Computational Musicology.
 
 If you want to know more information or obtain complete files, please go to the official website of this platform:
 
-https://ccmusic-database.github.io/en/
+<https://ccmusic-database.github.io/en>
 
 
   Chinese Traditional Instrument Sound Database (CTIS)
